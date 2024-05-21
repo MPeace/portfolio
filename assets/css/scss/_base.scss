@@ -1,0 +1,102 @@
+@import "_config";
+@import "_utilities";
+
+
+html {
+	font-size: 62.5%; /* Sets up  base 10  */
+	}
+
+
+
+body, html{
+    height: 100%;
+
+}
+
+html {
+	position: relative;
+}
+
+body {
+	line-height: calc($base--line-height / $base--font-size);
+	text-rendering: auto;
+	}
+
+
+	p, li {
+		margin-bottom: 18px;
+	}
+
+	p + p {
+		margin-bottom: 18px;
+	}
+
+	small {
+		display: inline-block;
+		font-size: 12px;
+		margin-bottom: 18px;
+	}
+
+
+	//Links
+	//====================================
+	/*
+	a:link {
+		color: $color-light;
+		}
+	a:hover {
+		text-decoration: underline;
+		}
+
+	a:visited {
+		color: $darkblue;
+	}
+	a:visited:hover {
+		color: $color-primary;
+		text-decoration: underline;
+	}
+	*/
+
+	//Text Selection
+	//====================================
+	::-moz-selection { background:$electricblue; }
+	::selection { background:$electricblue; }
+
+
+	// Base style for image
+	// ====================================
+
+
+	img {
+		height: auto;
+		max-width: 100%; //responsive images
+	}
+
+	embed,
+	iframe,
+	object {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	//Horizontal Rule
+	//====================================
+	hr {
+
+		@extend .clearfix;
+
+		margin: 24px 0;
+		background: #000;
+		border: 0 none;
+		display: block;
+		height: 1px;
+		line-height: 1;
+		width: 100%;
+		}
+
+
+	//Tables
+	//====================================
+	table {border-collapse: collapse;}
+	table td {font-size: 16px;}
+

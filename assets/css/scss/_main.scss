@@ -1,0 +1,430 @@
+/*------------
+
+	HEADER
+
+*/
+
+	#intro h1 {
+		padding: 0;
+		margin: 112px 0 96px 0;
+		text-align: right;
+
+		//max-width: 590px;
+
+		@include tablet {padding: 0 18px; }
+		@include mobile {
+			padding: 54px 36px 0;
+			margin: 49px 0 0 0;
+		}
+	}
+
+	#intro .svg {
+		max-width:708px;
+		max-height: 170px;
+	}
+
+	#intro p  {
+		text-align: left;
+		margin: 0;
+		//padding: 0 172px;
+
+		//max-width: 578px;
+		//max-width: 14em;
+	}
+
+	#intro p {
+		//border: 1px solid pink;
+		margin-top: 18px;
+	}
+	#intro h1 {}
+	#work {}
+
+	#trade {
+
+
+		@include mobile {
+			margin-bottom: 35px;
+		}
+	}
+
+
+	/*
+		jump to work link
+		//dont style #jump
+	*/
+
+	#jump .btn {
+		height: 40px;
+		max-width: 260px;
+		text-align: center;
+		color: $darkblue;
+		background: #141c27;
+		display: block;
+		padding: 8px 12px 4px;
+		margin: auto;
+ 	 	position: relative;
+  		left: 0;
+  		bottom: -100px;
+  		right: 0;
+  		z-index: 1;
+  		overflow: hidden;
+
+		-webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+		transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+		@include mobile {
+			bottom: -35px;
+			height: 36px;
+			max-width: 200px;
+			}
+		}
+		#jump .btn:hover {
+			/*
+			left: 10px;
+			padding: 2px 8px 2px 30px;.
+			*/
+			//background: $electricblue;
+			//background: #186ffe;
+			//color: $white;
+			text-decoration: none;
+			padding: 8px 49px 4px 12px;
+		}
+
+	#jump .btn:after {border: 1px solid transparent;
+		background: url('../img/arrow_downward_white.svg') no-repeat;
+		position: absolute;
+
+		top: 12px;
+		right: -100px;
+		text-align: center;
+		margin: 0;
+
+		display: inline-block;
+		content: '';
+		height: 16px;
+		width: 20px;
+		transition: all 150ms cubic-bezier(0.165, 0.84, 0.44, 1);
+		transform: rotate(0deg);
+		transform-origin: center center;
+	}
+	#jump .btn:hover:after {
+		margin: 0;
+
+		right: 18px;
+	}
+
+
+
+	h3 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 660px;
+}
+
+
+/*--------------
+
+	Work
+
+*/
+	#work h3 {}
+	#work span {
+		display:block;
+		padding: 0 1em;
+	}
+
+	#work span,
+	#work a.btn {
+		white-space: nowrap;
+		margin: 0 0 28px;
+		transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	}
+
+	#work span {margin-top: 14px;}
+
+	#work a.btn {
+		float: right;
+		border: 2px solid transparent;
+	}
+	#work a.btn:hover {
+		background: $color-primary;
+		color: $black;
+		text-decoration: none;
+
+		border: 2px solid $color-primary;
+	}
+
+
+	// accordion adjustments
+
+
+	#work .ui-accordion {
+		margin-bottom: 24px;
+	}
+		// reset some of the defaults
+
+		#work .ui-accordion .ui-accordion-header {
+			padding: 4em 17em 1em 1em;
+			margin: 0;
+			transition: 200ms ease-out;
+			overflow: hidden;
+
+			@include tablet {
+				padding: 3em 2em 1em;
+			}
+			@include mobile {
+				padding: 3em .5em 1em;
+			}
+		}
+		#work .ui-accordion .ui-accordion-header.ui-state-active {
+			margin: 0 0 0 0;
+			transition: 200ms ease-in;
+		}
+
+		#work .ui-state-default,
+		#work .ui-widget-content .ui-state-default,
+		#work .ui-widget-header .ui-state-default {
+			border: 0;
+			color: $black;
+		}
+
+		#work .ui-accordion-content {
+
+		}
+
+		// adjust for styles
+		#work .ui-accordion .ui-accordion-header:before {
+		    content: 'Case Study';
+		    opacity: .6;
+		    position: absolute;
+		    top: 120px;
+		    font-size: 12px;
+		    letter-spacing: 10.5px;
+		    text-transform: uppercase;
+		}
+
+		#accordion1 h3.ui-state-default  {
+			//background: url('../img/mp2016_cs_acquire.jpg') no-repeat;
+		}
+		#accordion2 h3.ui-state-default  {
+			//background: url('../img/mp2016_cs_psmg2016.jpg') no-repeat;
+		}
+		#accordion3 {}
+		#accordion4 {}
+		#accordion5 {}
+
+		#accordion1:hover h3,
+		#accordion2:hover h3 {
+			    //text-shadow: 0 6px 10px #1150b8;
+		}
+
+		h3.ui-state-default {
+			border-radius: 18px;
+			border: 1px solid #F3EEE6;
+			background: linear-gradient(98deg, rgba(255, 153, 0, 0.05) 18.79%, rgba(153, 92, 0, 0.05) 67.92%);
+
+			border: 1px dotted #F3EEE6 !important;
+		}
+
+
+		#work h3.ui-state-default {
+			position: relative;
+			z-index: 10;
+
+			text-align: left;
+			margin:  0;
+
+			max-width: 1140px;
+			width: 100%;
+			border-radius: 18px;
+
+			font-family: $font-family--primary;
+			font-weight: normal;
+			font-style: normal;
+
+			@include font-size(4);
+
+			@include tablet {@include font-size(3.6)}
+			@include tablet {@include font-size(2.4)}
+		}
+		#work h3.ui-state-default:hover {
+			border: 1px solid #e3ddce !important;
+			z-index: 10000;
+		}
+
+		#work h3.ui-state-default:after {
+			position: absolute;
+			bottom: 0;
+			height: 0;
+			left:0;
+			right: 0;
+			opacity: 0;
+			//content: 'View Project';
+			color: $color-primary;
+			display: inline;
+			text-transform: uppercase;
+			@include letter-spacing(2000px);
+			@include font-size(1.4);
+			height: auto;
+			-webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+			transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+		}
+		#work h3.ui-state-default:hover:after {
+			bottom: 20px;
+			height: auto;
+			opacity: 1;
+		}
+		//Hide the 'view project' text when accordion is active
+		#work h3.ui-state-default.ui-state-active:hover:after {display: none;}
+
+
+
+		#work h3.ui-state-default.ui-state-hover:hover {
+			//background: rgba($electricblue, 1);
+			background: rgba(255, 153, 0, 0.06);
+		}
+
+		#work h3.ui-state-default.ui-state-active {
+			background: rgba($electricblue, .7);
+			border-radius: 18px 18px 0 0;
+			opacity: .1;
+		}
+
+
+
+		#work .ui-accordion-content {border:1px solid black;border-top:0;
+			//padding: 61px;
+			padding: 5.35%;
+			    background: linear-gradient(98deg, rgba(255, 153, 0, 0.05) 18.79%, rgba(153, 92, 0, 0.05) 67.92%);
+			    border: 1px dotted #F3EEE6 !important;
+
+
+		}#work .ui-accordion-content:after {
+			clear: both;
+			content: '';
+			display: block;
+			visibility: hidden;
+		}
+		#work .ui-accordion-content .colSmall {//background: yellow;
+			//max-width: 286px;
+			width: 28.53%;
+
+			//flex: 1 0 25.53%;
+			margin-right: 1.75%;
+			float: left;
+			//max-width: 286px;
+
+			@include tablet {
+				float:none;
+				width: 100%;
+				margin: 0;
+			}
+			@include mobile {}
+		}
+
+		#work .ui-accordion-content .colLarge {//background: blue;
+			//max-width: 712px;
+
+			width: 69.46%;
+			float: right;
+			//flex: 2 0 69.46%;
+			//max-width: 712px;
+
+			@include tablet {
+				float:none;
+				width: 100%;
+			}
+			@include mobile {}
+		}
+
+
+
+		.content img {
+			margin-bottom: 24px;
+		}
+
+		.colCenter {
+    position: relative;
+    background: red;
+    top: -230px;
+    z-index: 10000000000;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 6em 6em;
+}
+
+
+
+/*--------------
+
+	About
+
+*/
+	#wrapper_about {
+		background: $black;
+	}
+
+	#about {
+		h3 {
+			margin-bottom: 38px;
+		}
+
+		ul {
+
+			text-align: left;
+			width: 100%;
+			//border: 1px solid red;
+
+			float: left;
+	    	width: 20%;
+		}
+		ul li:nth-child(1) {
+			color: #717172;
+			@include font-size(1.2);
+			font-style: normal;
+			font-weight: 800;
+			line-height: 24px; /* 200% */
+			letter-spacing: 2.88px;
+			text-transform: uppercase;
+		}
+		a {
+			position: relative;
+		}
+		a:after {
+			border-bottom: 3px solid $white;
+		}
+
+	}
+
+
+	.fancyunderline {
+		color: #fff;
+	}
+	.fancyunderline:hover {
+		 @include linkUnderlines(#100f1b, #ffffff);
+	}
+
+/*--------------
+
+	Footer
+
+*/
+
+
+	#footer {
+		div {
+			margin: 36px 0 0 0;
+		}
+		.legal,
+		.copyright {
+			@include font-size(1.2);
+			letter-spacing: 0;
+			font-family: $font-family--secondary;
+			letter-spacing: 3.36px;
+text-transform: uppercase;
+		}
+		.copyright {
+			float: right;
+		}
+		.legal {float:left;}
+	}

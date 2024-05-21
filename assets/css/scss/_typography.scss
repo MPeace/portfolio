@@ -1,0 +1,277 @@
+/*
+
+	Set the type
+
+	font-family: $font-family--primary
+	font-family: 'TT Squares Condensed Black Italic'
+	font-family: 'TT Squares Condensed Regular'
+	font-family: $font-family--secondary
+
+*/
+
+
+
+	h1 {
+		//font-family: Typekit selector;
+		//font-family: 'fira-sans-2';
+		font-family: $font-family--primary;
+		font-weight: normal;
+		color: $color-primary;
+		text-rendering: optimizeLegibility;
+
+		text-transform: uppercase;
+	}
+
+	h1 span {
+		position: relative;
+		}
+		.word1 .char1{left:0;}
+		.word1 .char2{left:0;}
+		.word1 .char3{left:0;}
+		.word1 .char4{left:-1px;}
+		.word1 .char5{left:1px;}
+		.word1 .char6{left:-5px;}
+
+		.word2 .char1{left:0;}
+		.word2 .char2{left:-4px;}
+		.word2 .char3{left: 0px;}
+		.word2 .char4{left:-5px;}
+		.word2 .char5{left:-9px;}
+
+
+	.word1 ,
+	.word2 {
+		display: block;
+		line-height: .85;
+	}
+
+	.word1 {
+		@include font-size(10.2);
+	}
+	.word2 {
+		@include font-size(12.8);
+	}
+
+	#trade {
+		//font-family: Typekit Selector - $font-family--mono;
+		font-family: $font-family--mono;
+		font-weight: 400;
+		@include font-size(1.4);
+		@include letter-spacing(400em);
+		//letter-spacing: .4em;
+		color: $blue;
+
+		@include mobile {@include font-size(1.2);}
+	}
+
+	h2 {}
+	h3 {}
+
+	p,li {
+		@include font-size(1.8);
+
+
+		@include tablet {@include font-size(1.6);}
+		@include mobile {@include font-size(1.4);}
+
+
+		}
+
+
+/*--------------
+
+	Specific type sizes
+
+*/
+
+
+	#menu li a {
+		font-family: 'fira-sans-2';
+		font-weight: 900;
+		font-style: italic;
+
+		font-family: $font-family--primary;
+		font-weight: normal;
+		font-style: normal;
+
+		text-transform: uppercase;
+		@include font-size(3.6);
+		-webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+		transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	}
+	#menu a {
+		color: $white;
+		text-decoration: none;
+	}
+	#menu a:hover {
+		color: $color-secondary;
+	}
+
+	/* the greeting */
+	#intro h3 {
+		font-family: $font-family--primary;
+		@include font-size(9.6);
+		font-style: normal;
+		font-weight: 800;
+		line-height: 96px; /* 100% */
+	}
+
+	/* the intro sentance */
+	#intro p {
+		@include font-size(4.8);
+
+
+		line-height: 1.325em;
+		font-family: $font-family--body;
+		font-weight: normal;
+		font-weight: normal;
+
+
+		color: $black;
+
+		@include tablet {@include font-size(3.2);}
+		@include mobile {@include font-size(2.2);}
+	}
+	#intro p:nth-child(4) {
+		@include font-size(3.6);
+		@include tablet {@include font-size(3.2);}
+		@include mobile {@include font-size(2.2);}
+	}
+
+	/* the button */
+	#jump a {
+		@include font-size(1.8);
+		color: $darkblue;
+		font-family: $font-family--mono;
+		font-weight: normal;
+		margin: 18px 0 0;
+
+		@include mobile {
+			@include font-size(1.2);
+		}
+	}
+
+
+	/*--------------
+
+		Work
+
+	*/
+
+	.sectionTitle {
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 42px; /* 210% */
+		letter-spacing: 5px;
+		opacity: .4;
+	}
+		article header {
+			color: $white;
+		}
+
+		#work h3 {
+			font-family: $font-family--primary;
+			font-weight: normal;
+
+			@include font-size(3.6);
+			line-height: 1;
+		}
+
+		#work h4 {
+			font-family: $font-family--primary;
+			font-weight: normal;
+
+			@include font-size(6.0);
+			line-height: 1;
+			margin-bottom: 48px;
+
+			color: $greyer;
+		}
+
+		#work h5 {
+			font-family: $font-family--secondary;
+			font-weight: normal;
+
+			@include font-size(3.6);
+			line-height: 1;
+			margin-bottom: 36px;
+		}
+
+		#work span,
+		#work a,
+		#work p {
+			line-height: 1.5;
+			@include font-size(1.4);
+			font-family: $font-family--mono;
+			font-weight: normal;
+		}
+
+		#work .date {
+			line-height: 1.5;
+			@include font-size(1.4);
+			font-family: $font-family--mono;
+			font-weight: normal;
+		}
+
+
+		#work a {
+			color: $color-primary;
+		}
+
+
+
+	/*--------------
+
+		About
+
+	*/
+		#about {
+			color: $white;
+			font-family: $font-family--secondary;
+		}
+		#about p {
+			word-spacing: -4px;
+		}
+
+		#about h3 {
+			@include font-size(6.0);
+			font-family: $font-family--primary;
+			font-weight: normal;
+		}
+		#about .lead {
+			@include font-size(3.6);
+			font-family: $font-family--secondary;
+			word-spacing: 0;
+		}
+		/*
+		#about a {
+			text-decoration: underline;
+		}
+		#about a:hover,
+		#about a:focus {
+			color: $color-primary;
+			text-decoration: none;
+		}
+		*/
+	/*--------------
+
+		Footer
+
+	*/
+
+
+		#footer {
+			text-align: left;
+			@include font-size(4.8);
+			letter-spacing: .5em;
+			color: $black;
+
+			font-family: $font-family--primary;
+			font-weight: normal;
+
+			@include tablet {}
+			@include mobile {@include font-size(2.4);}
+		}
+
+

@@ -1,0 +1,208 @@
+.clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	&:before {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+.centered {
+	margin: 0 auto;
+	max-width: $main-width;
+
+}
+
+
+@mixin line-height($fontsize, $lineheight ){
+    line-height: ($lineheight) + px;
+    line-height: ($lineheight/10) + rem;
+
+    margin-top: (($lineheight - $fontsize)/2 * -1) + px;
+    margin-top: ((($lineheight - $fontsize)/2 * -1) / 10 ) + rem
+}
+
+/* Letter spacing is simpler.. stolen from somewhere */
+@mixin letter-spacing($letterspacing) {
+    letter-spacing: calc($letterspacing / 1000);
+}
+
+
+@mixin font-size($sizeValue: 1.6) {
+	font-size: ($sizeValue * 10) + px;
+	font-size: $sizeValue + rem;
+	}
+
+
+//-------------------------------------
+//Import if Google Fonts URL is defined
+
+@if variable-exists(font-url--google) {
+	@import url($font-url--google);
+}
+
+
+//-------------------------------------
+//Calculate em values
+
+@function em ($target, $context: $base__font-size) {
+	@return ($target / $context) * 1.6em;
+}
+
+
+//-------------------------------------
+//Border Radius
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+	background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+
+
+//-------------------------------------
+// Single side border-radius
+
+@mixin border-top-radius($radius) {
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius;
+	background-clip: padding-box;
+}
+@mixin border-right-radius($radius) {
+	-webkit-border-bottom-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius;
+	background-clip: padding-box;
+}
+@mixin border-bottom-radius($radius) {
+	-webkit-border-bottom-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+	 -webkit-border-bottom-left-radius: $radius;
+	 border-bottom-left-radius: $radius;
+	 background-clip: padding-box;
+}
+@mixin border-left-radius($radius) {
+	-webkit-border-bottom-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius;
+	background-clip: padding-box;
+}
+
+	//Usage
+	//.button {@include border-radius(5px);}
+
+	//.submit-button {
+	// @include border-top-radius(10px);
+	// @include border-right-radius(8px);
+	//  @include border-bottom-radius(10px);
+	// @include border-left-radius (6px);
+	//
+
+
+
+//-------------------------------------
+//Opacity
+
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	$opacity-ie: $opacity * 100;
+	filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+	//Usage
+	//.article-heading {@include opacity(0.8);}
+
+
+
+//-------------------------------------
+// Transitions
+
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+  	-o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+	//Usage
+	//.box {@include transition(all, 0.2s, ease-in-out);}
+
+
+
+
+//-------------------------------------
+// Fancy Underline Links  - descenders dont collide with bottom border
+
+	// set this to whichever text selection color you use
+	$selectionColor: #fff;
+
+	// this mixin is used to add the outline to the text
+	@mixin textShadowToCropUnderline($color) {
+	  text-shadow:
+	    .03em 0 $color,
+	    -.03em 0 $color,
+	    0 .03em $color,
+	    0 -.03em $color,
+
+	    .06em 0 $color,
+	    -.06em 0 $color,
+	    .09em 0 $color,
+	    -.09em 0 $color,
+
+	    .12em 0 $color,
+	    -.12em 0 $color,
+	    .15em 0 $color,
+	    -.15em 0 $color;
+	}
+	// this puts it all together
+	@mixin linkUnderlines($background, $color) {
+	  color: $color;
+	  text-decoration: none;
+	  @include textShadowToCropUnderline($background);
+
+	  background-image:
+	    linear-gradient($background, $background),
+	    linear-gradient($background, $background),
+	    linear-gradient($color, $color);
+	  background-size:
+	    .05em 1px,
+	    .05em 1px,
+	    1px 1px;
+	  background-repeat:
+	    no-repeat,
+	    no-repeat,
+	    repeat-x;
+	  background-position:
+	    0% 90%,
+	    100% 90%,
+	    0% 90%;
+
+	  &::selection {
+	    @include textShadowToCropUnderline($selectionColor);
+	    background-color: $selectionColor;
+	  }
+	  &::-moz-selection {
+	    @include textShadowToCropUnderline($selectionColor);
+	    background-color: $selectionColor;
+	  }
+	  &:before,
+	  &:after,
+	  *,
+	  *:before,
+	  *:after {
+	    text-shadow: none;
+	  }
+	  &:visited {
+	    color: $color;
+	  }
+	}

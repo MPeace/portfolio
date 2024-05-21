@@ -1,0 +1,124 @@
+//
+//	Global Config
+//
+
+//Fonts
+	@font-face {
+		font-family: 'PPFormula-Extrabold';
+		src: url('webfonts/PPFormula-Extrabold.woff');
+		src: url('webfonts/PPFormula-Extrabold.woff?#iefix') format('embedded-opentype'),
+			url('webfonts/PPFormula-Extrabold.woff2') format('woff2'),
+			url('webfonts/PPFormula-Extrabold.woff') format('woff'),
+			url('webfonts/PPFormula-Extrabold.tff') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'PPFormula-Light';
+		src: url('webfonts/PPFormula-Light.woff');
+		src: url('webfonts/PPFormula-Light.woff?#iefix') format('embedded-opentype'),
+		url('webfonts/PPFormula-Light.woff2') format('woff2'),
+		url('webfonts/PPFormula-Light.woff') format('woff'),
+		url('webfonts/PPFormula-Light.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'PPEiko-Light';
+		src: url('webfonts/PPEiko-Light.woff');
+		src: url('webfonts/PPEiko-Light.woff?#iefix') format('embedded-opentype'),
+		url('webfonts/PPEiko-Light.woff2') format('woff2'),
+		url('webfonts/PPEiko-Light.woff') format('woff'),
+		url('webfonts/PPEiko-Light.ttf') format('truetype');
+	}
+
+$font-url--google: 'https://fonts.googleapis.com/css?family=Fira+Mono';
+
+$font-family--primary: 'PPFormula-Extrabold', 'Helvetica', Helvetica, Arial , sans-serif;
+$font-family--secondary: 'PPFormula-Light', 'Helvetica Light', Helvetica, Arial , sans-serif;
+$font-family--body: 'PPEiko-Light', serif;
+$font-family--mono: mono, Menlo , Courier, sans-serif;
+
+$font-weight--light: 		300;
+$font-weight--normal: 		400;
+$font-weight--bold: 		700;
+$font-weight--black: 		900;
+
+
+//Colors
+$lime: 				#c7f014;
+$black:				#111113;
+$white:				#fdfdfd;
+$blue:				#FF9900;
+$lightblue:			#adc0d9;
+$darkblue:			#405770;
+$electricblue:		#FF9900;
+$grey:				#fafafa;
+$greyer:			#f0f0f0;
+
+
+//Color Usage
+$color-primary: 		$lime;
+$color-dark: 			$black;
+$color-light: 			$white;
+$color-secondary: 		$electricblue;
+
+
+//Text
+$base__font-size: 		16px;
+$base__line-height: 	24px;
+$base__text-color:		$color-dark;
+
+
+//Path to Assets
+$path--rel			: "../img";
+
+
+//Maths for width
+$main-width			:1140px;
+
+
+//Media Queries
+
+
+$desktop-width: 1196px;
+$desktop-width_micro: 900px; //width where the heading and projects collide
+$tablet-width: 768px;
+$tablet-width_micro01: 630px;
+$mobile-width: 480px;
+
+
+@mixin desktop {
+	@media (max-width: #{$desktop-width}) {
+		@content;
+	}
+}
+
+	@mixin desktop_micro {
+		@media (max-width: #{$desktop-width_micro}) {
+			@content;
+		}
+	}
+
+@mixin tablet {
+	@media (max-width: #{$tablet-width}) {
+		@content;
+	}
+}
+
+	@mixin tablet_micro01 {
+		@media (max-width: #{$tablet-width_micro01}) {
+			@content;
+		}
+	}
+
+@mixin mobile {
+	@media (max-width: #{$mobile-width}) {
+		@content;
+	}
+}
+
+	//Usage
+	//@include mobile {height:100px;}
+	//@include mobile {height:100px;}
+
+
+
