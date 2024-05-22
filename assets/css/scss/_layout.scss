@@ -59,7 +59,7 @@ header {//outline:1px solid red;
 	@include mobile {padding: 108px 18px;}
 	}
 	#work {
-		border-top: 3px solid #e0e0e0;
+		border-bottom: 3px solid #e0e0e0;
 		max-width: $main-width;
 		width: 100%;
 		margin: 0 auto;
@@ -71,7 +71,8 @@ header {//outline:1px solid red;
 
 #intro {
 	max-width: 1140px;
-	margin-bottom: 0px;
+	//margin-top:36px;
+	margin-bottom: 54px;
 
 	text-align: left;
 	display: block;
@@ -88,6 +89,7 @@ header {//outline:1px solid red;
 
 .row > div {
 	width: 50%;
+	margin: 1em;
 }
 .readingcontainer {
 	max-width: 650px;
@@ -194,7 +196,47 @@ article {
 			#about article h3,
 			#about article p {max-width: 590px;}
 
+footer {
+	width: 100%;
+    background: $black;
+    color: $white;
+    padding: 96px 0;
+    article {
+    	max-width: 1140px;
+    	margin: 0 auto;
+    }
+    article.thankyou {
+    	max-width: 100%;
+    }
+}
+.bestlists {
+	display: flex;
+max-width: 1120px;
+padding: 54px var(--Number, 0px);
 
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+
+ul {
+	display: flex;
+width: 200px;
+min-width: 200px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+}
+
+
+.getintouch {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.thankyou {
+	background: $white;
+	width: 100%;;
+}
 
 #footer {border: 0;
 	width: 100%;

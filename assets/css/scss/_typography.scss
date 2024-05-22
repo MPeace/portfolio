@@ -68,6 +68,8 @@
 		font-family: $font-family--primary;
 		font-weight: 800;
 		@include font-size(9.6);
+line-height: 96px; /* 100% */
+letter-spacing: 0.96px;
 	}
 	h3 {}
 
@@ -181,7 +183,7 @@
 			line-height: 1;
 		}
 
-		h4 {
+		#work h4 {
 			font-family: $font-family--primary;
 			font-weight: normal;
 
@@ -189,7 +191,7 @@
 			line-height: 1;
 			margin-bottom: 48px;
 
-			color: $greyer;
+			color: $black;
 		}
 
 		#work h5 {
@@ -204,10 +206,10 @@
 		#work span,
 		#work a,
 		#work p {
-			//line-height: 1.5;
-			//@include font-size(1.4);
-			font-family: $font-family--body;
-			font-weight: normal;
+		//	line-height: 1.5;
+		//	@include font-size(1.4);
+		//	font-family: $font-family--mono;
+		//	font-weight: normal;
 		}
 
 		#work .date {

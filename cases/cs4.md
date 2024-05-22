@@ -5,10 +5,9 @@ permalink: /cases/ux-research-and-persona-design
 order: 5
 ---
 
-
-<h2>SAAS App Design Process</h2>
 <h3>Redesigning the premier provider of market intelligence forecasting and proprietary research in Aerospace, Defense, Electronics and Power Systems industries.</h3>
 
+<div class="readingcontainer">
 <ul>
 	<li>Project Completed <span>2023</span></li>
 	<li>Project Role <span>UX/UI, Branding, User Research, Management, Information Architecture</span></li>
@@ -19,4 +18,4 @@ order: 5
 <p>However, their products were encountering challenges, specifically, stagnant user growth and engagement.  Identifying the root cause and potentially addressing this issue became critical in light of the merger. </p>
 <img src="../assets/images/bg-cs01.png" />
 
-
+</div>

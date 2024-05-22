@@ -5,8 +5,7 @@ permalink: /cases/design-and-development-process
 order: 3
 ---
 
-
-<h2>Design & Development Process</h2>
+<div class="readingcontainer">
 <h3>Redesigning the premier provider of market intelligence forecasting and proprietary research in Aerospace, Defense, Electronics and Power Systems industries.</h3>
 
 <ul>
@@ -22,5 +21,5 @@ order: 3
 <p>Our primary objective in undertaking this project was to investigate the reasons behind the stagnation in user growth and engagement. The team conducted a user survey, distributing a concise questionnaire to our existing  user base. The survey aimed to understand why users utilized the product they paid for and their overall satisfaction with it. </p>
 <p>The insights gleaned from this survey were invaluable, revealing that users found the product unattractive, challenging to navigate, and outdated in appearance. However, they also expressed a strong appreciation for the valuable data provided by the platform, which motivated them to maintain their memberships. Armed with this information, we were poised to devise a solution.</p>
 <p></p>
-
+</div>
 

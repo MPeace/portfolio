@@ -2580,6 +2580,9 @@ h2 {
   font-weight: 800;
   font-size: 96px;
   font-size: 9.6rem;
+  line-height: 96px;
+  /* 100% */
+  letter-spacing: 0.96px;
 }
 
 p, li {
@@ -2720,14 +2723,14 @@ h3 {
   line-height: 1;
 }
 
-h4 {
+#work h4 {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 60px;
   font-size: 6rem;
   line-height: 1;
   margin-bottom: 48px;
-  color: #f0f0f0;
+  color: #111113;
 }
 
 #work h5 {
@@ -2737,13 +2740,6 @@ h4 {
   font-size: 3.6rem;
   line-height: 1;
   margin-bottom: 36px;
-}
-
-#work span,
-#work a,
-#work p {
-  font-family: "PPEiko-Light", serif;
-  font-weight: normal;
 }
 
 #work .date {
@@ -2879,7 +2875,7 @@ header {
 }
 
 #work {
-  border-top: 3px solid #e0e0e0;
+  border-bottom: 3px solid #e0e0e0;
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
@@ -2888,7 +2884,7 @@ header {
 
 #intro {
   max-width: 1140px;
-  margin-bottom: 0px;
+  margin-bottom: 54px;
   text-align: left;
   display: block;
 }
@@ -2905,6 +2901,7 @@ header {
 
 .row > div {
   width: 50%;
+  margin: 1em;
 }
 
 .readingcontainer {
@@ -3005,6 +3002,47 @@ article .project {
 #about article h3,
 #about article p {
   max-width: 590px;
+}
+
+footer {
+  width: 100%;
+  background: #111113;
+  color: #fdfdfd;
+  padding: 96px 0;
+}
+footer article {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+footer article.thankyou {
+  max-width: 100%;
+}
+
+.bestlists {
+  display: flex;
+  max-width: 1120px;
+  padding: 54px var(--Number, 0px);
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.bestlists ul {
+  display: flex;
+  width: 200px;
+  min-width: 200px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.getintouch {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.thankyou {
+  background: #fdfdfd;
+  width: 100%;
 }
 
 #footer {
@@ -3374,6 +3412,53 @@ h3.ui-state-default {
   padding: 6em 6em;
 }
 
+.portfoliocard {
+  border: 1px solid #8F8F8F;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfoliocard h4 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  /* 100% */
+  letter-spacing: 0.4px;
+  color: #111113;
+}
+.portfoliocard h4:before {
+  display: block;
+  content: "Case Study";
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 14px;
+  /* 116.667% */
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  position: relative;
+  top: -8px;
+  margin: 18px 0 12px 0;
+}
+.portfoliocard a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px;
+  /* 128.571% */
+  color: #F90 !important;
+  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.portfoliocard div {
+  padding: 42px;
+}
+
 /*--------------
 
 	About
@@ -3582,6 +3667,9 @@ h2 {
   font-weight: 800;
   font-size: 96px;
   font-size: 9.6rem;
+  line-height: 96px;
+  /* 100% */
+  letter-spacing: 0.96px;
 }
 
 p, li {
@@ -3722,14 +3810,14 @@ h3 {
   line-height: 1;
 }
 
-h4 {
+#work h4 {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 60px;
   font-size: 6rem;
   line-height: 1;
   margin-bottom: 48px;
-  color: #f0f0f0;
+  color: #111113;
 }
 
 #work h5 {
@@ -3739,13 +3827,6 @@ h4 {
   font-size: 3.6rem;
   line-height: 1;
   margin-bottom: 36px;
-}
-
-#work span,
-#work a,
-#work p {
-  font-family: "PPEiko-Light", serif;
-  font-weight: normal;
 }
 
 #work .date {
