@@ -6,7 +6,7 @@
 
 	#intro h1 {
 		padding: 0;
-		margin: 12px 0 96px 0;
+		//margin: 12px 0 96px 0;
 		text-align: left;
 
 		//max-width: 590px;
@@ -17,10 +17,19 @@
 			margin: 49px 0 0 0;
 		}
 	}
+	#intro a {
 
-	#intro .svg {
+	}
+
+
+	#intro svg {
 		max-width:250px;
-		//max-height: 170px;
+	}
+
+	#intro img {
+		max-width: 200px;
+		top: 18px;
+    	position: relative;
 	}
 
 	#intro p  {

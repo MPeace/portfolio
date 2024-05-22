@@ -6,6 +6,7 @@ html,body {
 
 html {
 	background: $white;
+	background: linear-gradient(165deg, rgba(255, 195, 128, 0.05) -0.09%, rgba(28, 16, 3, 0.05) 53.87%), var(--White, #FFF);
 	//background: linear-gradient(180deg, rgba(255, 195, 128, 0.03) 0%, rgba(28, 16, 3, 0.03) 99.44%), var(--White, #FFF);
 }
 
@@ -80,6 +81,18 @@ header {//outline:1px solid red;
 	}
 }
 
+.row {
+	display: flex;
+  	width: 100%;
+}
+
+.row > div {
+	width: 50%;
+}
+.readingcontainer {
+	max-width: 650px;
+	max-width: 65em;
+}
 
 article {
 	margin-bottom: 90px;

@@ -201,7 +201,7 @@ table td {
   margin: 48px 0 0;
   top: 0;
   right: 48px;
-  right: 6%;
+  right: 12%;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -2575,6 +2575,13 @@ h1 span {
   }
 }
 
+h2 {
+  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 96px;
+  font-size: 9.6rem;
+}
+
 p, li {
   font-size: 18px;
   font-size: 1.8rem;
@@ -2604,7 +2611,6 @@ p, li {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  text-transform: uppercase;
   font-size: 36px;
   font-size: 3.6rem;
   -webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -2654,18 +2660,18 @@ p, li {
   }
 }
 
-#intro p:nth-child(4) {
+#intro p:nth-child(2) {
   font-size: 36px;
   font-size: 3.6rem;
 }
 @media (max-width: 768px) {
-  #intro p:nth-child(4) {
+  #intro p:nth-child(2) {
     font-size: 32px;
     font-size: 3.2rem;
   }
 }
 @media (max-width: 480px) {
-  #intro p:nth-child(4) {
+  #intro p:nth-child(2) {
     font-size: 22px;
     font-size: 2.2rem;
   }
@@ -2706,7 +2712,7 @@ article header {
   color: #fdfdfd;
 }
 
-#work h3 {
+h3 {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 36px;
@@ -2714,7 +2720,7 @@ article header {
   line-height: 1;
 }
 
-#work h4 {
+h4 {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 60px;
@@ -2736,10 +2742,7 @@ article header {
 #work span,
 #work a,
 #work p {
-  line-height: 1.5;
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: mono, Menlo, Courier, sans-serif;
+  font-family: "PPEiko-Light", serif;
   font-weight: normal;
 }
 
@@ -2820,6 +2823,7 @@ html, body {
 
 html {
   background: #fdfdfd;
+  background: linear-gradient(165deg, rgba(255, 195, 128, 0.05) -0.09%, rgba(28, 16, 3, 0.05) 53.87%), var(--White, #FFF);
 }
 
 body {
@@ -2892,6 +2896,20 @@ header {
   #intro {
     margin-bottom: 120px;
   }
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row > div {
+  width: 50%;
+}
+
+.readingcontainer {
+  max-width: 650px;
+  max-width: 65em;
 }
 
 article {
@@ -3045,7 +3063,6 @@ article .project {
 */
 #intro h1 {
   padding: 0;
-  margin: 12px 0 96px 0;
   text-align: left;
 }
 @media (max-width: 768px) {
@@ -3060,8 +3077,14 @@ article .project {
   }
 }
 
-#intro .svg {
+#intro svg {
   max-width: 250px;
+}
+
+#intro img {
+  max-width: 200px;
+  top: 18px;
+  position: relative;
 }
 
 #intro p {
@@ -3554,6 +3577,13 @@ h1 span {
   }
 }
 
+h2 {
+  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 96px;
+  font-size: 9.6rem;
+}
+
 p, li {
   font-size: 18px;
   font-size: 1.8rem;
@@ -3583,7 +3613,6 @@ p, li {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  text-transform: uppercase;
   font-size: 36px;
   font-size: 3.6rem;
   -webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -3633,18 +3662,18 @@ p, li {
   }
 }
 
-#intro p:nth-child(4) {
+#intro p:nth-child(2) {
   font-size: 36px;
   font-size: 3.6rem;
 }
 @media (max-width: 768px) {
-  #intro p:nth-child(4) {
+  #intro p:nth-child(2) {
     font-size: 32px;
     font-size: 3.2rem;
   }
 }
 @media (max-width: 480px) {
-  #intro p:nth-child(4) {
+  #intro p:nth-child(2) {
     font-size: 22px;
     font-size: 2.2rem;
   }
@@ -3685,7 +3714,7 @@ article header {
   color: #fdfdfd;
 }
 
-#work h3 {
+h3 {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 36px;
@@ -3693,7 +3722,7 @@ article header {
   line-height: 1;
 }
 
-#work h4 {
+h4 {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 60px;
@@ -3715,10 +3744,7 @@ article header {
 #work span,
 #work a,
 #work p {
-  line-height: 1.5;
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: mono, Menlo, Courier, sans-serif;
+  font-family: "PPEiko-Light", serif;
   font-weight: normal;
 }
 

@@ -2,6 +2,7 @@
 layout: case
 title: UX Research & Persona Design
 permalink: /cases/ux-research-and-persona-design
+order: 5
 ---
 
 

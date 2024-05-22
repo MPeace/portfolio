@@ -2,6 +2,7 @@
 layout: case
 title: Design &amp; Development Process
 permalink: /cases/design-and-development-process
+order: 3
 ---
 
 

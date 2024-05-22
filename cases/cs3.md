@@ -2,6 +2,7 @@
 layout: case
 title: Event Registration Redesign
 permalink: /cases/event-registration-redesign
+order: 4
 ---
 
 
