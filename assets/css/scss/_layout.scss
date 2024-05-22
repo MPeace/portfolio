@@ -212,7 +212,7 @@ footer {
 	width: 100%;
     background: $black;
     color: $white;
-    padding: 96px 0;
+    padding: 96px 0 0;
     article {
     	max-width: 1140px;
     	margin: 0 auto;
@@ -221,23 +221,35 @@ footer {
     	max-width: 100%;
     }
 }
+
+
 .bestlists {
 	display: flex;
-max-width: 1120px;
-padding: 54px var(--Number, 0px);
+	max-width: 1120px;
+	padding: 54px var(--Number, 0px);
+	margin: 54px 0 ;
+	
+	justify-content: space-between;
+	align-items: flex-start;
+	align-self: stretch;
+	border-top: 3px solid #29292B;
+	
+	
 
-justify-content: space-between;
-align-items: flex-start;
-align-self: stretch;
-
-ul {
-	display: flex;
-width: 200px;
-min-width: 200px;
-flex-direction: column;
-align-items: flex-start;
-gap: 24px;
-}
+	ul {
+		display: flex;
+		width: 200px;
+		min-width: 200px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+	}
+	
+	 li {
+		margin: 0;
+		padding: 0;
+		line-height: 1;
+	}
 }
 
 
@@ -245,10 +257,28 @@ gap: 24px;
 	max-width: 1120px;
 	margin: 0 auto;
 }
+
 .thankyou {
 	background: $white;
-	width: 100%;;
+	width: 100%;
+	text-align: center;
+	
+	img {
+		width: 1120px;
+	}
 }
+
+.legal {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 488px;
+	align-self: stretch;
+	
+	color: $black;
+}
+
+
 
 #footer {border: 0;
 	width: 100%;

@@ -282,6 +282,71 @@
 
 */
 
+	.profile {
+		display: flex;
+		padding: 23px 35px;
+		margin: 54px 0 0;
+		align-items: center;
+		gap: 36px;
+		align-self: stretch;
+		
+		border-radius: 2px;
+		border: 1px dashed #454545;
+		
+		img {
+			width: 95px;
+			height: 96px;
+			
+			border-radius: 0;
+			border: 0 solid #757575;
+		}
+		p {
+			flex: 1 0 0;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 300;
+			line-height: 36px; /* 150% */
+			letter-spacing: 0.96px;
+		}
+	}
+	
+	.contact {
+		margin: 18px 0 0 0;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		
+		a {
+			display: flex;
+			padding: 18px 24px 15px 24px;
+			justify-content: center;
+			//align-items: center;
+			gap: 18px;
+			
+			border-radius: 1px;
+			background: #292929;
+			
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 800;
+			line-height: 18px; /* 112.5% */
+			letter-spacing: 6.4px;
+			text-transform: uppercase;
+			color: #f90;
+			border: 1px solid #292929;
+		}
+		a:hover {
+			border: 1px solid rgba(#ff9900,100%);
+		}
+		.emailme {}
+		.linkedin {}
+	}
+	
+	.bestlists {
+		
+		
+	}
+
 
 	#footer {
 		div {
@@ -293,7 +358,7 @@
 			letter-spacing: 0;
 			font-family: $font-family--secondary;
 			letter-spacing: 3.36px;
-text-transform: uppercase;
+			text-transform: uppercase;
 		}
 		.copyright {
 			float: right;

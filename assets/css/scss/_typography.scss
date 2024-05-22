@@ -281,7 +281,28 @@
 		Footer
 
 	*/
-
+		
+		.getintouch a {
+			font-family: $font-family--secondary;
+		}
+		.bestlists li.title {
+			font-family: $font-family--primary;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 800;
+			line-height: 18px; /* 150% */
+			letter-spacing: 2.88px;
+			text-transform: uppercase;
+			opacity: 0.4;
+		}
+		.bestlists li {
+			font-family: $font-family--body;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 300;
+			line-height: 24px; /* 150% */
+			letter-spacing: 0.32px;
+		}
 
 		#footer {
 			text-align: left;
