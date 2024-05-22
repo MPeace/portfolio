@@ -2716,33 +2716,38 @@ article header {
 }
 
 h3 {
-  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 36px;
   font-size: 3.6rem;
-  line-height: 1;
+  line-height: 1.375;
+  margin-top: 24px;
 }
 
-#work h4 {
+h4 {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 60px;
-  font-size: 6rem;
+  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 1;
-  margin-bottom: 48px;
   color: #111113;
+  font-weight: 800;
+  line-height: 30px;
+  /* 125% */
+  letter-spacing: 2.4px;
+  margin-top: 36px;
 }
 
-#work h5 {
+h5 {
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 36px;
   font-size: 3.6rem;
   line-height: 1;
-  margin-bottom: 36px;
+  margin-top: 36px;
 }
 
-#work .date {
+.date {
   line-height: 1.5;
   font-size: 14px;
   font-size: 1.4rem;
@@ -2750,8 +2755,28 @@ h3 {
   font-weight: normal;
 }
 
-#work a {
+a {
   color: #c7f014;
+}
+
+p {
+  font-family: "PPEiko-Light", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 155.556% */
+  letter-spacing: 0.18px;
+}
+
+.readingcontainer li {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
+  letter-spacing: 1.2px;
+}
+.readingcontainer li span {
+  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
 }
 
 /*--------------
@@ -2818,8 +2843,16 @@ html, body {
 }
 
 html {
+  height: 100%;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   background: #fdfdfd;
   background: linear-gradient(165deg, rgba(255, 195, 128, 0.05) -0.09%, rgba(28, 16, 3, 0.05) 53.87%), var(--White, #FFF);
+  background-attachment: fixed;
 }
 
 body {
@@ -2875,7 +2908,6 @@ header {
 }
 
 #work {
-  border-bottom: 3px solid #e0e0e0;
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
@@ -3002,6 +3034,10 @@ article .project {
 #about article h3,
 #about article p {
   max-width: 590px;
+}
+
+.grid {
+  margin-top: 72px;
 }
 
 footer {
@@ -3208,196 +3244,18 @@ h3 img {
   width: 660px;
 }
 
-/*--------------
-
-	Work
-
-*/
-#work span {
-  display: block;
-  padding: 0 1em;
+/* Reading Container for the Case Studies */
+.readingcontainer ul {
+  display: inline-block;
 }
-
-#work span,
-#work a.btn {
-  white-space: nowrap;
-  margin: 0 0 28px;
-  transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-#work span {
-  margin-top: 14px;
-}
-
-#work a.btn {
-  float: right;
-  border: 2px solid transparent;
-}
-
-#work a.btn:hover {
-  background: #c7f014;
-  color: #111113;
-  text-decoration: none;
-  border: 2px solid #c7f014;
-}
-
-#work .ui-accordion {
-  margin-bottom: 24px;
-}
-
-#work .ui-accordion .ui-accordion-header {
-  padding: 4em 17em 1em 1em;
+.readingcontainer ul li {
+  display: inline-block;
   margin: 0;
-  transition: 200ms ease-out;
-  overflow: hidden;
 }
-@media (max-width: 768px) {
-  #work .ui-accordion .ui-accordion-header {
-    padding: 3em 2em 1em;
-  }
-}
-@media (max-width: 480px) {
-  #work .ui-accordion .ui-accordion-header {
-    padding: 3em 0.5em 1em;
-  }
-}
-
-#work .ui-accordion .ui-accordion-header.ui-state-active {
-  margin: 0 0 0 0;
-  transition: 200ms ease-in;
-}
-
-#work .ui-state-default,
-#work .ui-widget-content .ui-state-default,
-#work .ui-widget-header .ui-state-default {
-  border: 0;
-  color: #111113;
-}
-
-#work .ui-accordion .ui-accordion-header:before {
-  content: "Case Study";
-  opacity: 0.6;
-  position: absolute;
-  top: 120px;
-  font-size: 12px;
-  letter-spacing: 10.5px;
-  text-transform: uppercase;
-}
-
-h3.ui-state-default {
-  border-radius: 18px;
-  border: 1px solid #F3EEE6;
-  background: linear-gradient(98deg, rgba(255, 153, 0, 0.05) 18.79%, rgba(153, 92, 0, 0.05) 67.92%);
-  border: 1px dotted #F3EEE6 !important;
-}
-
-#work h3.ui-state-default {
-  position: relative;
-  z-index: 10;
-  text-align: left;
-  margin: 0;
-  max-width: 1140px;
-  width: 100%;
-  border-radius: 18px;
-  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 40px;
-  font-size: 4rem;
-}
-@media (max-width: 768px) {
-  #work h3.ui-state-default {
-    font-size: 36px;
-    font-size: 3.6rem;
-  }
-}
-@media (max-width: 768px) {
-  #work h3.ui-state-default {
-    font-size: 24px;
-    font-size: 2.4rem;
-  }
-}
-
-#work h3.ui-state-default:hover {
-  border: 1px solid #e3ddce !important;
-  z-index: 10000;
-}
-
-#work h3.ui-state-default:after {
-  position: absolute;
-  bottom: 0;
-  height: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  color: #c7f014;
+.readingcontainer ul span {
   display: inline;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 14px;
-  font-size: 1.4rem;
-  height: auto;
-  -webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-#work h3.ui-state-default:hover:after {
-  bottom: 20px;
-  height: auto;
-  opacity: 1;
-}
-
-#work h3.ui-state-default.ui-state-active:hover:after {
-  display: none;
-}
-
-#work h3.ui-state-default.ui-state-hover:hover {
-  background: rgba(255, 153, 0, 0.06);
-}
-
-#work h3.ui-state-default.ui-state-active {
-  background: rgba(255, 153, 0, 0.7);
-  border-radius: 18px 18px 0 0;
-  opacity: 0.1;
-}
-
-#work .ui-accordion-content {
-  border: 1px solid black;
-  border-top: 0;
-  padding: 5.35%;
-  background: linear-gradient(98deg, rgba(255, 153, 0, 0.05) 18.79%, rgba(153, 92, 0, 0.05) 67.92%);
-  border: 1px dotted #F3EEE6 !important;
-}
-
-#work .ui-accordion-content:after {
-  clear: both;
-  content: "";
-  display: block;
-  visibility: hidden;
-}
-
-#work .ui-accordion-content .colSmall {
-  width: 28.53%;
-  margin-right: 1.75%;
-  float: left;
-}
-@media (max-width: 768px) {
-  #work .ui-accordion-content .colSmall {
-    float: none;
-    width: 100%;
-    margin: 0;
-  }
-}
-#work .ui-accordion-content .colLarge {
-  width: 69.46%;
-  float: right;
-}
-@media (max-width: 768px) {
-  #work .ui-accordion-content .colLarge {
-    float: none;
-    width: 100%;
-  }
-}
 .content img {
   margin-bottom: 24px;
 }
@@ -3418,6 +3276,13 @@ h3.ui-state-default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.portfoliocard img {
+  position: relative;
+  right: 1px;
+  min-width: 550px;
 }
 .portfoliocard h4 {
   font-size: 40px;
@@ -3803,33 +3668,38 @@ article header {
 }
 
 h3 {
-  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 36px;
   font-size: 3.6rem;
-  line-height: 1;
+  line-height: 1.375;
+  margin-top: 24px;
 }
 
-#work h4 {
+h4 {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 60px;
-  font-size: 6rem;
+  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 1;
-  margin-bottom: 48px;
   color: #111113;
+  font-weight: 800;
+  line-height: 30px;
+  /* 125% */
+  letter-spacing: 2.4px;
+  margin-top: 36px;
 }
 
-#work h5 {
+h5 {
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 36px;
   font-size: 3.6rem;
   line-height: 1;
-  margin-bottom: 36px;
+  margin-top: 36px;
 }
 
-#work .date {
+.date {
   line-height: 1.5;
   font-size: 14px;
   font-size: 1.4rem;
@@ -3837,8 +3707,28 @@ h3 {
   font-weight: normal;
 }
 
-#work a {
+a {
   color: #c7f014;
+}
+
+p {
+  font-family: "PPEiko-Light", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 155.556% */
+  letter-spacing: 0.18px;
+}
+
+.readingcontainer li {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
+  letter-spacing: 1.2px;
+}
+.readingcontainer li span {
+  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
 }
 
 /*--------------
