@@ -177,11 +177,21 @@
 	align-items: center;
 	overflow: hidden;
 	border-radius: 3px;
+	background: linear-gradient(137deg, #FFF 54.83%, #999 266.74%), var(--White, #FFF);
+	position: relative;
+	top: 0;
+	
+	// While hovering
+	// Change to: "Variant2";
+	// Animate: Smart animate;
+	animation-timing-function: ease-out;
+	animation-duration: 200ms;
+
 	
 	img {
 		position: relative;
 		right: 1px;
-		min-width: 550px;
+		min-width: 570px;
 	}
 
 	h4 {
@@ -220,9 +230,20 @@
 		align-items: center;
 		gap: 10px;
 	}
+	
+	a + a {
+		margin: 36px 0 0 0;
+	}
 	div {
     	padding: 42px;
 	}
+}
+.portfoliocard:hover {
+	background: #fff;
+	box-shadow: 4px 6px 18px #dfdfdf;
+	top: -4px;
+	animation-timing-function: ease-out;
+	animation-duration: 150ms;
 }
 
 

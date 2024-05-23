@@ -39,7 +39,7 @@ header {//outline:1px solid red;
 	position: relative;
 
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 18px;
 	//max-width: $main-width;
 	width: 100%;
 
@@ -61,16 +61,16 @@ header {//outline:1px solid red;
 	padding: 36px 0;
 	margin: 18px 0;
 
-	@include desktop {padding: 108px 18px;}
-	@include tablet {padding: 108px 18px;}
-	@include mobile {padding: 108px 18px;}
+	@include desktop {padding: 36px 18px 0;}
+	@include tablet {padding: 36px 18px 0;}
+	@include mobile {padding: 36px 18px 0;}
 	}
 	#work {
 		//border-bottom: 3px solid #e0e0e0;
 		max-width: $main-width;
 		width: 100%;
 		margin: 0 auto;
-		padding: 18px 0;
+		padding: 18px 0 0;
 
 		//background: blue;
 	}
@@ -93,24 +93,24 @@ header {//outline:1px solid red;
 
 .row {
 	margin: 20px auto;
-	  width:100%;
-	  height:100%;
-	  //background-color:#fff;
-	  display:grid;
-	  grid-template-columns: 50% 50%;
-	  grid-row: auto auto;
-	  grid-column-gap: 20px;
-	  grid-row-gap: 20px;  
+	width:100%;
+	height:100%;
+	//background-color:#fff;
+	display:grid;
+	grid-template-columns:49% 49%;
+	grid-row: auto auto;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;  
 }
 
 .row > div {
-	background-color:#333;
-	padding:20px;
-	border-radius:10px;
-	color:#fff;
+	//background-color:#333;
+	//padding:20px;
+	//border-radius:10px;
+	//color:#fff;
 	display:flex;
 	align-items:center;
-	justify-content:center;
+	//justify-content:center;
 	font-size:40px;
 	font-family:sans-serif;
 }
@@ -228,9 +228,10 @@ article {
 	margin-top: 72px;
 	
 	h3 {
-		border-top: 3px solid #0D0D0D;
+		border-top: 3px solid #EFECEA;
 		//opacity: 0.05;
 		//background: #0D0D0D;
+		color: #9D9B9B;
 		@include font-size(2.0);
 		
 		padding: 36px 0 18px 0;
@@ -286,26 +287,31 @@ footer {
 .getintouch {
 	max-width: 1120px;
 	margin: 0 auto;
+	padding:0;
+	@include desktop {
+		padding:0 18px;
+	}
+	@include desktop_micro {}
 }
 
 .thankyou {
 	background: $white;
 	width: 100%;
 	text-align: center;
-	
+	padding: 54px 0;
 	img {
 		width: 1120px;
 	}
 }
 
 .legal {
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 488px;
-	align-self: stretch;
-	
+ display: flex;
+  align-items: center;             /*center children*/
+  justify-content: space-between; 
+  max-width: 1140px;
+  margin: 0 auto;
 	color: $black;
+	border: 1px solid red;
 }
 
 
