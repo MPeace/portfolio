@@ -241,7 +241,10 @@
 				letter-spacing: 0;
 			}
 		}
-		
+	
+	
+	
+
 
 	/*--------------
 
@@ -282,9 +285,19 @@
 
 	*/
 		
-		.getintouch a {
-			font-family: $font-family--secondary;
-		}
+		.getintouch {
+				h2 {
+					font-size: 36px;
+					font-style: normal;
+					font-weight: 800;
+					line-height: 48px; /* 133.333% */
+				}
+				
+				a {
+					font-family: $font-family--secondary;
+				}
+			}
+		
 		.bestlists li.title {
 			font-family: $font-family--primary;
 			font-size: 12px;
