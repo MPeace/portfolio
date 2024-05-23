@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Martin Peace | Online Portfolio
+title: Martin Peace | Portfolio
 email: hello@martinpeace.com
 description: >- # this means to ignore newlines until "baseurl:"
   Online portfolio of Martin Peace, a web and product designer based in Alexandria, Virginia.
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "martinpeace.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/portfolio/" # the subpath of your site, e.g. /blog
+url: "https://mpeace.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -31,6 +31,11 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+sass:
+  quiet_deps: true
+
+collections:
+  - cases
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,14 +45,15 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
+exclude:
+- .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+- Gemfile
+- Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+- config.codekit3
