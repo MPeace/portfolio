@@ -1,3 +1,17 @@
+
+
+<div class="cases">
+<h4>Select another case study to read</h4>
+	<ul>
+		{% for item in site.data.menulist.docs %}
+		  <li class="{% if item.link == page.url %}active{% endif %} casestudy">
+			  <a href="{{ item.url }}">{{ item.title }}</a>
+		  </li>
+	   {% endfor %}
+	</ul>
+</div>
+
+
 <footer>
 	<article class="getintouch">
 		<h2>Get In Touch</h2>

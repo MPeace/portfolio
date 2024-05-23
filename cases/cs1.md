@@ -3,6 +3,7 @@ layout: case
 title: SAAS App Redesign Process
 permalink: /cases/saas-app-redesign-process
 order: 2
+selection: true
 ---
 
 <div class="readingcontainer">
@@ -18,7 +19,7 @@ order: 2
 <p>However, their products were encountering challenges, specifically, stagnant user growth and engagement.  Identifying the root cause and potentially addressing this issue became critical in light of the merger. </p>
 <img src="../assets/images/cs01-01.png" />
 
-<h4>The Problem — User Expectations</h4>
+<h4>Problem</h4>
 <p>Our primary objective in undertaking this project was to investigate the reasons behind the stagnation in user growth and engagement. The team conducted a user survey, distributing a concise questionnaire to our existing  user base. The survey aimed to understand why users utilized the product they paid for and their overall satisfaction with it. </p>
 <p>The insights identified from this survey were invaluable, revealing that users found the product unattractive, challenging to navigate, and outdated in appearance. However, they also expressed a strong appreciation for the valuable data provided by the platform, which motivated them to maintain their memberships. Armed with this information, we were poised to devise a solution.</p>
 <img src="../assets/images/cs01-02.png" />
