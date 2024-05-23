@@ -85,7 +85,7 @@ header {//outline:1px solid red;
 	display: block;
 
 	@include mobile {
-		margin-bottom: 120px;
+		margin-bottom: 0;
 	}
 }
 
@@ -101,6 +101,9 @@ header {//outline:1px solid red;
 	grid-row: auto auto;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;  
+	@include tablet {
+		grid-template-columns: 100%;
+	}
 }
 
 .row > div {
@@ -223,7 +226,6 @@ article {
 			#about article h3,
 			#about article p {max-width: 590px;}
 
-
 .grid {
 	margin-top: 72px;
 	
@@ -250,6 +252,10 @@ footer {
     }
     article.thankyou {
     	max-width: 100%;
+		background: #fdfdfd;
+		width: 100%;
+		text-align: center;
+		padding: 54px 0 4px;
     }
 }
 
@@ -264,8 +270,6 @@ footer {
 	align-items: flex-start;
 	align-self: stretch;
 	border-top: 3px solid #29292B;
-	
-	
 
 	ul {
 		display: flex;
@@ -299,19 +303,19 @@ footer {
 	width: 100%;
 	text-align: center;
 	padding: 54px 0;
+	
 	img {
 		width: 1120px;
 	}
 }
 
 .legal {
- display: flex;
-  align-items: center;             /*center children*/
-  justify-content: space-between; 
-  max-width: 1140px;
-  margin: 0 auto;
+ 	display: flex;
+    align-items: center;             /*center children*/
+    justify-content: space-between; 
+    max-width: 1140px;
+    margin: 36px auto 0;
 	color: $black;
-	border: 1px solid red;
 }
 
 

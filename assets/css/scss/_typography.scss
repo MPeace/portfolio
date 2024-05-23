@@ -3,17 +3,12 @@
 	Set the type
 
 	font-family: $font-family--primary
-	font-family: 'TT Squares Condensed Black Italic'
-	font-family: 'TT Squares Condensed Regular'
 	font-family: $font-family--secondary
 
 */
 
 
-
 	h1 {
-		//font-family: Typekit selector;
-		//font-family: 'fira-sans-2';
 		font-family: $font-family--primary;
 		font-weight: normal;
 		color: $color-primary;
@@ -22,47 +17,6 @@
 		text-transform: uppercase;
 	}
 
-	h1 span {
-		position: relative;
-		}
-		.word1 .char1{left:0;}
-		.word1 .char2{left:0;}
-		.word1 .char3{left:0;}
-		.word1 .char4{left:-1px;}
-		.word1 .char5{left:1px;}
-		.word1 .char6{left:-5px;}
-
-		.word2 .char1{left:0;}
-		.word2 .char2{left:-4px;}
-		.word2 .char3{left: 0px;}
-		.word2 .char4{left:-5px;}
-		.word2 .char5{left:-9px;}
-
-
-	.word1 ,
-	.word2 {
-		display: block;
-		line-height: .85;
-	}
-
-	.word1 {
-		@include font-size(10.2);
-	}
-	.word2 {
-		@include font-size(12.8);
-	}
-
-	#trade {
-		//font-family: Typekit Selector - $font-family--mono;
-		font-family: $font-family--mono;
-		font-weight: 400;
-		@include font-size(1.4);
-		@include letter-spacing(400em);
-		//letter-spacing: .4em;
-		color: $blue;
-
-		@include mobile {@include font-size(1.2);}
-	}
 
 	h2 {
 		font-family: $font-family--primary;
@@ -300,7 +254,7 @@
 		
 		.bestlists li.title {
 			font-family: $font-family--primary;
-			font-size: 12px;
+			@include font-size(1.2);
 			font-style: normal;
 			font-weight: 800;
 			line-height: 18px; /* 150% */
@@ -315,6 +269,24 @@
 			font-weight: 300;
 			line-height: 24px; /* 150% */
 			letter-spacing: 0.32px;
+		}
+		
+		.credits {
+			font-family: $font-family--secondary;
+			text-transform: uppercase;
+			letter-spacing: 3.36px;
+			text-transform: uppercase;
+			@include font-size(1.2);
+			@include mobile {
+				@include font-size(1);
+			}
+		}
+		.copyright {
+			font-family: $font-family--secondary;
+			@include font-size(1.2);
+			@include mobile {
+				@include font-size(1);
+			}
 		}
 
 		#footer {

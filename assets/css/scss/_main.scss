@@ -13,7 +13,7 @@
 
 		@include tablet {padding: 0 18px; }
 		@include mobile {
-			padding: 54px 36px 0;
+			padding: 54px 18px 0;
 			margin: 49px 0 0 0;
 		}
 	}
@@ -28,7 +28,7 @@
 
 	#intro img {
 		max-width: 200px;
-		top: 18px;
+		top: 0;
     	position: relative;
 	}
 
@@ -55,7 +55,10 @@
 			margin-bottom: 35px;
 		}
 	}
-
+	
+	h1.elegantshadow {
+		margin-top: 6em;
+	}
 
 	/*
 		jump to work link
@@ -150,10 +153,6 @@
 
 
 
-
-
-	
-
 		.content img {
 			margin-bottom: 24px;
 		}
@@ -170,14 +169,14 @@
 
 
 .portfoliocard {
-	border: 1px solid #8F8F8F;
+	border: 1px solid #e8e8e8;
 	background: #FFF;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	overflow: hidden;
-	border-radius: 3px;
-	background: linear-gradient(137deg, #FFF 54.83%, #999 266.74%), var(--White, #FFF);
+	border-radius: 0px;
+	background: linear-gradient(137deg, #FFF 54.83%, #CCC 266.74%), var(--White, #FFF);
 	position: relative;
 	top: 0;
 	
@@ -185,13 +184,17 @@
 	// Change to: "Variant2";
 	// Animate: Smart animate;
 	animation-timing-function: ease-out;
-	animation-duration: 200ms;
+	animation-duration: 150ms;
 
+	margin-top: -20px;
+	margin-bottom: 20px;
+	transition: 1s;
 	
 	img {
 		position: relative;
 		right: 1px;
 		min-width: 570px;
+		min-height: 359px;
 	}
 
 	h4 {
@@ -233,17 +236,29 @@
 	
 	a + a {
 		margin: 36px 0 0 0;
+		 display: inline-block;
+		 padding: 1em;
+		 background: rgba(#f90,.1)
+	}
+	a + a:hover {
+		background: rgba(#f90,.6)
 	}
 	div {
     	padding: 42px;
+		border-top: 1px solid;
 	}
 }
 .portfoliocard:hover {
 	background: #fff;
-	box-shadow: 4px 6px 18px #dfdfdf;
-	top: -4px;
+	border: 1px solid #dedede;
+	box-shadow: 4px 4px 18px #e6e6e6;
+	transform: translateY(-4px);
 	animation-timing-function: ease-out;
 	animation-duration: 150ms;
+	
+	margin-top: -20px;
+	  margin-bottom: 20px;
+	  transition: .5s;
 }
 
 
