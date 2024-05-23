@@ -4,7 +4,7 @@
 <h4>Select another case study to read</h4>
 	<ul>
 		{% for item in site.data.menulist.docs %}
-		  <li class="{% if item.link == page.url %}active{% endif %} casestudy">
+		  <li class="{% if item.link == page.url %}active{% endif %} ">
 			  <a href="{{ item.url }}">{{ item.title }}</a>
 		  </li>
 	   {% endfor %}

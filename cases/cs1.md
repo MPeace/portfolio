@@ -22,9 +22,10 @@ selection: true
 <h4>Problem</h4>
 <p>Our primary objective in undertaking this project was to investigate the reasons behind the stagnation in user growth and engagement. The team conducted a user survey, distributing a concise questionnaire to our existing  user base. The survey aimed to understand why users utilized the product they paid for and their overall satisfaction with it. </p>
 <p>The insights identified from this survey were invaluable, revealing that users found the product unattractive, challenging to navigate, and outdated in appearance. However, they also expressed a strong appreciation for the valuable data provided by the platform, which motivated them to maintain their memberships. Armed with this information, we were poised to devise a solution.</p>
+<div class="sidebyside">
 <img src="../assets/images/cs01-02.png" />
 <img src="../assets/images/cs01-03.png" />
-
+</div>
 <h4>Process</h4>
 <p>The market forecasting system, had legacy constraints and would place a number of limits on the design. Because of this, the redesign was staged into three phases. We would coordinate together but deploy at each phase finish. An internal product redesign, an updated and moved database, and a newly redesigned homepage.  </p>
 <p>I started our design process with kickoff meetings that included our developers and key stakeholders. We identified key design constraints that we would need to account for and planned out a tentative schedule for the project deliverables. The project was broken into three smaller projects to manage feature scope and build out. </p>

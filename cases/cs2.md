@@ -21,17 +21,21 @@ selection: true
 
 <h4>Audits</h4>
 <p>Audits were completed to surface any inconsistencies in the different components used on each event, who had access to create events, existing user flows and user journeys. Essentially this stage we needed to identify all the modules and components that might come up while we add users to the platform through new company integrations.  Additionally, proving the effective role out would influence more of the new companies to adopt the in house option.</p>
+
+
 <img src="../assets/images/cs02-01.png" />
 <img src="../assets/images/cs02-02.png" />
+
 <h4>Design & On Going Development</h4>
 <p>The largest obstacle to overcome in this project was the need to reengage the EMS stakeholders as we scaled to onboard new acquisitions. As new companies were acquired, we were tasked with getting new users integrated into either a one off system they would pay for or our internal event product. Essentially, we had to convince them to use our product over an off-the-self solution. We would have kickoff meetings to scope the components and features these new users required to build and launch successful event websites, run through design iterations on these new features and typically deploy within a couple sprints. When we began the platform had roughly 30 users as scaled it would eventually support more that 300 concurrent event users. Additionally, over 500 events were setup and completed using the EMS platform in a little over two year period. These were all points of success but we needed to continue to improve.
 As</p>
 <h4>Steps / Method</h4>
 <p>Text goes here...</p>
 <img src="../assets/images/cs02-03.png" />
+<div class="sidebyside">
 <img src="../assets/images/cs02-04.png" />
 <img src="../assets/images/cs02-05.png" />
-<img src="../assets/images/cs02-06.png" />
+</div>
 
 <div class="callout">
 <h4>Event Registration Redesign</h4>
