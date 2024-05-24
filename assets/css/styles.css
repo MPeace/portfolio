@@ -127,11 +127,11 @@ body {
 }
 
 p, li {
-  margin-bottom: 18px;
+  margin-top: 12px;
 }
 
 p + p {
-  margin-bottom: 18px;
+  margin-top: 12px;
 }
 
 small {
@@ -2515,19 +2515,20 @@ h2 {
 }
 
 p, li {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 @media (max-width: 768px) {
   p, li {
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 480px) {
   p, li {
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
 
@@ -2685,16 +2686,20 @@ h5 {
 }
 
 a {
-  color: #c7f014;
+  color: #111113;
 }
 
 p {
   font-family: "PPEiko-Light", serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 30px;
   /* 155.556% */
   letter-spacing: 0.18px;
+}
+
+.readingcontainer ul {
+  margin-top: 18px;
 }
 
 .readingcontainer li {
@@ -2702,6 +2707,7 @@ p {
   font-size: 1.2rem;
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   letter-spacing: 1.2px;
+  padding-top: 4px;
 }
 .readingcontainer li span {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
@@ -2841,7 +2847,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background: #fdfdfd;
-  background: linear-gradient(165deg, rgba(255, 195, 128, 0.05) -0.09%, rgba(28, 16, 3, 0.05) 53.87%), var(--White, #FFF);
+  background: linear-gradient(195deg, rgba(255, 195, 128, 0.05) 12.7%, rgba(89, 56, 19, 0.05) 57.49%), var(--White, #FFF);
   background-attachment: fixed;
 }
 
@@ -3291,6 +3297,10 @@ h3 img {
 }
 
 /* Reading Container for the Case Studies */
+.readingcontainer img {
+  margin-top: 18px;
+}
+
 .readingcontainer ul {
   display: inline-block;
 }
@@ -3457,6 +3467,7 @@ h3 img {
 .sidebyside {
   display: flex;
   height: 200px;
+  gap: 10px;
 }
 .sidebyside img {
   width: auto;
@@ -3606,6 +3617,27 @@ h3 img {
   float: left;
 }
 
+.callout {
+  border-top: 3px solid #111113;
+  padding: 0 2em;
+  margin: 4em 0 0 2em;
+  border-radius: 0;
+}
+.callout h4 {
+  font-size: 32px;
+  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  max-width: 50%;
+}
+.callout h5 {
+  font-size: 18px;
+  line-height: 1;
+}
+.callout p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 @font-face {
   font-family: "PPFormula-Extrabold";
   src: url("webfonts/PPFormula-Extrabold.woff");
@@ -3648,19 +3680,20 @@ h2 {
 }
 
 p, li {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 @media (max-width: 768px) {
   p, li {
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 480px) {
   p, li {
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
 
@@ -3818,16 +3851,20 @@ h5 {
 }
 
 a {
-  color: #c7f014;
+  color: #111113;
 }
 
 p {
   font-family: "PPEiko-Light", serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 30px;
   /* 155.556% */
   letter-spacing: 0.18px;
+}
+
+.readingcontainer ul {
+  margin-top: 18px;
 }
 
 .readingcontainer li {
@@ -3835,6 +3872,7 @@ p {
   font-size: 1.2rem;
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   letter-spacing: 1.2px;
+  padding-top: 4px;
 }
 .readingcontainer li span {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;

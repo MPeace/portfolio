@@ -136,7 +136,10 @@
 
 /* Reading Container for the Case Studies */
 
-
+	.readingcontainer img {
+		margin-top: 18px;
+	}
+	
 	.readingcontainer ul {
 		display: inline-block;
 		
@@ -320,6 +323,7 @@
 .sidebyside {
 	display: flex;
 	height:200px;
+	gap: 10px;
 	  
 	  img {
 		  width:auto;
@@ -465,3 +469,26 @@
 		}
 		.legal {float:left;}
 	}
+
+
+.callout {
+	border-top: 3px solid $black;
+	padding: 0 2em;
+	//max-width: 240px;
+	margin: 4em 0 0 2em;
+	border-radius: 0;
+	h4 {
+		font-size: 32px;
+		font-family: $font-family--secondary;
+		font-weight: 300;
+		max-width: 50%;
+	}
+	h5 {
+		font-size: 18px;
+		line-height: 1;
+	}
+	p {
+		font-size:12px;
+		line-height: 1.5;
+	}
+}
