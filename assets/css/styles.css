@@ -2513,6 +2513,20 @@ h2 {
   /* 100% */
   letter-spacing: 0.96px;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 54px;
+    font-size: 5.4rem;
+    line-height: 1.25;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 1.25;
+  }
+}
 
 p, li {
   font-size: 20px;
@@ -2652,6 +2666,12 @@ h3 {
   font-size: 3.6rem;
   line-height: 1.375;
   margin-top: 24px;
+}
+@media (max-width: 480px) {
+  h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
 }
 
 h4 {
@@ -3678,6 +3698,20 @@ h2 {
   /* 100% */
   letter-spacing: 0.96px;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 54px;
+    font-size: 5.4rem;
+    line-height: 1.25;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 1.25;
+  }
+}
 
 p, li {
   font-size: 20px;
@@ -3817,6 +3851,12 @@ h3 {
   font-size: 3.6rem;
   line-height: 1.375;
   margin-top: 24px;
+}
+@media (max-width: 480px) {
+  h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
 }
 
 h4 {

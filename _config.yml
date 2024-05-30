@@ -51,6 +51,7 @@ exclude:
 #   - gemfiles/
 - Gemfile
 - Gemfile.lock
+- .DS_store
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
