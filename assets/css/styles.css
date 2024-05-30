@@ -3111,15 +3111,15 @@ footer article.thankyou {
   align-self: stretch;
   border-top: 3px solid #29292B;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .bestlists {
     display: block;
   }
 }
 .bestlists ul {
   display: flex;
-  width: 200px;
-  min-width: 200px;
+  width: auto;
+  min-width: 100px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
@@ -3225,8 +3225,8 @@ footer article.thankyou {
 }
 @media (max-width: 480px) {
   #intro h1 {
-    padding: 54px 18px 0;
-    margin: 49px 0 0 0;
+    padding: 12px 18px 0;
+    margin: 12px 0 0 0;
   }
 }
 
@@ -3238,6 +3238,11 @@ footer article.thankyou {
   max-width: 200px;
   top: 0;
   position: relative;
+}
+@media (max-width: 480px) {
+  #intro img {
+    max-width: 125px;
+  }
 }
 
 #intro p {
@@ -3445,7 +3450,7 @@ h3 img {
 .cases {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 18px 0 36px;
+  padding: 18px 18px 36px;
   width: 100%;
   min-width: 0;
   border-top: 3px solid #eaeaea;
