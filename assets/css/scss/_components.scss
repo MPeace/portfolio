@@ -27,12 +27,18 @@
 	#menu {
 		display: none;
 		background: rgba(0,0,0,.95);
-		padding: 96px 0 24px;
+		padding: 96px 0;
+		@include mobile {
+			padding: 54px 0;
+		}
 	}
 
 	#menu li {border: 0 solid red;
 	  	padding: 5px 140px 10px 20px;
 	  	line-height: 1;
+		  @include tablet {
+			  padding-right: 50px;
+		  }
 	}
 	#menu a:before {
 		content: 'Case Study';

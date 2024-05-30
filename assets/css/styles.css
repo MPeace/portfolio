@@ -2563,6 +2563,12 @@ p, li {
   -webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+@media (max-width: 480px) {
+  #menu li a {
+    font-size: 20px;
+    font-size: 2rem;
+  }
+}
 
 #menu a {
   color: #fdfdfd;
@@ -3104,6 +3110,11 @@ footer article.thankyou {
   align-items: flex-start;
   align-self: stretch;
   border-top: 3px solid #29292B;
+}
+@media (max-width: 480px) {
+  .bestlists {
+    display: block;
+  }
 }
 .bestlists ul {
   display: flex;
@@ -3748,6 +3759,12 @@ p, li {
   -webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+@media (max-width: 480px) {
+  #menu li a {
+    font-size: 20px;
+    font-size: 2rem;
+  }
+}
 
 #menu a {
   color: #fdfdfd;
@@ -4065,13 +4082,23 @@ nav {
 #menu {
   display: none;
   background: rgba(0, 0, 0, 0.95);
-  padding: 96px 0 24px;
+  padding: 96px 0;
+}
+@media (max-width: 480px) {
+  #menu {
+    padding: 54px 0;
+  }
 }
 
 #menu li {
   border: 0 solid red;
   padding: 5px 140px 10px 20px;
   line-height: 1;
+}
+@media (max-width: 768px) {
+  #menu li {
+    padding-right: 50px;
+  }
 }
 
 #menu a:before {
