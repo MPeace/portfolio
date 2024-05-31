@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "PPFormula-Extrabold";
+  src: url("webfonts/PPFormula-Extrabold.woff");
+  src: url("webfonts/PPFormula-Extrabold.woff?#iefix") format("embedded-opentype"), url("webfonts/PPFormula-Extrabold.woff2") format("woff2"), url("webfonts/PPFormula-Extrabold.woff") format("woff"), url("webfonts/PPFormula-Extrabold.tff") format("truetype");
+}
+@font-face {
+  font-family: "PPFormula-Light";
+  src: url("webfonts/PPFormula-Light.woff");
+  src: url("webfonts/PPFormula-Light.woff?#iefix") format("embedded-opentype"), url("webfonts/PPFormula-Light.woff2") format("woff2"), url("webfonts/PPFormula-Light.woff") format("woff"), url("webfonts/PPFormula-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PPEiko-Light";
+  src: url("webfonts/PPEiko-Light.woff");
+  src: url("webfonts/PPEiko-Light.woff?#iefix") format("embedded-opentype"), url("webfonts/PPEiko-Light.woff2") format("woff2"), url("webfonts/PPEiko-Light.woff") format("woff"), url("webfonts/PPEiko-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PPEiko-Regular";
+  src: url("webfonts/PPEiko-Regular.woff");
+  src: url("webfonts/PPEiko-Regular.woff?#iefix") format("embedded-opentype"), url("webfonts/PPEiko-Regular.woff2") format("woff2"), url("webfonts/PPEiko-Regular.woff") format("woff"), url("webfonts/PPEiko-Regular.ttf") format("truetype");
+}
+img {
+  max-width: inherit !important;
+}

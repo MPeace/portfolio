@@ -326,13 +326,21 @@
 
 .sidebyside {
 	display: flex;
-	height:200px;
+	height:290px;
 	gap: 10px;
 	  
 	  img {
 		  width:auto;
 			height:100%;
 	  }
+	  
+	 @include tablet{
+		 
+	 }
+	 @include mobile {
+		 display: block;
+		 height:auto;
+	 }
 }
 
 /*--------------

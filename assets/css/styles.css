@@ -91,6 +91,11 @@ html, html a {
   src: url("webfonts/PPEiko-Light.woff");
   src: url("webfonts/PPEiko-Light.woff?#iefix") format("embedded-opentype"), url("webfonts/PPEiko-Light.woff2") format("woff2"), url("webfonts/PPEiko-Light.woff") format("woff"), url("webfonts/PPEiko-Light.ttf") format("truetype");
 }
+@font-face {
+  font-family: "PPEiko-Regular";
+  src: url("webfonts/PPEiko-Regular.woff");
+  src: url("webfonts/PPEiko-Regular.woff?#iefix") format("embedded-opentype"), url("webfonts/PPEiko-Regular.woff2") format("woff2"), url("webfonts/PPEiko-Regular.woff") format("woff"), url("webfonts/PPEiko-Regular.ttf") format("truetype");
+}
 .clearfix:after, #intro h1:after, #wrapper_about:after, article:after, header:after, hr:after {
   content: "";
   display: table;
@@ -2595,7 +2600,7 @@ p, li {
   font-size: 48px;
   font-size: 4.8rem;
   line-height: 1.325em;
-  font-family: "PPEiko-Light", serif;
+  font-family: "PPEiko-Regular", serif;
   font-weight: normal;
   font-weight: normal;
   color: #111113;
@@ -2716,7 +2721,7 @@ a {
 }
 
 p {
-  font-family: "PPEiko-Light", serif;
+  font-family: "PPEiko-Regular", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -2808,7 +2813,7 @@ p {
 }
 
 .bestlists li {
-  font-family: "PPEiko-Light", serif;
+  font-family: "PPEiko-Regular", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -3502,12 +3507,18 @@ h3 img {
 
 .sidebyside {
   display: flex;
-  height: 200px;
+  height: 290px;
   gap: 10px;
 }
 .sidebyside img {
   width: auto;
   height: 100%;
+}
+@media (max-width: 480px) {
+  .sidebyside {
+    display: block;
+    height: auto;
+  }
 }
 
 /*--------------
@@ -3689,6 +3700,11 @@ h3 img {
   src: url("webfonts/PPEiko-Light.woff");
   src: url("webfonts/PPEiko-Light.woff?#iefix") format("embedded-opentype"), url("webfonts/PPEiko-Light.woff2") format("woff2"), url("webfonts/PPEiko-Light.woff") format("woff"), url("webfonts/PPEiko-Light.ttf") format("truetype");
 }
+@font-face {
+  font-family: "PPEiko-Regular";
+  src: url("webfonts/PPEiko-Regular.woff");
+  src: url("webfonts/PPEiko-Regular.woff?#iefix") format("embedded-opentype"), url("webfonts/PPEiko-Regular.woff2") format("woff2"), url("webfonts/PPEiko-Regular.woff") format("woff"), url("webfonts/PPEiko-Regular.ttf") format("truetype");
+}
 /*
 
 	Set the type
@@ -3796,7 +3812,7 @@ p, li {
   font-size: 48px;
   font-size: 4.8rem;
   line-height: 1.325em;
-  font-family: "PPEiko-Light", serif;
+  font-family: "PPEiko-Regular", serif;
   font-weight: normal;
   font-weight: normal;
   color: #111113;
@@ -3917,7 +3933,7 @@ a {
 }
 
 p {
-  font-family: "PPEiko-Light", serif;
+  font-family: "PPEiko-Regular", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -4009,7 +4025,7 @@ p {
 }
 
 .bestlists li {
-  font-family: "PPEiko-Light", serif;
+  font-family: "PPEiko-Regular", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
