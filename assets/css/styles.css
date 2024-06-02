@@ -2958,24 +2958,31 @@ header {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 49% 49%;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
   grid-row: auto auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
 @media (max-width: 768px) {
   .row {
+    grid-template-columns: 49% 49%;
+  }
+}
+@media (max-width: 480px) {
+  .row {
     grid-template-columns: 100%;
   }
 }
 
 .row > div {
-  display: flex;
-  align-items: center;
   font-size: 40px;
   font-family: sans-serif;
 }
-
+@media (max-width: 768px) {
+  .row > div {
+    align-items: center;
+  }
+}
 .readingcontainer {
   max-width: 650px;
   max-width: 65em;
@@ -3123,15 +3130,17 @@ footer article.thankyou {
 }
 .bestlists ul {
   display: flex;
+  flex: 2 1 auto;
   width: auto;
   min-width: 100px;
+  max-width: 50%;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
 }
 .bestlists li {
   margin: 0;
-  padding: 0;
+  padding: 0 1em;
   line-height: 1;
 }
 
@@ -3152,7 +3161,7 @@ footer article.thankyou {
   padding: 54px 0;
 }
 .thankyou img {
-  width: 1120px;
+  width: 860px;
 }
 
 .legal {
@@ -3370,11 +3379,8 @@ h3 img {
 .portfoliocard {
   border: 1px solid #e8e8e8;
   background: #FFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   overflow: hidden;
-  border-radius: 0px;
+  border-radius: 12px;
   background: linear-gradient(137deg, #FFF 54.83%, #CCC 266.74%), var(--White, #FFF);
   position: relative;
   top: 0;
@@ -3386,58 +3392,97 @@ h3 img {
 }
 .portfoliocard img {
   position: relative;
-  right: 1px;
-  min-width: 570px;
-  min-height: 359px;
+  right: 0px;
 }
 .portfoliocard h4 {
-  font-size: 40px;
+  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 800;
-  line-height: 40px;
+  line-height: 30px;
   /* 100% */
   letter-spacing: 0.4px;
   color: #111113;
 }
+@media (max-width: 768px) {
+  .portfoliocard h4 {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 480px) {
+  .portfoliocard h4 {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+}
 .portfoliocard h4:before {
   display: block;
   content: "Case Study";
-  font-size: 12px;
-  font-size: 1.2rem;
+  opacity: 0.6;
+  font-size: 6.222px;
   font-style: normal;
   font-weight: 800;
-  line-height: 14px;
+  line-height: 7.259px;
   /* 116.667% */
-  letter-spacing: 9px;
+  letter-spacing: 4.667px;
   text-transform: uppercase;
-  position: relative;
-  top: -8px;
-  margin: 18px 0 12px 0;
+}
+@media (max-width: 768px) {
+  .portfoliocard h4:before {
+    font-size: 10px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 14px;
+    /* 116.667% */
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    position: relative;
+    top: -8px;
+    margin: 18px 0 12px 0;
+  }
 }
 .portfoliocard a {
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   line-height: 18px;
   /* 128.571% */
-  color: #F90 !important;
+  color: #B96F00 !important;
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif !important;
-  display: flex;
+  display: block;
   align-items: center;
   gap: 10px;
 }
+@media (max-width: 768px) {
+  .portfoliocard a {
+    display: flex;
+  }
+}
 .portfoliocard a + a {
-  margin: 36px 0 0 0;
+  margin: 12px 0 18px 0;
   display: inline-block;
   padding: 1em;
   background: rgba(255, 153, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .portfoliocard a + a {
+    margin: 36px 0 0 0;
+  }
 }
 .portfoliocard a + a:hover {
   background: rgba(255, 153, 0, 0.6);
 }
 .portfoliocard div {
-  padding: 42px;
-  border-top: 1px solid;
+  padding: 0 24px 0;
+}
+@media (max-width: 768px) {
+  .portfoliocard div {
+    padding: 0 24px 24px;
+  }
 }
 
 .portfoliocard:hover {
@@ -3617,6 +3662,15 @@ h3 img {
   line-height: 36px;
   /* 150% */
   letter-spacing: 0.96px;
+}
+@media (max-width: 480px) {
+  .profile p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    /* 150% */
+  }
 }
 
 .contact {
