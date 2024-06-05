@@ -39,8 +39,8 @@
 	p,li {
 		@include font-size(2);
 
-		@include tablet {@include font-size(1.8);}
-		@include mobile {@include font-size(1.6);}
+		@include tablet {@include font-size(2);}
+		@include mobile {@include font-size(1.8);}
 		
 		line-height: 1.5;
 		}

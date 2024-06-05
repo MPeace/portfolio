@@ -21,18 +21,22 @@ selection: true
 
 <p>User surveys were conducted post acquisition that resulted in the identification of two key areas for improvement within the products.</p>
 <img src="../assets/images/01test.png" />
+<div class="imgcaption">This is an image caption.</div>
 
 <h4>Project Objectives</h4>
 <p> Analysis from the user surveys showed flat user growth and declining user engagement within the organization’s most used products. Our primary objective for this initiative was to investigate the cause behind this and solutions to address it.</p>
 
 <img src="../assets/images/06test.png" />
+<div class="imgcaption">This is an image caption.</div>
 <p>Additionally, we set out to evolve and improve the design and brand experience to better meet user expectations.</p>
 
 <img src="../assets/images/08test.png" />
+<div class="imgcaption">This is an image caption.</div>
 
 <h4>Strategy / Approach</h4>
 <p>The backend code base had many legacy constraints and would place a number of limits on the design. Because of this, the project was split into three phases; paid customer products (?), marketing homepage (redesign?), and finally, a full website. </p>
 <img src="../assets/images/02test.png" />
+<div class="imgcaption">This is an image caption.</div>
 
 <h4>Execution</h4>
 <p>Analyzed and refined user flows to improve processes and add efficiencies. One instance resulted in a lead capture process going rom five down to two steps.</p>
@@ -41,6 +45,8 @@ selection: true
 <div class="sidebyside">
 <img src="../assets/images/03test.png" />
 <img src="../assets/images/04test.png" />
+<div class="imgcaption">This is an image caption.</div>
+
 </div>
 
 <h4>Results &amp; Metrics</h4>
@@ -49,6 +55,8 @@ selection: true
 <p>Homepage is still unreleased. Site redesign is on hold.</p>
 <img src="../assets/images/05test.png" />
 <img src="../assets/images/07test.png" />
+<div class="imgcaption">This is an image caption.</div>
+
 
 <h4>Challenges</h4>
 <p>Putt the challenges here.</p>
