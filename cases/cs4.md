@@ -1,6 +1,7 @@
 ---
 layout: case
-title: UX Research & Persona Design
+title: Events & Media Site Designs
+mockup: ../assets/images/bg-cs03.png
 permalink: /cases/ux-research-and-persona-design
 order: 5
 selection: true
@@ -16,24 +17,42 @@ selection: true
 </ul>
 
 <h4>Background</h4>
-<p>As part of our going work with the <href="#">Event Management System</href> and an expanding company, we needed a way to scale our design language and communicate more effectively with our stakeholders. We needed a solution to facilitate this expansion. We decided to build out personas.</p>
-<p> I felt this would help facilitate better communication between the teams working on events and would also allow targeted improvements for these common user types as development progressed.</p>
+<p>The companies and clients I have worked for regularly need updated and reimagined product and websites to keep their brands fresh and maintain standards across their platforms.</p>
+	
+<p>The range of sites that I have designed and developed include, user portfolios, event, media and product sites.</p>
 
 <h4>Process</h4>
-<p>The project started by reviewing a recent market survey that was completed by our internal marketing company. It was comprehensive but also very broad. I used this data to identify a subset of different attendees that we would base our new personas on.</p> 
-<p>We would test these initial personas with our events team to confirm the generally accuracy of their labeling and identities.</p>
+<p>Designs and redesigns begin with requirements gathering and initial stakeholder meetings. I set expectations and timelines in these chats.</p>
+	
+<p>Following kickoff meetings, depending on if this is a new site or a design, I will complete an information analysis as well as complete audits as needed. I lean especially heavy on accessibility because of the additive nature of those improvements. </p>
+	
+<p>I like to get feedback early and make sure development is on board early with any major changes.  Skeleton designs will also be used at this stage to explore any potential user flow adjustments we might suggest.</p>
+	
+<p>Finally, designs and design review that moves onto development.</p>
 
-		
-		
-<p>We followed this analysis up with kickoff meetings with all of the event team members. We held them in small 1 or 2 person sessions to gain insight into the different individuals they engage with that attend the events.</p>
-<p>With these two groups of information completed we could begin working on an initial set of attendees that would be the basis for the continuing work. We held multiple work sessions over a month or so, working with the different events team members. We setup the sessions to be repeatable and uniform so that we could repeat the same process in each interview chat session.</p>
+
 <img src="../assets/images/bg-cs01.png" />
 
-<h4>Constraints</h4>
-<p>As we built out the personas, identifying the different pieces that we wanted to show became the largest issue. Some of the data worked for some of the personas and then others it might not have seemed as relevant. Many iterations and brainstorm sessions got us to a </p>
+<h4>Strategy / Approach</h4>
+<p>Projects ranged in time and scope
+	Large scale redesigns with new brands
+	Smaller scale site updates</p>
 <img src="../assets/images/bg-cs01.png" />
 
-<h4>Solution & Take Aways</h4>
+<h4>Execution</h4>
 <p></p>
+
+<h4>Results and Metrics</h4>
+<p></p>
+
+<h4>Challenges and Solutions</h4>
+Time to build and expectation of client/stakeholder
+Projects scope creep - just add this one last little feature
+Project abandonment
+
+Simplify and then simplify again. 
+Iteration and refine are good processes to leverage early on.
+Use systems when you can and always build for accessibility
+
 
 </div>

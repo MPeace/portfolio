@@ -62,8 +62,8 @@ header {//outline:1px solid red;
 	margin: 18px 0;
 
 	@include desktop {padding: 36px 18px 0;}
-	@include tablet {padding: 36px 18px 0;}
-	@include mobile {padding: 36px 18px 0;}
+	@include tablet {padding: 18px 18px 0;}
+	@include mobile {padding: 0 18px 0;}
 	}
 	#work {
 		//border-bottom: 3px solid #e0e0e0;

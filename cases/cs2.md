@@ -1,13 +1,14 @@
 ---
 layout: case
-title: Building An Event Management Solution
+title: Designing An Event Management Solution
+mockup: ../assets/images/bg-cs02.png
 permalink: /cases/design-and-development-process
 order: 3
 selection: true
 ---
 
 <div class="readingcontainer">
-<h3>Designing and scaling an event management app from 25 users to over 300 users and from 24 events to over 200 events a year.</h3>
+<h3>Building out and scaling an event management app from 25 to over 300 users and from 24 to over 200 events a year.</h3>
 
 <ul>
 	<li>Project Completed <span>2024</span></li>
@@ -15,23 +16,28 @@ selection: true
 </ul>
 
 <h4>Background</h4>
-<p>I was working for a government news media company. Events were a major part of their business, leveraging the experience to create news, attention and clout for increased credibility for  media and the market. </p>
+<p>Working for a leading government news media company,  I was responsible for maintaining and improving our in-house software used for the management and marketing of company events.</p>
+	
+<p>Following the completion of several acquisitions within a short period of time, evolving our event management app and processes to incorporate the new organizations became an important element of integration efforts. </p>
 
-<p>We wanted to run more events and more types of events as well as enable the existing stakeholders to bring on new users to the platform. We wanted to scale up and we needed an event solution to manage and facilitate all of this. We had an existing product that we could use and extend. This is how we scaled up and added dozens of features.</p>
-
-<h4>Audits</h4>
-<p>Audits were completed to surface any inconsistencies in the different components used on each event: who had access to create events, existing user flows and user journeys. Essentially, this stage we needed to identify all the modules and components that might come up while we add users to the platform through new company integrations.  Additionally, proving the effective role out would influence more of the new companies to adopt the in house option.</p>
-
-
+<h4>Project Objectives</h4>
+<p>In preparation for this initiative, we identified three main objectives: </p>
+<ul>
+	<li>Improve product efficiency while increasing active users</li>
+<li>Increase and validate product credibility for our newly integrated businesses </li>
+<li>Evolve our product with a focus on scalability to support a fast growing a fast growing events business.</li>
+</ul>
+	
 <img src="../assets/images/cs02-01.png" />
 <img src="../assets/images/cs02-02.png" />
 
-<h4>Design & On Going Development</h4>
-<p>The largest obstacle to overcome in this project was the need to reengage the EMS stakeholders as we scaled to onboard new acquisitions. As new companies were acquired, we were tasked with getting new users integrated into either a one off system they would pay for or our internal event product. </p>
-<p>Essentially, we had to convince them to use our product over an off-the-self solution. We would have kickoff meetings to scope the components and features these new users required to build and launch successful event websites, run through design iterations on these new features and typically deploy within a couple sprints. When we began the platform had roughly 30 users as scaled it would eventually support more that 300 concurrent event users. Additionally, over 500 events were setup and completed using the EMS platform in a little over two year period.</p>
-<p>These were all points of success but we needed to continue to improve.
-As</p>
-<h4>Steps / Method</h4>
+<h4>Strategy / Approach</h4>
+<p>Conducted audits  to determine  inconsistencies in the different components used on build each event, gathered who had access to create events and analyzed existing user flows and user journeys. </p>
+
+<p> During this stage we put a  significant focus on identifying  potential new components that may be needed  while we introduced new users to the platform as a part of post acquisition integrations.  And simultaneously ensure a successful roll-out to establish credibility with the newly acquired businesses, leading to increased adoption.</p>
+
+
+<h4>Execution</h4>
 <p>Text goes here...</p>
 <img src="../assets/images/cs02-03.png" />
 <div class="sidebyside">
@@ -61,11 +67,14 @@ As</p>
 </div>
 -->
 
-<h4>Solution & Reflections</h4>
-<p>Building out this platform initially started very small but as we performed user research and user interviews we were able to narrow down and build out very specific work flows and solutions. this propelled our events teams to eclipsing 500 events built out on this platforms in a just around two year span. </p>
-<p>See the events being produced on this platform over at <a href="https://govexec.com/events">govexec.com/events</a>. Below are a few screenshots of some of the completed event sites using this EMS platform.</p>
+<h4>Challenges and Solutions</h4>
+<p>The largest obstacle to overcome in this initiative was the need to reengage the EMS stakeholders as we scaled to support the onboarding of several newly acquired businesses.</p>
+	
+<p>As new companies were acquired, they were given the choice to remain with an external events management  system or integrate and help fund our internal event product. Essentially, our challenge was to convince them to use our product over an external solution.</p>
 
-<p>You can actively see the events being produced on this platform over at govexec.com/events. Below are a few screenshots of some of the completed event sites using this EMS platform.</p>
+<h4>Results and Metrics</h4>
+<p>A successfully scaled  event management app that evolved from just 25 to over 300 users and from 24 to over 200 events a year. More than 500 events were produced in roughly a two year period using our event software.</p>
+<p>Additionally we brought all major company events underneath a single platform.</p>
 <img src="../assets/images/cs02-07.png" />
 </div>
 

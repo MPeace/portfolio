@@ -1,10 +1,12 @@
 ---
 layout: case
 title: SAAS App Redesign Process
+mockup: ../assets/images/bg-cs01.png
 permalink: /cases/saas-app-redesign-process
 order: 2
 selection: true
 ---
+
 
 <div class="readingcontainer">
 <h3>Redesigning the premier provider of market intelligence forecasting and proprietary research in Aerospace, Defense, Electronics and Power Systems industries.</h3>
@@ -16,11 +18,12 @@ selection: true
 
 <h4>Background</h4>
 <p>As senior product designer, working for a B2B media corporation, I lead the initiative to update and enhance the marketing website and digital products for a newly acquired market forecasting company.</p>
-<img src="../assets/images/01test.png" />
+
 <p>User surveys were conducted post acquisition that resulted in the identification of two key areas for improvement within the products.</p>
+<img src="../assets/images/01test.png" />
 
 <h4>Project Objectives</h4>
-<p> Analysis from the user surveys showed flat user growth and declining user engagement within the organization’s most used products. Our primary objective for this initiative was to investigate the cause behind this and solution ways to address it.</p>
+<p> Analysis from the user surveys showed flat user growth and declining user engagement within the organization’s most used products. Our primary objective for this initiative was to investigate the cause behind this and solutions to address it.</p>
 
 <img src="../assets/images/06test.png" />
 <p>Additionally, we set out to evolve and improve the design and brand experience to better meet user expectations.</p>
