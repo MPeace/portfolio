@@ -11,7 +11,7 @@ selection: true
 <div class="readingcontainer">
 <h3>Redesigning the premier provider of market intelligence forecasting and proprietary research in Aerospace, Defense, Electronics and Power Systems industries.</h3>
 
-<ul>
+<ul class="projectdetails">
 	<li>Project Completed <span>2023</span></li>
 	<li>Project Role <span>UX/UI, Branding, User Research, Management, Information Architecture</span></li>
 </ul>

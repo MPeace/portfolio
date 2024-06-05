@@ -10,7 +10,7 @@ selection: true
 <div class="readingcontainer">
 <h3>Building out and scaling an event management app from 25 to over 300 users and from 24 to over 200 events a year.</h3>
 
-<ul>
+<ul class="projectdetails">
 	<li>Project Completed <span>2024</span></li>
 	<li>Project Role <span>UX/UI Design, Branding, Management, Information Architecture</span></li>
 </ul>
@@ -18,21 +18,23 @@ selection: true
 <h4>Background</h4>
 <p>Working for a leading government news media company,  I was responsible for maintaining and improving our in-house software used for the management and marketing of company events.</p>
 	
-<p>Following the completion of several acquisitions within a short period of time, evolving our event management app and processes to incorporate the new organizations became an important element of integration efforts. </p>
+<p>Following the completion of several acquisitions within a short period of time, evolving our event management app and processes to incorporate the new organizations became an important element of integration efforts.</p>
 
 <h4>Project Objectives</h4>
 <p>In preparation for this initiative, we identified three main objectives: </p>
+
 <ul>
-	<li>Improve product efficiency while increasing active users</li>
-<li>Increase and validate product credibility for our newly integrated businesses </li>
-<li>Evolve our product with a focus on scalability to support a fast growing a fast growing events business.</li>
+<li>Improve product efficiency while increasing active users</li>
+<li>Increase and validate product credibility for our newly integrated businesses</li>
+<li>Evolve our product with a focus on scalability to support a fast growing events business.</li>
 </ul>
 	
 <img src="../assets/images/cs02-01.png" />
 <img src="../assets/images/cs02-02.png" />
+<div class="imgcaption">Audits were completed of the existing platform.</div>
 
 <h4>Strategy / Approach</h4>
-<p>Conducted audits  to determine  inconsistencies in the different components used on build each event, gathered who had access to create events and analyzed existing user flows and user journeys. </p>
+<p></p>
 
 <p> During this stage we put a  significant focus on identifying  potential new components that may be needed  while we introduced new users to the platform as a part of post acquisition integrations.  And simultaneously ensure a successful roll-out to establish credibility with the newly acquired businesses, leading to increased adoption.</p>
 
@@ -43,6 +45,7 @@ selection: true
 <div class="sidebyside">
 <img src="../assets/images/cs02-04.png" />
 <img src="../assets/images/cs02-05.png" />
+<div class="imgcaption">This is an image caption.</div>
 </div>
 
 <!--
@@ -75,6 +78,9 @@ selection: true
 <h4>Results and Metrics</h4>
 <p>A successfully scaled  event management app that evolved from just 25 to over 300 users and from 24 to over 200 events a year. More than 500 events were produced in roughly a two year period using our event software.</p>
 <p>Additionally we brought all major company events underneath a single platform.</p>
-<img src="../assets/images/cs02-07.png" />
+<img src="../assets/images/cs02-07.jpeg" />
+<img src="../assets/images/cs02-15.png" />
+<img src="../assets/images/cs02-16.jpeg" />
+<div class="imgcaption">A completed event using the event platform.</div>
 </div>
 

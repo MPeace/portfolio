@@ -24,9 +24,11 @@
 		@include font-size(9.6);
 		line-height: 96px; /* 100% */
 		letter-spacing: 0.96px;
+		margin-top: 36px;
 		@include tablet {
 			@include font-size(5.4);
 			line-height: 1.25;
+			margin-top: 24px;
 		}
 		@include mobile {
 			@include font-size(3.6);
@@ -45,7 +47,7 @@
 		line-height: 1.5;
 		}
 
-
+	
 /*--------------
 
 	Specific type sizes
@@ -195,18 +197,21 @@
 			color: $black;
 		}
 
-		p {
+		p,li {
 			font-family: $font-family--body;
 			font-style: normal;
 			font-weight: 400;
 			line-height: 30px; /* 155.556% */
 			letter-spacing: 0.18px;
 		}
+		li {
+			
+		}
 		
-		.readingcontainer ul {
+		.projectdetails ul {
 			margin-top: 18px;
 		}
-		.readingcontainer li {
+		.projectdetails li {
 			@include font-size(1.2);
 			font-family: $font-family--secondary;
 			letter-spacing: 1.2px;
@@ -324,3 +329,4 @@
 		}
 
 
+		

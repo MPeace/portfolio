@@ -17,10 +17,7 @@
 			margin: 12px 0 0 0;
 		}
 	}
-	#intro a {
-
-	}
-
+	#intro a {}
 
 	#intro svg {
 		max-width:250px;
@@ -52,8 +49,6 @@
 	#work {}
 
 	#trade {
-
-
 		@include mobile {
 			margin-bottom: 35px;
 		}
@@ -144,19 +139,19 @@
 	}
 	
 	.readingcontainer ul {
-		display: inline-block;
+		//display: inline-block;
+		margin: 9px 0 0 24px;
 		
 		li {
-			display: inline-block;
+			//display: inline-block;
 			margin: 0;
+			list-style: square;
 		}
 		
 		span {
 			display: inline;
 		}
 	}
-
-
 
 
 		.content img {
@@ -250,6 +245,7 @@
 		font-family: $font-family--primary !important;
 
 		display: block;
+		border-radius: 5px;
 		//padding: 15px 18px 12px 18px;
 		align-items: center;
 		gap: 10px;
@@ -279,6 +275,11 @@
 	div {
     	padding: 0 24px 0;
 		//border-top: 1px solid;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-height: 220px;
+		  
 		@include tablet {
 			padding: 0 24px 24px;
 		}
@@ -286,7 +287,7 @@
 }
 .portfoliocard:hover {
 	background: #fff;
-	border: 1px solid #dedede;
+	border: 1px solid rgba($black,.375);
 	box-shadow: 4px 4px 18px #e6e6e6;
 	transform: translateY(-4px);
 	animation-timing-function: ease-out;
@@ -313,7 +314,7 @@
 		font-style: normal;
 		font-weight: 400;
 		line-height: 18px; /* 100% */
-		opacity: .2;
+		opacity: .8;
 		
 		
 	}
@@ -538,4 +539,13 @@
 		font-size:12px;
 		line-height: 1.5;
 	}
+}
+
+.projectdetails {
+	margin: 12px 0 0 0!important;
+	padding-left: 0!important; 
+}
+.projectdetails li {
+	list-style: none!important;
+	line-height: 1;
 }

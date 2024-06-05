@@ -2,7 +2,7 @@
 layout: case
 title: Events & Media Site Designs
 mockup: ../assets/images/bg-cs03.png
-permalink: /cases/ux-research-and-persona-design
+permalink: /cases/event-media-site-designs
 order: 5
 selection: true
 ---
@@ -11,7 +11,7 @@ selection: true
 <div class="readingcontainer">
 <h3>Designing, researching, analyzing, interviewing and teaching the personas to the company</h3>
 
-<ul>
+<ul class="projectdetails">
 	<li>Project Completed <span>2023</span></li>
 	<li>Project Role <span>UX/UI, User Research, Management</span></li>
 </ul>
@@ -31,13 +31,12 @@ selection: true
 <p>Finally, designs and design review that moves onto development.</p>
 
 
-<img src="../assets/images/bg-cs01.png" />
+
 
 <h4>Strategy / Approach</h4>
 <p>Projects ranged in time and scope
 	Large scale redesigns with new brands
 	Smaller scale site updates</p>
-<img src="../assets/images/bg-cs01.png" />
 
 <h4>Execution</h4>
 <p></p>
@@ -46,13 +45,23 @@ selection: true
 <p></p>
 
 <h4>Challenges and Solutions</h4>
+<p>
 Time to build and expectation of client/stakeholder
 Projects scope creep - just add this one last little feature
 Project abandonment
-
+</p>
+<p>
 Simplify and then simplify again. 
 Iteration and refine are good processes to leverage early on.
 Use systems when you can and always build for accessibility
-
+</p>
+<img src="../assets/images/ss01.png" />
+<img src="../assets/images/ss02.png" />
+<img src="../assets/images/ss03.png" />
+<img src="../assets/images/ss04.png" />
+<img src="../assets/images/ss05.png" />
+<img src="../assets/images/ss06.png" />
+<img src="../assets/images/ss07.png" />
+<img src="../assets/images/ss08.png" />
 
 </div>
