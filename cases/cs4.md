@@ -1,7 +1,7 @@
 ---
 layout: case
 title: Events & Media Site Designs
-mockup: ../assets/images/bg-cs03.png
+mockup: ../assets/images/bg-cs05.png
 permalink: /cases/event-media-site-designs
 order: 5
 selection: true

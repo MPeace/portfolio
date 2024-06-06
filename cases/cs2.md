@@ -30,23 +30,33 @@ selection: true
 </ul>
 	
 <img src="../assets/images/cs02-01.png" />
-<img src="../assets/images/cs02-02.png" />
+
 <div class="imgcaption">Audits were completed of the existing platform.</div>
 
 <h4>Strategy / Approach</h4>
-<p></p>
-
 <p> During this stage we put a  significant focus on identifying  potential new components that may be needed  while we introduced new users to the platform as a part of post acquisition integrations.  And simultaneously ensure a successful roll-out to establish credibility with the newly acquired businesses, leading to increased adoption.</p>
 
+<div class="callout">
+<h5>Personas Research</h5>
+<p>We created event attendee personas as a way to better communicate product improvements across all the teams. Baseline research was provided from subsidiary company that I used to create eight profiles that we then validated and improved through stakeholder interviews.</p>
+<img src="../assets/images/cs02-23.png" />
+<img src="../assets/images/cs02-20.png" />
+<p>Completed interviews and analyzed and summarized the collected data. Designed seven personas. That  I presented to company. The personas were vital in the research we needed to complete another project, multi-step form registration.</p>
+
+<img src="../assets/images/cs02-22.png" />
+</div>
 
 <h4>Execution</h4>
-<p>Text goes here...</p>
-<img src="../assets/images/cs02-03.png" />
-<div class="sidebyside">
+<p>Through an iterative stakeholder focus design process, I designed 20 components that can now be used within the events platform and numerous additional features.</p>
+
 <img src="../assets/images/cs02-04.png" />
-<img src="../assets/images/cs02-05.png" />
+
+<img src="../assets/images/cs02-18.jpeg" />
+<img src="../assets/images/cs02-19.png" />
 <div class="imgcaption">This is an image caption.</div>
-</div>
+
+
+<img src="../assets/images/cs02-03.jpeg" />
 
 <!--
 <div class="callout">
@@ -78,7 +88,10 @@ selection: true
 <h4>Results and Metrics</h4>
 <p>A successfully scaled  event management app that evolved from just 25 to over 300 users and from 24 to over 200 events a year. More than 500 events were produced in roughly a two year period using our event software.</p>
 <p>Additionally we brought all major company events underneath a single platform.</p>
+
+
 <img src="../assets/images/cs02-07.jpeg" />
+<img src="../assets/images/cs02-17.jpeg" />
 <img src="../assets/images/cs02-15.png" />
 <img src="../assets/images/cs02-16.jpeg" />
 <div class="imgcaption">A completed event using the event platform.</div>
