@@ -327,6 +327,18 @@
 			@include tablet {}
 			@include mobile {@include font-size(2.4);}
 		}
+		
+		
+		
+		.imgcaption {
+			font-family: $font-family--body;
+			font-weight: normal;
+			@include font-size(1);
+			
+			padding: 0 0 0 12px;
+			opacity: .8;
+			
+		}
 
 
 		

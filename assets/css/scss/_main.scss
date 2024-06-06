@@ -357,11 +357,12 @@
 
 .sidebyside {
 	display: flex;
-	height:290px;
+	min-height:247px;
 	gap: 10px;
+	justify-content: space-between;
 	  
 	  img {
-		  width:auto;
+		  width:50%;
 	  }
 	  
 	 @include tablet{

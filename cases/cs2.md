@@ -29,7 +29,7 @@ selection: true
 <li>Evolve our product with a focus on scalability to support a fast growing events business.</li>
 </ul>
 	
-<img src="../assets/images/cs02-01.png" />
+<img src="../assets/images/cs02-01b.png" />
 
 <div class="imgcaption">Audits were completed of the existing platform.</div>
 
@@ -53,7 +53,7 @@ selection: true
 
 <img src="../assets/images/cs02-18.jpeg" />
 <img src="../assets/images/cs02-19.png" />
-<div class="imgcaption">This is an image caption.</div>
+<div class="imgcaption">Skeletons where utilized to confirm large design changes.</div>
 
 
 <img src="../assets/images/cs02-03.jpeg" />

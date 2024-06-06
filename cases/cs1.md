@@ -20,46 +20,56 @@ selection: true
 <p>As senior product designer, working for a B2B media corporation, I lead the initiative to update and enhance the marketing website and digital products for a newly acquired market forecasting company.</p>
 
 <p>User surveys were conducted post acquisition that resulted in the identification of two key areas for improvement within the products.</p>
-<img src="../assets/images/01test.png" />
-<div class="imgcaption">This is an image caption.</div>
 
 <h4>Project Objectives</h4>
 <p> Analysis from the user surveys showed flat user growth and declining user engagement within the organization’s most used products. Our primary objective for this initiative was to investigate the cause behind this and solutions to address it.</p>
 
+
+
+<img src="../assets/images/01test.png" />
 <img src="../assets/images/06test.png" />
-<div class="imgcaption">This is an image caption.</div>
+<div class="imgcaption">Screenshots of the platform prior to redesign.</div>
+
+
+
 <p>Additionally, we set out to evolve and improve the design and brand experience to better meet user expectations.</p>
 
 <img src="../assets/images/08test.png" />
-<div class="imgcaption">This is an image caption.</div>
+<div class="imgcaption">Forms before and after</div>
 
 <h4>Strategy / Approach</h4>
 <p>The backend code base had many legacy constraints and would place a number of limits on the design. Because of this, the project was split into three phases; paid customer products (?), marketing homepage (redesign?), and finally, a full website. </p>
-<img src="../assets/images/02test.png" />
-<div class="imgcaption">This is an image caption.</div>
+
 
 <h4>Execution</h4>
-<p>Analyzed and refined user flows to improve processes and add efficiencies. One instance resulted in a lead capture process going rom five down to two steps.</p>
+<p>Analyzed and refined user flows to improve processes and add efficiencies. One instance resulted in a lead capture process going from five steps, down to two.</p>
+<p>In all phases of the project we made it a priority to identified customer funnel improvements and review and update user flows. </p>
 <p>Components were redesigned to reflect the the new brand experience and increased emphasis on accessibility. </p>
+<p></p>
 
-<div class="sidebyside">
-<img src="../assets/images/03test.png" />
-<img src="../assets/images/04test.png" />
-<div class="imgcaption">This is an image caption.</div>
+<img src="../assets/images/02test.png" />
+<div class="imgcaption">Skeleton design of the platform</div>
 
-</div>
+<img src="../assets/images/cs01-10.png" />
+<div class="imgcaption">A chart page before redesign.</div>
 
-<h4>Results &amp; Metrics</h4>
+<img src="../assets/images/cs01-11.png" />
+<div class="imgcaption">A chart page after redesign.</div>
 
+<h4>Results and Challenges</h4>
 <p>User engagement has showed 6 months of continued improvement</p>
-<p>Homepage is still unreleased. Site redesign is on hold.</p>
-<img src="../assets/images/05test.png" />
+<p>Homepage is still unreleased and the website redesign is on hold.</p>
+<p>Ultimate approval of the project was validated from the largest client granting access to the platform for their employees.</p>
+<p>Limited resources and schedule priorities caused this project to stall at times. I kept weekly communication with the different stakeholders to keep updated.</p>
+
 <img src="../assets/images/07test.png" />
-<div class="imgcaption">This is an image caption.</div>
+<img src="../assets/images/09test.jpeg" />
+<img src="../assets/images/05test.jpeg" />
+
+<div class="imgcaption">Final designs for the platform</div>
 
 
-<h4>Challenges</h4>
-<p>Putt the challenges here.</p>
+
 
 
 

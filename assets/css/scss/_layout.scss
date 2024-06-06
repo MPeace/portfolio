@@ -343,8 +343,9 @@ footer {
     align-items: center;             /*center children*/
     justify-content: space-between; 
     max-width: 1140px;
-    margin: 36px auto 0;
-	color: $black;
+    margin: 36px auto 12px;
+	opacity: .6;
+	//color: $black;
 }
 
 
