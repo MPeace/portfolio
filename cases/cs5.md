@@ -1,7 +1,7 @@
 ---
 layout: case
 title: Site Navigation Redesign
-mockup: 
+mockup: ../assets/images/bg-cs04.png
 permalink: /cases/site-navigation-redesign
 order: 7
 selection: true

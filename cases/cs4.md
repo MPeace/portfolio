@@ -55,13 +55,34 @@ Simplify and then simplify again.
 Iteration and refine are good processes to leverage early on.
 Use systems when you can and always build for accessibility
 </p>
-<img src="../assets/images/ss01.png" />
-<img src="../assets/images/ss02.png" />
-<img src="../assets/images/ss03.png" />
-<img src="../assets/images/ss04.png" />
-<img src="../assets/images/ss05.png" />
-<img src="../assets/images/ss06.png" />
-<img src="../assets/images/ss07.png" />
-<img src="../assets/images/ss08.png" />
+<h5>Space One Project</h5>
+<img src="../assets/images/cs03-01-so.jpeg" />
+<img src="../assets/images/cs03-02-so.jpeg" />
+<img src="../assets/images/cs03-03-so.png" />
+
+
+<h5>Route Fifty</h5>
+<img src="../assets/images/cs03-04-r50.jpeg" />
+<img src="../assets/images/cs03-05-r50.jpeg" />
+<img src="../assets/images/cs03-06-r50.jpeg" />
+<img src="../assets/images/cs03-08-r50.jpeg" />
+
+
+<h5>Nextgov/FCW</h5>
+<img src="../assets/images/cs03-12-ng.jpeg" />
+<img src="../assets/images/cs03-09-ng.jpeg" />
+<img src="../assets/images/cs03-10-ng.jpeg" />
+<img src="../assets/images/cs03-11-ng.jpeg" />
+
+
+<h5>Fed 100</h5>
+<img src="../assets/images/cs03-13.jpeg" />
+<img src="../assets/images/cs03-16.jpeg" />
+<img src="../assets/images/cs03-14.jpeg" />
+<img src="../assets/images/cs03-15.jpeg" />
+
+<h5>Defense Systems</h5>
+<img src="../assets/images/cs03-17.jpeg" />
+<img src="../assets/images/cs03-18.png" />
 
 </div>

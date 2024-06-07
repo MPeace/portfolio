@@ -2818,10 +2818,10 @@ p, li {
 
 .bestlists li {
   font-family: "PPEiko-Regular", serif;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 18px;
   /* 150% */
   letter-spacing: 0.32px;
 }
@@ -2831,25 +2831,25 @@ p, li {
   text-transform: uppercase;
   letter-spacing: 3.36px;
   text-transform: uppercase;
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 8.75px;
+  font-size: 0.875rem;
 }
 @media (max-width: 480px) {
   .credits {
-    font-size: 10px;
-    font-size: 1rem;
+    font-size: 8.75px;
+    font-size: 0.875rem;
   }
 }
 
 .copyright {
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 8.75px;
+  font-size: 0.875rem;
 }
 @media (max-width: 480px) {
   .copyright {
-    font-size: 10px;
-    font-size: 1rem;
+    font-size: 8.75px;
+    font-size: 0.875rem;
   }
 }
 
@@ -3129,12 +3129,12 @@ footer article.thankyou {
 .bestlists {
   display: flex;
   max-width: 1120px;
-  padding: 54px var(--Number, 0px);
-  margin: 54px 0;
+  margin: 36px 0 12px;
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
-  border-top: 3px solid #29292B;
+  background: #29292B;
+  padding: 36px 24px;
 }
 @media (max-width: 768px) {
   .bestlists {
@@ -3146,10 +3146,10 @@ footer article.thankyou {
   flex: 2 1 auto;
   width: auto;
   min-width: 100px;
-  max-width: 50%;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 12px;
+  margin-top: 0;
 }
 @media (max-width: 480px) {
   .bestlists ul {
@@ -3159,7 +3159,7 @@ footer article.thankyou {
 }
 .bestlists li {
   margin: 0;
-  padding: 0 1em;
+  padding: 0 0;
   line-height: 1;
 }
 
@@ -3189,7 +3189,7 @@ footer article.thankyou {
   /*center children*/
   justify-content: space-between;
   max-width: 1140px;
-  margin: 36px auto 12px;
+  margin: 12px auto 8px;
   opacity: 0.6;
 }
 
@@ -4118,10 +4118,10 @@ p, li {
 
 .bestlists li {
   font-family: "PPEiko-Regular", serif;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 18px;
   /* 150% */
   letter-spacing: 0.32px;
 }
@@ -4131,25 +4131,25 @@ p, li {
   text-transform: uppercase;
   letter-spacing: 3.36px;
   text-transform: uppercase;
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 8.75px;
+  font-size: 0.875rem;
 }
 @media (max-width: 480px) {
   .credits {
-    font-size: 10px;
-    font-size: 1rem;
+    font-size: 8.75px;
+    font-size: 0.875rem;
   }
 }
 
 .copyright {
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 8.75px;
+  font-size: 0.875rem;
 }
 @media (max-width: 480px) {
   .copyright {
-    font-size: 10px;
-    font-size: 1rem;
+    font-size: 8.75px;
+    font-size: 0.875rem;
   }
 }
 
