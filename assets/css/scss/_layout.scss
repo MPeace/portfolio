@@ -79,7 +79,7 @@ header {//outline:1px solid red;
 #intro {
 	max-width: 1140px;
 	//margin-top:36px;
-	margin-bottom: 54px;
+	margin-bottom: 0;
 
 	text-align: left;
 	display: block;
@@ -256,7 +256,7 @@ footer {
 	width: 100%;
     background: $black;
     color: $white;
-    padding: 96px 0 0;
+    padding: 42px 0 0;
     article {
     	max-width: 1140px;
     	margin: 0 auto;
@@ -274,7 +274,7 @@ footer {
 .bestlists {
 	display: flex;
  	max-width: 1120px;
-  	margin: 36px 0 12px;
+  	margin: 72px 0 12px;
   	justify-content: space-between;
   	align-items: flex-start;
   	align-self: stretch;
@@ -345,7 +345,7 @@ footer {
 #footer {border: 0;
 	width: 100%;
 	margin: 0 0;
-	padding: 90px 0;
+	padding: 2px 0 0 0;
 	display: block;
 
 	//background: $black;

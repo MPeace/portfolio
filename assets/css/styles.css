@@ -2956,7 +2956,7 @@ header {
 
 #intro {
   max-width: 1140px;
-  margin-bottom: 54px;
+  margin-bottom: 0;
   text-align: left;
   display: block;
 }
@@ -3112,7 +3112,7 @@ footer {
   width: 100%;
   background: #111113;
   color: #fdfdfd;
-  padding: 96px 0 0;
+  padding: 42px 0 0;
 }
 footer article {
   max-width: 1140px;
@@ -3197,7 +3197,7 @@ footer article.thankyou {
   border: 0;
   width: 100%;
   margin: 0 0;
-  padding: 90px 0;
+  padding: 2px 0 0 0;
   display: block;
   position: relative;
   z-index: 1;
