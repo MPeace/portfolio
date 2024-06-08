@@ -11,9 +11,11 @@
 
 		//max-width: 590px;
 
-		@include tablet {padding: 0 18px; }
+		@include tablet {
+			padding: 0; 
+		}
 		@include mobile {
-			padding: 12px 18px 0;
+			padding: 12px 0 0;
 			margin: 12px 0 0 0;
 		}
 	}
@@ -428,6 +430,13 @@
 	Footer
 
 */
+	footer a {
+		color:color(display-p3 0.974 0.82 0.631);
+		font-family: $font-family--secondary!important;
+	}
+	footer a:hover {
+		@include linkUnderlines(#100f1b, #ffffff);
+	}
 
 	.profile {
 		display: flex;
@@ -438,7 +447,7 @@
 		align-self: stretch;
 		
 		border-radius: 2px;
-		border: 1px dashed #454545;
+		background: #29292B;
 		
 		img {
 			width: 95px;
@@ -449,11 +458,11 @@
 		}
 		p {
 			flex: 1 0 0;
-			font-size: 24px;
+			font-size: 18px;
 			font-style: normal;
 			font-weight: 300;
-			line-height: 36px; /* 150% */
-			letter-spacing: 0.96px;
+			line-height: 24px; /* 150% */
+			letter-spacing: 0px;
 			@include mobile {
 				font-size: 12px;
 				font-style: normal;
@@ -496,7 +505,7 @@
 	}
 	
 	.bestlists {
-		
+		border: 1px dashed #292929;
 		
 	}
 

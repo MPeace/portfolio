@@ -276,10 +276,13 @@
 				a {
 					font-family: $font-family--secondary;
 				}
+				p {
+					font-family: $font-family--secondary;
+				}
 			}
 		
 		.bestlists li.title {
-			font-family: $font-family--primary;
+			font-family: monospace;
 			@include font-size(1.2);
 			font-style: normal;
 			font-weight: 800;
@@ -289,7 +292,7 @@
 			opacity: 0.4;
 		}
 		.bestlists li {
-			font-family: $font-family--body;
+			font-family: monospace;
 			font-size: 12px;
 			font-style: normal;
 			font-weight: 300;
