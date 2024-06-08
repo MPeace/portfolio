@@ -287,8 +287,8 @@
 			font-style: normal;
 			font-weight: 800;
 			line-height: 18px; /* 150% */
-			letter-spacing: 2.88px;
-			text-transform: uppercase;
+			letter-spacing: .38px;
+			//text-transform: uppercase;
 			opacity: 0.4;
 			@include mobile {
 				@include font-size(1);

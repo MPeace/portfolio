@@ -4,31 +4,46 @@ html,body {
 	height: 100%;
 }
 
+/* Light mode */
 
-html {
-	height: 100%;
-	min-height: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat:no-repeat;
-	background: $white;
-	background: linear-gradient(195deg, rgba(255, 195, 128, 0.05) 12.7%, rgba(89, 56, 19, 0.05) 57.49%), var(--White, #FFF);
+	html {
+		height: 100%;
+		min-height: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat:no-repeat;
+		background: $white;
+		background: linear-gradient(195deg, rgba(255, 195, 128, 0.05) 12.7%, rgba(89, 56, 19, 0.05) 57.49%), var(--White, #FFF);
+		
+		background-attachment: fixed;
+	}
 
 	
-	background-attachment: fixed;
+	
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	html {
+		height: 100%;
+		min-height: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat:no-repeat;
+		background: black;
+	background: linear-gradient(331deg, rgba(255, 255, 255, 0.00) 46.77%, rgba(255, 255, 255, 0.05) 104.56%), #0E101A;
+					
+		background-attachment: fixed;
+	}
+	#work h2,
+	#work #intro p {
+		color: $white;
+	}
 }
 
-body {
-	/*
-	background: $black;
 
-	@include tablet {background:red;}
-	@include tablet_micro01 {background:green;}
-	@include mobile {background:blue;}
-	*/
-}
 #wrapper_header {
 	//background:  url('../img/bg_header.jpg') no-repeat;
 	//background-size: cover;
@@ -63,8 +78,8 @@ header {//outline:1px solid red;
 
 
 	z-index: 1000;
-	padding: 36px 0;
-	margin: 18px 0;
+	padding: 36px 0 0;
+	margin: 18px 0 0;
 
 	@include desktop {padding: 36px 18px 0;}
 	@include tablet {padding: 18px 18px 0;}
@@ -102,11 +117,11 @@ header {//outline:1px solid red;
 	height:100%;
 	//background-color:#fff;
 	display:grid;
-	grid-template-columns:23.5% 23.5% 23.5% 23.5%; 
+	grid-template-columns:24.25% 24.25% 24.25% 24.25%; 
 	
 	grid-row: auto auto;
-	grid-column-gap: 20px;
-	grid-row-gap: 20px;  
+	grid-column-gap: 10px;
+	  
 	@include tablet {
 		grid-template-columns:49% 49%;
 	}
@@ -296,7 +311,7 @@ footer {
 		min-width: 100px;
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 12px;
+		gap: 3px;
 		margin-top: 0;
 		  
 		@include mobile {
@@ -395,3 +410,5 @@ footer {
 
 		@include mobile {@include font-size(2.4);}
 	}
+
+
