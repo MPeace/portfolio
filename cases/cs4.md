@@ -19,42 +19,41 @@ selection: true
 <h4>Background</h4>
 <p>The companies and clients I have worked for regularly need updated and reimagined product and websites to keep their brands fresh and maintain standards across their platforms.</p>
 	
-<p>The range of sites that I have designed and developed include, user portfolios, event, media and product sites.</p>
+<p>The range of sites that I have designed and developed include, user portfolios, event and meetings, media and product sites.</p>
 
 <h4>Process</h4>
 <p>Designs and redesigns begin with requirements gathering and initial stakeholder meetings. I set expectations and timelines in these chats.</p>
 	
-<p>Following kickoff meetings, depending on if this is a new site or a design, I will complete an information analysis as well as complete audits as needed. I lean especially heavy on accessibility because of the additive nature of those improvements. </p>
+<p>Following kickoff meetings, depending on if this is a new site or a design, I will complete an information analysis as well as complete audits as needed. I lean especially heavy on accessibility because of the additive nature of those improvements.</p>
 	
 <p>I like to get feedback early and make sure development is on board early with any major changes.  Skeleton designs will also be used at this stage to explore any potential user flow adjustments we might suggest.</p>
-	
-<p>Finally, designs and design review that moves onto development.</p>
 
-
-
+<img src="../assets/images/cs03-19.png" />
+<p>Finally, designs and design review, receiving final approval can be the hardest step but by providing clear, concise and complete designs, delays can be avoided.</p>
 
 <h4>Strategy / Approach</h4>
-<p>Projects ranged in time and scope
-	Large scale redesigns with new brands
-	Smaller scale site updates</p>
+
 
 <h4>Execution</h4>
-<p></p>
+<p>Projects ranged in time and scope. Some spaning across multiple quarters to having just a single sprint to finish a site.	Some of the most satisfying projects were also some the largest in scope. And finally, the most common update were smaller incremental updates slowing scaling and improving the products and sites little by little.</p>
+
+<p>I have built and been on the receiving side of designs and on the handoff side, delivering detailed </p>
 
 <h4>Results and Metrics</h4>
-<p></p>
+<p>The defining metric I would consider most important in reviewing these designs are the total users and the average monthly average user viewing the sites. Millions of users have viewed the sites my designs have been featured and continue to be viewed today. Roughly two million users visit the sites I have designs monthly.</p>
 
 <h4>Challenges and Solutions</h4>
-<p>
-Time to build and expectation of client/stakeholder
+<p>Time to build and expectations of client/stakeholder
 Projects scope creep - just add this one last little feature
 Project abandonment
 </p>
-<p>
-Simplify and then simplify again. 
-Iteration and refine are good processes to leverage early on.
-Use systems when you can and always build for accessibility
-</p>
+
+<ul>
+<li>Simplify and then simplify again. </li>
+<li>Iteration and refine are good processes to leverage early on.</li>
+<li>Use systems when you can and always build for accessibility</li>
+</ul>
+
 <h5>Space One Project</h5>
 <img src="../assets/images/cs03-01-so.jpeg" />
 <img src="../assets/images/cs03-02-so.jpeg" />

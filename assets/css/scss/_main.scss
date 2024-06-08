@@ -218,6 +218,7 @@
 		content: 'Case Study';
 		opacity: .6;
 	
+		font-family: $font-family--secondary;
 		font-size: 6.222px;
 		font-style: normal;
 		font-weight: 800;
@@ -302,14 +303,18 @@
 
 
 .cases {
-	max-width: 1140px;
+	max-width: 960px;
 	margin: 0 auto;
-	padding: 18px 18px 36px;
+	padding: 18px 0 36px;
 	width: 100%;
 	min-width: 0;
 	border-top: 3px solid #eaeaea;
 	
 	@include tablet {}
+	@include mobile {
+		padding-right:18px;
+		padding-left:18px;
+	}
 	h4 {
 		font-family: $font-family--secondary; 
 		font-size: 18px;
@@ -440,7 +445,7 @@
 
 	.profile {
 		display: flex;
-		padding: 23px 35px;
+		padding: 36px 36px;
 		margin: 12px 0 0;
 		align-items: center;
 		gap: 36px;
@@ -448,6 +453,7 @@
 		
 		border-radius: 2px;
 		background: #29292B;
+		background: linear-gradient(274deg, rgba(41, 41, 43, 0.80) 8.55%, rgba(255, 244, 232, 0.00) 226.89%);
 		
 		img {
 			width: 95px;
@@ -467,7 +473,7 @@
 				font-size: 12px;
 				font-style: normal;
 				font-weight: 300;
-				line-height: 16px; /* 150% */
+				line-height: 1.5; /* 150% */
 			}
 		}
 	}

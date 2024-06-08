@@ -290,14 +290,23 @@
 			letter-spacing: 2.88px;
 			text-transform: uppercase;
 			opacity: 0.4;
+			@include mobile {
+				@include font-size(1);
+				line-height: 1.25;
+			}
 		}
 		.bestlists li {
 			font-family: monospace;
-			font-size: 12px;
+			@include font-size(1.2);
 			font-style: normal;
 			font-weight: 300;
 			line-height: 18px; /* 150% */
 			letter-spacing: 0.32px;
+			opacity: 0.8;
+			@include mobile {
+				@include font-size(1);
+				line-height: 1.25;
+			}
 		}
 		
 		.credits {
