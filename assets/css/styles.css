@@ -2914,29 +2914,6 @@ html {
   background-attachment: fixed;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  html {
-    height: 100%;
-    min-height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background: black;
-    background: linear-gradient(331deg, rgba(255, 255, 255, 0) 46.77%, rgba(255, 255, 255, 0.05) 104.56%), #0E101A;
-    background-attachment: fixed;
-  }
-
-  #work h2,
-#work #intro p,
-h3,
-.projectdetails,
-p, li {
-    color: #fdfdfd;
-  }
-}
 @media (max-width: 1196px) {
   #wrapper_header {
     padding: 0 18px 0;
@@ -3288,6 +3265,33 @@ footer article.thankyou {
   }
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  html {
+    height: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: black;
+    background: linear-gradient(331deg, rgba(255, 255, 255, 0) 46.77%, rgba(255, 255, 255, 0.05) 104.56%), #0E101A;
+    background-attachment: fixed;
+  }
+
+  #work h2,
+#work #intro p,
+h3,
+.projectdetails,
+p, li, h4 {
+    color: #fdfdfd;
+  }
+
+  .grid h3 {
+    border-top: 3px solid #373737;
+  }
+}
 /*------------
 
 	HEADER
