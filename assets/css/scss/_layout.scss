@@ -33,12 +33,15 @@ html,body {
 		background-size: cover;
 		background-repeat:no-repeat;
 		background: black;
-	background: linear-gradient(331deg, rgba(255, 255, 255, 0.00) 46.77%, rgba(255, 255, 255, 0.05) 104.56%), #0E101A;
+		background: linear-gradient(331deg, rgba(255, 255, 255, 0.00) 46.77%, rgba(255, 255, 255, 0.05) 104.56%), #0E101A;
 					
 		background-attachment: fixed;
 	}
 	#work h2,
-	#work #intro p {
+	#work #intro p,
+	h3,
+	.projectdetails,
+	p,li {
 		color: $white;
 	}
 }

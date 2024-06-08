@@ -2930,7 +2930,10 @@ html {
   }
 
   #work h2,
-#work #intro p {
+#work #intro p,
+h3,
+.projectdetails,
+p, li {
     color: #fdfdfd;
   }
 }
