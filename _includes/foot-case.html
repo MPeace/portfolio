@@ -4,11 +4,13 @@
 <h4>Select another case study to read</h4>
 	<ul>
 		{% for item in site.data.menulist.docs %}
-		  <li class="{% if item.link == page.url %}active{% endif %} ">
+		  <li class="{% if item.url == page.url %}active{% endif %} ">
 			  <a href="{{ item.url }}">{{ item.title }}</a>
 		  </li>
 	   {% endfor %}
 	</ul>
+	
+
 </div>
 
 
@@ -57,18 +59,6 @@
 				<li class="title">About the site</li>
 				<li>This site was built with a static site generator, <a href="https://jekyllrb.com/">Jekyll</a> and deployed through Github. I  use this site as both a place to showcase my work and experiment with web design and development.</li>
 			</ul>
-			<!--
-	<ul>
-		<li class="title">Best Mario Game</li>
-		<li>Super Mario 3 on the Nintendo Entertainment System</li>
-		
-		<li class="title">Best Team</li>
-		<li>Houston Astros</li>
-		
-		<li class="title">Best Dessert</li>
-		<li>Ice cream in a bowl is better than ice cream in a cone.</li>
-	</ul>
--->
 		</div>
 		<div class="legal">
 			<div class="credits">An Em Kay P Website</div>

@@ -3655,6 +3655,9 @@ h3 img {
 .cases a:hover {
   text-decoration: underline;
 }
+.cases .active {
+  display: none;
+}
 
 .sidebyside {
   display: flex;
