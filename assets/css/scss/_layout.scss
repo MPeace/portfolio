@@ -404,7 +404,7 @@ footer {
 			background-size: cover;
 			background-repeat:no-repeat;
 			background: black;
-			background: linear-gradient(331deg, rgba(255, 255, 255, 0.00) 46.77%, rgba(255, 255, 255, 0.05) 104.56%), #0E101A;
+			background: linear-gradient(331deg, rgba(255, 255, 255, 0.00) 46.77%, rgba(255, 255, 255, 0.05) 104.56%), #111113;
 						
 			background-attachment: fixed;
 		}
@@ -412,10 +412,29 @@ footer {
 		#work #intro p,
 		h3,
 		.projectdetails,
-		p,li, h4 {
+		p,li, .portfoliocard h4,
+		.readingcontainer h4 {
 			color: $white!important;
 		}
 		.grid h3 {
 			border-top: 3px solid #373737;
+		}
+		
+		.portfoliocard {
+			background: linear-gradient(135deg, #29292C -52.79%, #050506 268.26%), #000 !important;
+			border: 1px solid #373737!important;
+		}
+		.portfoliocard:hover {
+			background: #000!important;
+			border: 1px solid rgba(#0e101a,1)!important;
+			box-shadow: 4px 4px 18px #000!important;
+		}
+		.portfoliocard a + a {
+			background: rgba(#fff,.1) !important;
+			color: rgba(#f90,1) !important;
+		}
+		.portfoliocard a + a:hover {
+			background: #f90 !important;;
+			color: #fff !important;;
 		}
 	}
