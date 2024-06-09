@@ -3285,7 +3285,7 @@ footer article.thankyou {
 h3,
 .projectdetails,
 p, li, h4 {
-    color: #fdfdfd;
+    color: #fdfdfd !important;
   }
 
   .grid h3 {
