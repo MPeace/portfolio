@@ -1,0 +1,21 @@
+docs_list_title: Nav
+docs:
+  
+- title: Home
+  url: /
+
+- title: SAAS App Redesign Process
+  url: /cases/saas-app-redesign-process
+  
+
+- title: Designing an Event Management Solution
+  url: /cases/design-and-development-process
+  
+
+- title: Events & Media Site Designs
+  url: /cases/event-media-site-designs
+  
+  
+- title: Site Navigation Redesign
+  url: /cases/site-navigation-redesign
+  
