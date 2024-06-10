@@ -43,9 +43,8 @@ selection: true
 <p>Millions of users have viewed the sites my designs have been featured on and continue to be viewed today.</p>
 
 <h4>Challenges and Solutions</h4>
-<p>The challenges I most frequently encountered were external schedule priorities and last minute stakeholder requests.</p>
-<p>Communication was critical to managing stakeholder availability and setting clear goals helped alleviate most late project requests.</p>
-
+<p>Communication was critical to managing stakeholder availability and setting clear goals early in the process helped alleviate most late project requests.</p>
+<p>When unexpected requests or problems occurred, I found that taking a systems approach and leveraging accessibility were the most reliable tools to address the problems.</p>
 
 <h5>Space One</h5>
 <img src="../assets/images/cs03-01-so.jpeg" />
