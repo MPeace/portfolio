@@ -9,11 +9,11 @@ selection: true
 
 
 <div class="readingcontainer">
-<h3>Redesigning the platform software for premier provider of market intelligence. </h3>
+<h3>Redesigning the platform software for premier provider of market intelligence.</h3>
 
 <ul class="projectdetails">
 	<li>Project Completed <span>2023</span></li>
-	<li>Project Role <span>UX/UI, Branding, User Research, Management, Information Architecture</span></li>
+	<li>Project Role <span>UX/UI Design, Branding, User Research, Management, Information Architecture</span></li>
 </ul>
 
 <h4>Background</h4>

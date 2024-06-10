@@ -13,7 +13,7 @@ selection: true
 
 <ul class="projectdetails">
 	<li>Most Recently Completed Project <span>2024</span></li>
-	<li>Project Role <span>UX/UI, User Research, Management, Information Analysis</span></li>
+	<li>Project Role <span>UX/UI Design, User Research, Information Architecture</span></li>
 </ul>
 
 <h4>Background</h4>
