@@ -356,6 +356,10 @@ table td {
     top: 36px;
 }
 */
+#menu > li:nth-child(1) a::before {
+  display: none;
+}
+
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com
@@ -3598,7 +3602,7 @@ h3 img {
 
 .cases {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 24px auto 0;
   padding: 18px 0 36px;
   width: 100%;
   min-width: 0;
@@ -3618,9 +3622,10 @@ h3 img {
   line-height: 18px;
   /* 100% */
   opacity: 0.8;
+  margin-top: 0;
 }
 .cases ul {
-  margin-top: 18px;
+  margin-top: 4px;
 }
 .cases li {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;

@@ -37,23 +37,17 @@ selection: true
 
 
 <h4>Execution</h4>
-<p>Projects ranged in time and scope. Some spanning across multiple quarters to some having just a single sprint to finish a site. </p>
+<p>Projects ranged in time and scope. Some spanning across multiple quarters to some having just a single sprint to finish a site.</p>
 
 <h4>Results and Metrics</h4>
 <p>Millions of users have viewed the sites my designs have been featured on and continue to be viewed today.</p>
 
 <h4>Challenges and Solutions</h4>
-<p>Time to build and expectations of client/stakeholder
-Projects scope creep - just add this one last little feature
-Project abandonment</p>
+<p>The challenges I most frequently encountered were external schedule priorities and last minute stakeholder requests.</p>
+<p>Communication was critical to managing stakeholder availability and setting clear goals helped alleviate most late project requests.</p>
 
-<ul>
-<li>Simplify and then simplify again. </li>
-<li>Iteration and refine are good processes to leverage early on.</li>
-<li>Use systems when you can and always build for accessibility</li>
-</ul>
 
-<h5>Space One Project</h5>
+<h5>Space One</h5>
 <img src="../assets/images/cs03-01-so.jpeg" />
 <img src="../assets/images/cs03-02-so.jpeg" />
 <img src="../assets/images/cs03-03-so.png" />
