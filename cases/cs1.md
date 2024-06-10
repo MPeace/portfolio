@@ -9,7 +9,7 @@ selection: true
 
 
 <div class="readingcontainer">
-<h3>Redesigning the premier provider of market intelligence forecasting and proprietary research in Aerospace, Defense, Electronics and Power Systems industries.</h3>
+<h3>Redesigning the platform software for premier provider of market intelligence. </h3>
 
 <ul class="projectdetails">
 	<li>Project Completed <span>2023</span></li>
@@ -38,7 +38,7 @@ selection: true
 <div class="imgcaption">Forms before and after</div>
 
 <h4>Strategy / Approach</h4>
-<p>The backend code base had many legacy constraints and would place a number of limits on the design. Because of this, the project was split into three phases; paid customer products (?), marketing homepage (redesign?), and finally, a full website. </p>
+<p>The backend code base had many legacy constraints and would place a number of limits on the design. Because of this, the project was split into three phases; paid customer products, marketing homepage redesign, and finally, a full website. </p>
 
 
 <h4>Execution</h4>
@@ -57,20 +57,15 @@ selection: true
 <div class="imgcaption">A chart page after redesign.</div>
 
 <h4>Results and Challenges</h4>
-<p>User engagement has showed 6 months of continued improvement</p>
-<p>Homepage is still unreleased and the website redesign is on hold.</p>
-<p>Ultimate approval of the project was validated from the largest client granting access to the platform for their employees.</p>
-<p>Limited resources and schedule priorities caused this project to stall at times. I kept weekly communication with the different stakeholders to keep updated.</p>
+<p>User engagement has shown six months of continued improvement</p>
+<p>The homepage and website redesign are pending release.</p>
+<p>The project was validated when the largest client granted access to the platform for their employee use.</p>
+<p>Limited resources and stakeholder priorities caused this project to stall at times. I kept weekly communication with the different stakeholders to maintain project momentum.</p>
 
 <img src="../assets/images/07test.png" />
 <img src="../assets/images/09test.jpeg" />
 <img src="../assets/images/05test.jpeg" />
 
 <div class="imgcaption">Final designs for the platform</div>
-
-
-
-
-
 
 </div>

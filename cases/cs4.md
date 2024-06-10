@@ -9,44 +9,43 @@ selection: true
 
 
 <div class="readingcontainer">
-<h3>Designing, researching, analyzing, interviewing and teaching the personas to the company</h3>
+<h3>A summary of the many designs and redesigns I have completed.</h3>
 
 <ul class="projectdetails">
-	<li>Project Completed <span>2023</span></li>
-	<li>Project Role <span>UX/UI, User Research, Management</span></li>
+	<li>Most Recently Completed Project <span>2024</span></li>
+	<li>Project Role <span>UX/UI, User Research, Management, Information Analysis</span></li>
 </ul>
 
 <h4>Background</h4>
-<p>The companies and clients I have worked for regularly need updated and reimagined product and websites to keep their brands fresh and maintain standards across their platforms.</p>
+<p>As lead designer and sometimes developer, a consistent focus has been in supporting companies and clients to reimagine their products and websites, keeping brands fresh and maintaining standards across platforms.</p>
 	
-<p>The range of sites that I have designed and developed include, user portfolios, event and meetings, media and product sites.</p>
+<p>The range of sites that I have designed and developed include event and meetings, media and product sites.</p>
 
 <h4>Process</h4>
-<p>Designs and redesigns begin with requirements gathering and initial stakeholder meetings. I set expectations and timelines in these chats.</p>
+<p>Designs and redesigns begin with requirements gathering and initial stakeholder meetings where I set expectations and establish project timelines.</p>
+
 	
-<p>Following kickoff meetings, depending on if this is a new site or a design, I will complete an information analysis as well as complete audits as needed. I lean especially heavy on accessibility because of the additive nature of those improvements.</p>
+<p>Following kickoff meetings, I will complete an assessment of the information architecture as well as conduct audits as needed. I focus heavily on site accessibility due to the additive nature of those improvements.</p>
 	
-<p>I like to get feedback early and make sure development is on board early with any major changes.  Skeleton designs will also be used at this stage to explore any potential user flow adjustments we might suggest.</p>
+<p>I seek feedback early in the project to ensure development is onboard and supports any major changes.</p>
+	
+<p>Skeleton designs will also be presented at this stage to explore potential user flow adjustments.</p>
 
 <img src="../assets/images/cs03-19.png" />
-<p>Finally, designs and design review, receiving final approval can be the hardest step but by providing clear, concise and complete designs, delays can be avoided.</p>
-
-<h4>Strategy / Approach</h4>
+	
+<p>Finally, my goal is to provide clear, concise and complete designs for design review and developer handoff.</p>
 
 
 <h4>Execution</h4>
-<p>Projects ranged in time and scope. Some spaning across multiple quarters to having just a single sprint to finish a site.	Some of the most satisfying projects were also some the largest in scope. And finally, the most common update were smaller incremental updates slowing scaling and improving the products and sites little by little.</p>
-
-<p>I have built and been on the receiving side of designs and on the handoff side, delivering detailed </p>
+<p>Projects ranged in time and scope. Some spanning across multiple quarters to some having just a single sprint to finish a site. </p>
 
 <h4>Results and Metrics</h4>
-<p>The defining metric I would consider most important in reviewing these designs are the total users and the average monthly average user viewing the sites. Millions of users have viewed the sites my designs have been featured and continue to be viewed today. Roughly two million users visit the sites I have designs monthly.</p>
+<p>Millions of users have viewed the sites my designs have been featured on and continue to be viewed today.</p>
 
 <h4>Challenges and Solutions</h4>
 <p>Time to build and expectations of client/stakeholder
 Projects scope creep - just add this one last little feature
-Project abandonment
-</p>
+Project abandonment</p>
 
 <ul>
 <li>Simplify and then simplify again. </li>
