@@ -269,7 +269,8 @@
 		 width: 100%;
 		   text-align: center;
 		 @include tablet {
-			margin: 36px 0 0 0; 
+			margin: 36px 0 0 0;
+			padding: 18px 10px 14px; 
 		 }
 		 @include mobile {
 			 
