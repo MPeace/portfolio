@@ -2992,6 +2992,7 @@ header {
   grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
   grid-row: auto auto;
   grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 @media (max-width: 768px) {
   .row {
@@ -3298,13 +3299,18 @@ p, li, .portfoliocard h4,
   }
 
   .portfoliocard a + a {
-    background: rgba(255, 255, 255, 0.1) !important;
+    background: rgba(253, 253, 253, 0.1) !important;
     color: #ff9900 !important;
   }
 
   .portfoliocard a + a:hover {
     background: #f90 !important;
-    color: #fff !important;
+    color: #fdfdfd !important;
+  }
+
+  .cases h4,
+.cases li a {
+    color: #fdfdfd !important;
   }
 }
 /*------------
@@ -3338,7 +3344,7 @@ p, li, .portfoliocard h4,
 }
 @media (max-width: 480px) {
   #intro img {
-    max-width: 125px;
+    max-width: 200px;
   }
 }
 
@@ -3580,7 +3586,7 @@ h3 img {
 
 .portfoliocard:hover {
   background: #fff;
-  border: 1px solid rgba(17, 17, 19, 0.375);
+  border: 1px solid rgba(17, 17, 19, 0.175);
   box-shadow: 4px 4px 18px #e6e6e6;
   transform: translateY(-4px);
   animation-timing-function: ease-out;
@@ -3639,11 +3645,12 @@ h3 img {
   content: "Case Study";
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   display: block;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 300;
   line-height: 24px;
   /* 200% */
+  opacity: 0.6;
 }
 .cases a:hover {
   text-decoration: underline;

@@ -30,7 +30,7 @@
 		top: 0;
     	position: relative;
 		@include mobile {
-			max-width: 125px;
+			max-width: 200px;
 		}
 	}
 
@@ -294,7 +294,7 @@
 }
 .portfoliocard:hover {
 	background: #fff;
-	border: 1px solid rgba($black,.375);
+	border: 1px solid rgba($black,.175);
 	box-shadow: 4px 4px 18px #e6e6e6;
 	transform: translateY(-4px);
 	animation-timing-function: ease-out;
@@ -356,10 +356,11 @@
 		content: 'Case Study';
 		font-family: $font-family--secondary; 
 		display: block;
-		font-size: 12px;
+		font-size: 10px;
 		font-style: normal;
 		font-weight: 300;
 		line-height: 24px; /* 200% */
+		opacity: .6;
 	}
 	a:hover {
 		text-decoration: underline;

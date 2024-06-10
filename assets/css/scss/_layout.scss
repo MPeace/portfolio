@@ -102,6 +102,7 @@ header {//outline:1px solid red;
 	
 	grid-row: auto auto;
 	grid-column-gap: 10px;
+	grid-row-gap: 10px;
 	  
 	@include tablet {
 		grid-template-columns:49% 49%;
@@ -430,11 +431,16 @@ footer {
 			box-shadow: 4px 4px 18px #000!important;
 		}
 		.portfoliocard a + a {
-			background: rgba(#fff,.1) !important;
+			background: rgba($white,.1) !important;
 			color: rgba(#f90,1) !important;
 		}
 		.portfoliocard a + a:hover {
-			background: #f90 !important;;
-			color: #fff !important;;
+			background: #f90 !important;
+			color: $white !important;
+		}
+		
+		.cases h4,
+		.cases li a {
+			color:$white !important;
 		}
 	}
