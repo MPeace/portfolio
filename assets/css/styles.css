@@ -356,10 +356,6 @@ table td {
     top: 36px;
 }
 */
-#menu > li:nth-child(1) a::before {
-  display: none;
-}
-
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com
