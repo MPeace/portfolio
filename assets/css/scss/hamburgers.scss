@@ -71,7 +71,6 @@
 	transition: .25s ease-in-out;
 
 	@include mobile {height: 4px;}
-
 }
 
 #nav-icon3 span:hover {
@@ -83,7 +82,8 @@
 
 }
 
-#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+#nav-icon3 span:nth-child(2),
+#nav-icon3 span:nth-child(3) {
 	top: 14px;
 	@include mobile {top: 9px;}
 }
@@ -143,3 +143,10 @@
     top: 36px;
 }
 */
+
+
+#menu > li:nth-child(1) a::before {
+  display: none;
+  }
+  
+  

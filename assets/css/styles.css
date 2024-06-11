@@ -291,11 +291,13 @@ table td {
   top: 0px;
 }
 
-#nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+#nav-icon3 span:nth-child(2),
+#nav-icon3 span:nth-child(3) {
   top: 14px;
 }
 @media (max-width: 480px) {
-  #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+  #nav-icon3 span:nth-child(2),
+#nav-icon3 span:nth-child(3) {
     top: 9px;
   }
 }
@@ -356,6 +358,10 @@ table td {
     top: 36px;
 }
 */
+#menu > li:nth-child(1) a::before {
+  display: none;
+}
+
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com
@@ -4377,10 +4383,6 @@ nav {
   #menu a:before {
     font-size: 10px;
   }
-}
-
-#menu li:nth-of-type(4) a:before {
-  display: none;
 }
 
 .open {
