@@ -76,4 +76,20 @@ selection: true
 <img src="../assets/images/cs03-17.jpeg" />
 <img src="../assets/images/cs03-18.png" />
 
+<h5>Public Sector 360</h5>
+<img src="../assets/images/cs03-23.jpeg" />
+<img src="../assets/images/cs03-24.jpeg" />
+<img src="../assets/images/cs03-19.jpg" />
+<img src="../assets/images/cs03-26.jpeg" />
+<img src="../assets/images/cs03-20.jpg" />
+
+<h5>Events</h5>
+<img src="../assets/images/cs03-21.jpeg" />
+<img src="../assets/images/cs03-22.jpeg" />
+<img src="../assets/images/cs03-29.jpeg" />
+
+<img src="../assets/images/cs03-27.jpg" />
+<img src="../assets/images/cs03-28.jpg" />
+
+
 </div>
