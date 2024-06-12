@@ -29,6 +29,7 @@
 		url('webfonts/PPEiko-Light.woff') format('woff'),
 		url('webfonts/PPEiko-Light.ttf') format('truetype');
 	}
+	
 	@font-face {
 		font-family: 'PPEiko-Regular';
 		src: url('webfonts/PPEiko-Regular.woff');
@@ -38,7 +39,7 @@
 		url('webfonts/PPEiko-Regular.ttf') format('truetype');
 	}
 
-$font-url--google: 'https://fonts.googleapis.com/css?family=Fira+Mono';
+
 
 $font-family--primary: 'PPFormula-Extrabold', 'Helvetica', Helvetica, Arial , sans-serif;
 $font-family--secondary: 'PPFormula-Light', 'Helvetica Light', Helvetica, Arial , sans-serif;
