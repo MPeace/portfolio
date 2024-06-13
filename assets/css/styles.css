@@ -2521,11 +2521,11 @@ p, li {
 }
 
 .projectdetails li {
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 10px;
+  font-size: 1rem;
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   letter-spacing: 1.2px;
-  padding-top: 4px;
+  padding-top: 5px;
 }
 .projectdetails li span {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
@@ -3102,6 +3102,14 @@ p, li, .portfoliocard h4,
 .cases li a {
     color: #fdfdfd !important;
   }
+
+  .callout {
+    border: 3px solid #4a4a4a !important;
+  }
+
+  .callout h5 {
+    color: #fdfdfd !important;
+  }
 }
 /*------------
 
@@ -3658,7 +3666,7 @@ footer a:hover:visited {
 
 .callout {
   border: 3px solid #111113;
-  padding: 0 2em;
+  padding: 0 2em 1.5em;
   margin: 4em 0 0 0;
   border-radius: 0;
 }
@@ -3684,7 +3692,7 @@ footer a:hover:visited {
 
 .projectdetails li {
   list-style: none !important;
-  line-height: 1;
+  line-height: 1.25;
 }
 
 @font-face {
@@ -3952,11 +3960,11 @@ p, li {
 }
 
 .projectdetails li {
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 10px;
+  font-size: 1rem;
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
   letter-spacing: 1.2px;
-  padding-top: 4px;
+  padding-top: 5px;
 }
 .projectdetails li span {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
