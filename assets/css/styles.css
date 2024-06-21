@@ -252,7 +252,7 @@ table td {
 }
 */
 #nav-icon3:hover span {
-  background: #111113;
+  background: #18191E;
 }
 
 #nav-icon3.open span {
@@ -260,7 +260,7 @@ table td {
 }
 
 #nav-icon3.open:hover span {
-  background: #FF9900;
+  background: #ff9900;
 }
 
 #nav-icon3 span {
@@ -268,7 +268,7 @@ table td {
   position: absolute;
   height: 7px;
   width: 100%;
-  background: #111113;
+  background: #18191E;
   border-radius: 0px;
   opacity: 1;
   left: 0;
@@ -288,7 +288,7 @@ table td {
 }
 
 #nav-icon3 span:hover {
-  background: #111113;
+  background: #18191E;
 }
 
 #nav-icon3 span:nth-child(1) {
@@ -2329,7 +2329,7 @@ h2 {
 }
 
 .casestudy h2 {
-  color: #111113;
+  color: #18191E;
 }
 
 p, li {
@@ -2380,7 +2380,7 @@ p, li {
 }
 
 #menu a:hover {
-  color: #FF9900;
+  color: #ff9900;
 }
 
 /* the greeting */
@@ -2402,7 +2402,7 @@ p, li {
   font-family: "PPEiko-Regular", serif;
   font-weight: normal;
   font-weight: normal;
-  color: #111113;
+  color: #18191E;
 }
 @media (max-width: 768px) {
   #intro p {
@@ -2491,7 +2491,7 @@ h4 {
   font-size: 24px;
   font-size: 2.4rem;
   line-height: 1;
-  color: #111113;
+  color: #18191E;
   font-weight: 800;
   line-height: 30px;
   /* 125% */
@@ -2517,7 +2517,7 @@ h5 {
 }
 
 a {
-  color: #111113;
+  color: #18191E;
 }
 
 p, li {
@@ -2672,7 +2672,7 @@ p, li {
   font-size: 48px;
   font-size: 4.8rem;
   letter-spacing: 0.5em;
-  color: #111113;
+  color: #18191E;
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
@@ -2931,7 +2931,9 @@ article .project {
 
 footer {
   width: 100%;
-  background: #111113;
+  background: #18191E;
+  border-top: 1px solid #36363D;
+  background: radial-gradient(431.88% 99.77% at 35.14% 41.95%, rgba(178, 188, 255, 0.1) 0%, rgba(125, 132, 178, 0) 100%), #111113;
   color: #fdfdfd;
   padding: 42px 0 0;
 }
@@ -3305,7 +3307,7 @@ h3 img {
   line-height: 30px;
   /* 100% */
   letter-spacing: 0.4px;
-  color: #111113;
+  color: #18191E;
 }
 @media (max-width: 768px) {
   .portfoliocard h4 {
@@ -3389,7 +3391,7 @@ h3 img {
 }
 .portfoliocard a + a:hover {
   background: rgba(255, 153, 0, 0.6);
-  color: #111113;
+  color: #18191e;
 }
 .portfoliocard div {
   padding: 0 24px 0;
@@ -3465,7 +3467,7 @@ h3 img {
   will-change: transform;
 }
 .cases li a {
-  color: #111113;
+  color: #18191E;
 }
 .cases li:hover {
   transition: transform 125ms;
@@ -3511,7 +3513,7 @@ h3 img {
 
 */
 #wrapper_about {
-  background: #111113;
+  background: #18191E;
 }
 
 #about h3 {
@@ -3618,7 +3620,7 @@ footer a:hover:visited {
   align-self: stretch;
   border-radius: 2px;
   background: #29292B;
-  background: linear-gradient(274deg, rgba(41, 41, 43, 0.8) 8.55%, rgba(255, 244, 232, 0) 226.89%);
+  background: linear-gradient(274deg, #292b35 8.55%, rgba(255, 244, 232, 0) 226.89%);
 }
 .profile img {
   width: 95px;
@@ -3695,7 +3697,7 @@ footer a:hover:visited {
 }
 
 .callout {
-  border: 3px solid #111113;
+  border: 3px solid #18191E;
   padding: 0 2em 1.5em;
   margin: 4em 0 0 0;
   border-radius: 0;
@@ -3793,7 +3795,7 @@ h2 {
 }
 
 .casestudy h2 {
-  color: #111113;
+  color: #18191E;
 }
 
 p, li {
@@ -3844,7 +3846,7 @@ p, li {
 }
 
 #menu a:hover {
-  color: #FF9900;
+  color: #ff9900;
 }
 
 /* the greeting */
@@ -3866,7 +3868,7 @@ p, li {
   font-family: "PPEiko-Regular", serif;
   font-weight: normal;
   font-weight: normal;
-  color: #111113;
+  color: #18191E;
 }
 @media (max-width: 768px) {
   #intro p {
@@ -3955,7 +3957,7 @@ h4 {
   font-size: 24px;
   font-size: 2.4rem;
   line-height: 1;
-  color: #111113;
+  color: #18191E;
   font-weight: 800;
   line-height: 30px;
   /* 125% */
@@ -3981,7 +3983,7 @@ h5 {
 }
 
 a {
-  color: #111113;
+  color: #18191E;
 }
 
 p, li {
@@ -4136,7 +4138,7 @@ p, li {
   font-size: 48px;
   font-size: 4.8rem;
   letter-spacing: 0.5em;
-  color: #111113;
+  color: #18191E;
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }

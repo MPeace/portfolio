@@ -259,6 +259,8 @@ article {
 footer {
 	width: 100%;
     background: $black;
+	border-top: 1px solid #36363D;
+	background: radial-gradient(431.88% 99.77% at 35.14% 41.95%, rgba(178, 188, 255, 0.10) 0%, rgba(125, 132, 178, 0.00) 100%), #111113;
     color: $white;
     padding: 42px 0 0;
     article {
