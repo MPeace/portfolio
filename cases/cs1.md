@@ -9,7 +9,7 @@ selection: true
 
 
 <div class="readingcontainer">
-<h3>Redesigning the platform software for premier provider of market intelligence.</h3>
+<h3>Redesigning the platform software for a premier provider of market intelligence.</h3>
 
 <ul class="projectdetails">
 	<li>Project Completed <span>2023</span></li>
