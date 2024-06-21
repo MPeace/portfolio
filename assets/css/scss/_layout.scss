@@ -334,11 +334,13 @@ footer {
 }
 
 .legal {
- 	display: flex;
-    align-items: center;             /*center children*/
-    justify-content: space-between; 
+ 	//display: flex;
+   // align-items: center;             /*center children*/
+    //justify-content: space-between; 
+	text-align: center;
     max-width: 1140px;
     margin: 12px auto 8px;
+	padding: 1em 0 2em;
 	opacity: .6;
 	//color: $black;
 }

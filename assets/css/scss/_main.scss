@@ -208,7 +208,7 @@
 	h4 {
 		@include font-size(2);
 		font-style: normal;
-		font-weight: 800;
+		font-weight: normal;
 		line-height: 30px; /* 100% */
 		letter-spacing: 0.4px;
 		color: $black;
@@ -227,7 +227,7 @@
 		font-family: $font-family--secondary;
 		font-size: 6.222px;
 		font-style: normal;
-		font-weight: 800;
+		font-weight: normal;
 		line-height: 7.259px; /* 116.667% */
 		letter-spacing: 4.667px;
 		text-transform: uppercase;
@@ -268,7 +268,7 @@
 	a + a {
 		font-size: 10px;
 		line-height: 12px;
-		margin: 12px 0 22px 0;
+		margin: 12px 0 24px 0;
 		display: inline-block;
 		padding: 1.5em;
 		background: rgba(#f90,.1);
@@ -303,7 +303,7 @@
 }
 .portfoliocard:hover {
 	background: #fff;
-	border: 1px solid rgba(84, 79, 72, .6);
+	border: 1px solid rgba(0, 0, 0, 1);
 	box-shadow: 4px 4px 18px #e6e6e6;
 	transform: translateY(-4px);
 	animation-timing-function: ease-out;
@@ -564,7 +564,9 @@
 		.copyright {
 			float: right;
 		}
-		.legal {float:left;}
+		.legal {
+			float:left;
+		}
 	}
 
 
