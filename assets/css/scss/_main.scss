@@ -243,7 +243,7 @@
 			text-transform: uppercase;
 	
 			position: relative;
-    		top: -8px;
+    		top: 0px;
     		margin: 18px 0 12px 0;
 		}
 	}
@@ -275,7 +275,11 @@
 		width: 100%;
 		text-align: center;
 		border: 1px solid rgba(#f90,0);
+		
+		letter-spacing: 1px;
+		text-transform: uppercase;
 		@include tablet {
+			letter-spacing: 2px;
 			margin: 36px 0 0 0;
 			padding: 18px 10px 14px; 
 		}

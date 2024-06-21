@@ -17,9 +17,7 @@
 		text-transform: uppercase;
 	}
 
-
 	h2 {
-		
 		font-family: $font-family--primary;
 		font-weight: 800;
 		@include font-size(9.6);
@@ -41,12 +39,12 @@
 		background-clip: text;
 		-webkit-background-clip: text;
 		color: transparent;
-		
-		
 	}
+	
 	.casestudy h2 {
 		color: $black;
 	}
+	
 	h3 {}
 
 	p,li {
