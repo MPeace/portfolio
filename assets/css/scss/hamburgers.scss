@@ -15,8 +15,6 @@
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 	cursor: pointer;
-
-
 	z-index: 10001;
 
 	@include mobile {
@@ -24,9 +22,9 @@
 		margin: 18px 0 0;
 		width: 30px;
 	}
-	opacity: .475;
-		@include tablet {opacity: .95;}
-		@include mobile {opacity: 1;}
+	//opacity: .475;
+	@include tablet {opacity: .95;}
+	@include mobile {opacity: 1;}
 }
 /*
 #menu:before {
@@ -45,18 +43,17 @@
 #menu li:nth-of-type(2), 
 #menu li:nth-of-type(3) {}
 
-#nav-icon3:hover span,
-#nav-icon3.open span {
-	background: $electricblue;
-	opacity: 1;
-}
+#nav-icon3:hover span {background: $black;}
+#nav-icon3.open span {background: $white;}
+#nav-icon3.open:hover span {background: $electricblue;}
+
 
 #nav-icon3 span {
 	display: block;
 	position: absolute;
 	height: 7px;
 	width: 100%;
-	background: $blue;
+	background: $black;
 	border-radius: 0px;
 	opacity: 1;
 	left: 0;
@@ -74,7 +71,7 @@
 }
 
 #nav-icon3 span:hover {
-	background: $electricblue;
+	background: $black;
 }
 
 #nav-icon3 span:nth-child(1) {

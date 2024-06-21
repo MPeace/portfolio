@@ -219,7 +219,6 @@ table td {
   transition: 0.5s ease-in-out;
   cursor: pointer;
   z-index: 10001;
-  opacity: 0.475;
 }
 @media (max-width: 480px) {
   #nav-icon3 {
@@ -252,10 +251,16 @@ table td {
 	font-weight: 700;
 }
 */
-#nav-icon3:hover span,
+#nav-icon3:hover span {
+  background: #111113;
+}
+
 #nav-icon3.open span {
+  background: #fdfdfd;
+}
+
+#nav-icon3.open:hover span {
   background: #FF9900;
-  opacity: 1;
 }
 
 #nav-icon3 span {
@@ -263,7 +268,7 @@ table td {
   position: absolute;
   height: 7px;
   width: 100%;
-  background: #FF9900;
+  background: #111113;
   border-radius: 0px;
   opacity: 1;
   left: 0;
@@ -283,7 +288,7 @@ table td {
 }
 
 #nav-icon3 span:hover {
-  background: #FF9900;
+  background: #111113;
 }
 
 #nav-icon3 span:nth-child(1) {
@@ -3264,11 +3269,12 @@ h3 img {
 }
 
 .portfoliocard {
-  border: 1px solid #e8e8e8;
+  border: 1px solid color(display-p3 0.977 0.969 0.963);
+  border-width: 6px;
+  border-style: solid;
   background: #FFF;
   overflow: hidden;
-  border-radius: 2px;
-  background: linear-gradient(137deg, #FFF 54.83%, #CCC 266.74%), var(--White, #FFF);
+  border-radius: 9px;
   position: relative;
   top: 0;
   animation-timing-function: ease-out;
@@ -3393,6 +3399,7 @@ h3 img {
   margin-top: -20px;
   margin-bottom: 20px;
   transition: 0.5s;
+  border-width: 6px;
 }
 
 .cases {
