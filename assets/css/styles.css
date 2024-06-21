@@ -2328,6 +2328,10 @@ h2 {
   }
 }
 
+.casestudy h2 {
+  color: #111113;
+}
+
 p, li {
   font-size: 20px;
   font-size: 2rem;
@@ -3783,6 +3787,10 @@ h2 {
     line-height: 1.25;
     margin-top: 12px;
   }
+}
+
+.casestudy h2 {
+  color: #111113;
 }
 
 p, li {
