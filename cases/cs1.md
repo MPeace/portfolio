@@ -22,15 +22,11 @@ selection: true
 <p>User surveys were conducted post acquisition that resulted in the identification of two key areas for improvement within the products.</p>
 
 <h4>Project Objectives</h4>
-<p> Analysis from the user surveys showed flat user growth and declining user engagement within the organization’s most used products. Our primary objective for this initiative was to investigate the cause behind this and solutions to address it.</p>
-
-
+<p>Analysis from the user surveys showed flat user growth and declining user engagement within the organization’s most used products. Our primary objective for this initiative was to investigate the cause of declining engagement and provide and implement solutions to address it.</p>
 
 <img src="../assets/images/01test.png" />
 <img src="../assets/images/06test.png" />
 <div class="imgcaption">Screenshots of the platform prior to redesign.</div>
-
-
 
 <p>Additionally, we set out to evolve and improve the design and brand experience to better meet user expectations.</p>
 

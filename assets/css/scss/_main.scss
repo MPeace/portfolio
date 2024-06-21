@@ -3,7 +3,6 @@
 	HEADER
 
 */
-
 	#intro h1 {
 		padding: 0;
 		//margin: 12px 0 96px 0;
@@ -19,7 +18,11 @@
 			margin: 12px 0 0 0;
 		}
 	}
+	
 	#intro a {}
+	#intro a:hover {
+		text-decoration: underline;
+	}
 
 	#intro svg {
 		max-width:250px;
@@ -171,9 +174,9 @@
 
 
 .portfoliocard {
-	border: 1px solid color(display-p3 0.977 0.969 0.963);
+	border: 1px solid rgba(216, 201, 184, .2);
 	
-	border-width: 6px;
+	border-width: 3px;
 	border-style: solid;
 	//border-image: linear-gradient(to right, darkgrey, grey) 1;
 	  
@@ -182,7 +185,7 @@
 	//flex-direction: column;
 	//align-items: center;
 	overflow: hidden;
-	border-radius: 9px;
+	border-radius: 12px;
 	//background: linear-gradient(137deg, #FFF 54.83%, #CCC 266.74%), var(--White, #FFF);
 	position: relative;
 	top: 0;
@@ -253,7 +256,7 @@
 		font-family: $font-family--primary !important;
 
 		display: block;
-		border-radius: 1px;
+		border-radius: 4px;
 		//padding: 15px 18px 12px 18px;
 		align-items: center;
 		gap: 10px;
@@ -265,22 +268,24 @@
 	a + a {
 		font-size: 10px;
 		line-height: 12px;
-		margin: 12px 0 18px 0;
-		 display: inline-block;
-		 padding: 1em;
-		 background: rgba(#f90,.1);
-		 width: 100%;
-		   text-align: center;
-		 @include tablet {
+		margin: 12px 0 22px 0;
+		display: inline-block;
+		padding: 1.5em;
+		background: rgba(#f90,.1);
+		width: 100%;
+		text-align: center;
+		border: 1px solid rgba(#f90,0);
+		@include tablet {
 			margin: 36px 0 0 0;
 			padding: 18px 10px 14px; 
-		 }
-		 @include mobile {
+		}
+		@include mobile {
 			 
-		 }
+		}
 	}
 	a + a:hover {
-		background: rgba(#f90,.6)
+		background: rgba(#f90,.6);
+		color: rgba($black,1);
 	}
 	div {
     	padding: 0 24px 0;
@@ -298,7 +303,7 @@
 }
 .portfoliocard:hover {
 	background: #fff;
-	border: 1px solid rgba($black,.175);
+	border: 1px solid rgba(84, 79, 72, .6);
 	box-shadow: 4px 4px 18px #e6e6e6;
 	transform: translateY(-4px);
 	animation-timing-function: ease-out;
@@ -307,11 +312,20 @@
 	margin-top: -20px;
 	margin-bottom: 20px;
 	transition: .5s;
+	border-radius: 9px;
+	border-width: 3px;
 	
-	border-width: 6px;
 //	border-width: 1px;
 //	border-style: solid;
 //	border-image: linear-gradient(to right, darkgrey, grey) 1;
+
+	a + a {
+		background: rgba(#f90,.1);
+		border: 1px solid rgba(#f90,.1);
+	}
+	a + a:hover {
+		color: #f90!important;
+	}
 }
 
 
