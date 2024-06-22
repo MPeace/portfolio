@@ -8,7 +8,7 @@ selection: true
 ---
 
 <div class="readingcontainer">
-<h3>Building out and scaling an event management app from 25 to over 300 users and from 24 to over 200 events a year.</h3>
+<h3>A summary of designing and scaling an event management app for a growing media business</h3>
 
 <ul class="projectdetails">
 	<li>Project Completed <span>2024</span></li>
@@ -16,38 +16,40 @@ selection: true
 </ul>
 
 <h4>Background</h4>
-<p>Working for a leading government news media company,  I was responsible for maintaining and improving our in-house software used for the management and marketing of company events.</p>
+<p>Working for a leading government news media company,  I was responsible for maintaining and improving our in-house event management product, used for the creation and marketing of company events.</p>
 	
-<p>Following the completion of several acquisitions within a short period of time, evolving our event management app and processes to incorporate the new organizations became an important element of integration efforts.</p>
+<p>Following the completion of several acquisitions within a short period of time, evolving our event management product and processes to incorporate the new organizations became an important element of integration efforts.</p>
 
 <h4>Project Objectives</h4>
 <p>In preparation for this initiative, we identified three main objectives: </p>
 
 <ul>
-<li>Improve product efficiency while increasing active users</li>
+<li>Improve product efficiency while increasing product adoption</li>
 <li>Increase and validate product credibility for our newly integrated businesses</li>
-<li>Evolve our product with a focus on scalability to support a fast growing events business.</li>
+<li>Evolve our product with a focus on scalability to support a fast growing events business</li>
 </ul>
 	
 <img src="../assets/images/cs02-01b.png" />
 
-<div class="imgcaption">Audits were completed of the existing platform.</div>
+<div class="imgcaption">A clipping of the audits that were completed of the existing platform.</div>
 
 <h4>Strategy / Approach</h4>
-<p> During this stage we put a  significant focus on identifying  potential new components that may be needed  while we introduced new users to the platform as a part of post acquisition integrations.  And simultaneously ensure a successful roll-out to establish credibility with the newly acquired businesses, leading to increased adoption.</p>
+<p>We put a significant focus on identifying potential new components that may be needed while we introduced new users to the platform. We needed to ensure a successful roll-out to establish credibility with the newly acquired businesses, and using the input from the newly acquired teams would create a comprehensive product requirements and features list.</p>
 
 <div class="callout">
 <h5>Personas Research</h5>
-<p>We created event attendee personas as a way to better communicate product improvements across all the teams. Baseline research was provided from subsidiary company that I used to create eight profiles that we then validated and improved through stakeholder interviews.</p>
+<p>As the platform expanded, we began running into problems around who we were building the product for. We created event attendee personas as a way to narrow and address these problems. The personas would allow us better communicate and to identify the product improvements across all the teams. Baseline research was provided from internal resources, allowing me to create eight generic profiles that we could validate in user interviews and additional stakeholder feedback.</p>
 <img src="../assets/images/cs02-23.png" />
 <img src="../assets/images/cs02-20.png" />
-<p>Completed interviews and analyzed and summarized the collected data. Designed seven personas. That  I presented to company. The personas were vital in the research we needed to complete another project, multi-step form registration.</p>
-
+<p>I completed user interviews over multiple sessions, leveraging online collaborative whiteboards for direct stakeholder feedback and input.  The interview data was analyzed and summarized resulting in seven personas.</p>
+<p>As part of the persona roll-out, I held multiple on-boarding and how-to sessions to help introduce the personas to the different teams.</p>	
+<p>In one unexpected usefulness of the personas, the events team implemented the personas as part of their new hire on-boarding process, reviewing the markets and users they would be interacting with.</p>
 <img src="../assets/images/cs02-22.png" />
+<p>Additionally, the personas were critical in the design and development of multi-step forms for event registration.</p>
 </div>
 
 <h4>Execution</h4>
-<p>Through an iterative stakeholder focus design process, I designed 20 components that can now be used within the events platform and numerous additional features.</p>
+<p>Through an iterative stakeholder focused design process, I designed roughly 20 components that are now deployed and usable within the product. Both front and back end interfaces are accounted for in this project. Additional time was used working with the software engineers to make sure designs matched and accounted for the different individual brand requirements.</p>
 
 <img src="../assets/images/cs02-04.png" />
 
@@ -81,14 +83,15 @@ selection: true
 -->
 
 <h4>Challenges and Solutions</h4>
-<p>The largest obstacle to overcome in this initiative was the need to reengage the EMS stakeholders as we scaled to support the onboarding of several newly acquired businesses.</p>
+<p>The largest obstacle to overcome in this initiative was the need to reengage product stakeholders multiple times as we scaled to support the onboarding of several newly acquired businesses.</p>
 	
-<p>As new companies were acquired, they were given the choice to remain with an external events management  system or integrate and help fund our internal event product. Essentially, our challenge was to convince them to use our product over an external solution.</p>
+<p>As new companies were acquired, they were given the choice to remain with an external events management system or integrate and help fund our internal event product. Essentially, our challenge was to convince them to use our product over an external solution.</p>
 
 <h4>Results and Metrics</h4>
-<p>A successfully scaled  event management app that evolved from just 25 to over 300 users and from 24 to over 200 events a year. More than 500 events were produced in roughly a two year period using our event software.</p>
-<p>Additionally we brought all major company events underneath a single platform.</p>
+<p>Our team designed and scaled an event management app that evolved from just 25 to over 300 users and from 24 to over 200 events a year. More than 500 events were produced in roughly a two year period using the event software.</p>
+<p>Additionally, we brought all major company events underneath a single platform, successfully integrating all the different brands and companies that had been acquired.</p>
 
+<p>Below are screenshots of the event product.</p>
 
 <img src="../assets/images/cs02-07.jpeg" />
 <img src="../assets/images/cs02-17.jpeg" />
