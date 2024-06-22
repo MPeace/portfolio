@@ -43,7 +43,7 @@
 #menu li:nth-of-type(2), 
 #menu li:nth-of-type(3) {}
 
-#nav-icon3:hover span {background: $black;}
+#nav-icon3:hover span {background: #7D84B2;}
 #nav-icon3.open span {background: $white;}
 #nav-icon3.open:hover span {background: $electricblue;}
 
@@ -53,7 +53,7 @@
 	position: absolute;
 	height: 7px;
 	width: 100%;
-	background: $black;
+	background: #7D84B2;
 	border-radius: 0px;
 	opacity: 1;
 	left: 0;
@@ -71,7 +71,7 @@
 }
 
 #nav-icon3 span:hover {
-	background: $black;
+	background: #7D84B2;
 }
 
 #nav-icon3 span:nth-child(1) {
