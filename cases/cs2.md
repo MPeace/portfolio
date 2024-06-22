@@ -36,7 +36,9 @@ selection: true
 <h4>Strategy / Approach</h4>
 <p>We put a significant focus on identifying potential new components that may be needed while we introduced new users to the platform. We needed to ensure a successful roll-out to establish credibility with the newly acquired businesses, and using the input from the newly acquired teams would create a comprehensive product requirements and features list.</p>
 
-<div class="callout">
+<div class="callout accordion"  id="accordion1" >
+	<h3>Event Management System <img src="img/Frame 59.jpg" /><div class="date">COMPLETED | Fall 2015</div></h3>
+	<div class="content">
 <h5>Personas Research</h5>
 <p>As the platform expanded, we began running into problems around who we were building the product for. We created event attendee personas as a way to narrow and address these problems. The personas would allow us better communicate and to identify the product improvements across all the teams. Baseline research was provided from internal resources, allowing me to create eight generic profiles that we could validate in user interviews and additional stakeholder feedback.</p>
 <img src="../assets/images/cs02-23.png" />
@@ -46,6 +48,7 @@ selection: true
 <p>In one unexpected usefulness of the personas, the events team implemented the personas as part of their new hire on-boarding process, reviewing the markets and users they would be interacting with.</p>
 <img src="../assets/images/cs02-22.png" />
 <p>Additionally, the personas were critical in the design and development of multi-step forms for event registration.</p>
+	</div>
 </div>
 
 <h4>Execution</h4>

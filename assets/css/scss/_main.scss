@@ -334,8 +334,9 @@
 
 
 .cases {
-	max-width: 960px;
-	margin: 24px auto 0;
+	max-width: 650px;
+	max-width: 65em;
+	margin: 24px 0 0 0;
 	padding: 18px 0 36px;
 	width: 100%;
 	min-width: 0;
@@ -372,22 +373,24 @@
 		transition: transform 550ms;
 		will-change: transform;
 		a {
-			color: $white;
+			color: $black;
 			display: block;
-			border: 1px solid rgba($black,1);
-			background: $black;
-			background: radial-gradient(431.88% 99.77% at 35.14% 41.95%, rgba(178, 188, 255, 0.1) 0%, rgba(125, 132, 178, 0) 100%), #111113;
-			padding: 2em;
-			border-radius:1px;
+			border: 3px solid rgba(216, 201, 184, 0.2);
+			background: $white;
+			padding: 1.5em;
+			border-radius:12px;
 		}
 		span {
 			display: block;
 			font-family: $font-family--secondary;
 			@include font-size(1.2);
+			opacity: .5;
+			margin-top: 4px;
 		}
 		a:hover {
-			background: #fff;
-			color: $black;
+			border-color:$black;
+			color: #000;
+			text-decoration: none;
 		}
 	}
 	li:hover {
@@ -594,7 +597,7 @@
 .callout {
 	border: 1px solid rgba($black,.4);
 	background: rgba($black,.04);
-	padding: 0 2em 1.5em;
+	padding: 0 2em 2.5em;
 	//max-width: 240px;
 	margin: 4em 0 0 0;
 	border-radius: 4px;
