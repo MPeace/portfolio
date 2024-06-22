@@ -770,7 +770,7 @@ body.lb-disable-scrolling {
   display: block;
   cursor: pointer;
   position: relative;
-  margin: 200px 0 0 0;
+  margin: 0 0 0 0;
   padding: 0.5em 0.5em 0.5em 0.7em;
   min-height: 0;
   /* support: IE7 */
@@ -2921,6 +2921,11 @@ article .project {
 .grid {
   margin-top: 72px;
 }
+@media (max-width: 768px) {
+  .grid {
+    margin-top: 42px;
+  }
+}
 .grid h3 {
   border-top: 2px solid rgba(216, 201, 184, 0.2);
   color: #9D9B9B;
@@ -3355,7 +3360,7 @@ h3 img {
     text-transform: uppercase;
     position: relative;
     top: 0px;
-    margin: 18px 0 12px 0;
+    margin: 0 0 12px 0;
   }
 }
 .portfoliocard a {
@@ -3724,9 +3729,8 @@ footer a:hover:visited {
 }
 
 .callout {
-  border: 1px solid rgba(24, 25, 30, 0.4);
   background: rgba(24, 25, 30, 0.04);
-  padding: 0 2em 2.5em;
+  padding: 0;
   margin: 4em 0 0 0;
   border-radius: 4px;
 }
