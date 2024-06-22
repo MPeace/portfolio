@@ -625,3 +625,30 @@
 	list-style: none !important;
 	line-height: 1.5;
 }
+
+
+
+
+.ui-accordion .ui-accordion-header {
+  padding: 1em;
+  border-radius: 12px ;
+  font-size: 18px;
+  font-family: $font-family--primary;
+}
+
+.accordion span {
+  display: block;
+  font-size: 12px;
+  font-family: $font-family--secondary;
+}
+
+.accordion svg {
+  position: absolute;
+  right: 24px;
+  top: 28px;
+}
+
+ .ui-accordion .ui-accordion-content{
+	  box-sizing:content-box;             
+	  -moz-box-sizing:content-box;
+}

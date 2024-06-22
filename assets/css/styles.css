@@ -774,7 +774,6 @@ body.lb-disable-scrolling {
   padding: 0.5em 0.5em 0.5em 0.7em;
   min-height: 0;
   /* support: IE7 */
-  font-size: 100%;
 }
 
 .ui-accordion .ui-accordion-icons {
@@ -1413,10 +1412,10 @@ body .ui-tooltip {
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-  border: 1px solid red;
-  background: #007fff;
+  background: #fff;
   font-weight: normal;
-  color: #ffffff;
+  color: #000;
+  border-bottom: none;
 }
 
 .ui-state-active a,
@@ -3757,6 +3756,30 @@ footer a:hover:visited {
 .projectdetails li {
   list-style: none !important;
   line-height: 1.5;
+}
+
+.ui-accordion .ui-accordion-header {
+  padding: 1em;
+  border-radius: 12px;
+  font-size: 18px;
+  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.accordion span {
+  display: block;
+  font-size: 12px;
+  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
+}
+
+.accordion svg {
+  position: absolute;
+  right: 24px;
+  top: 28px;
+}
+
+.ui-accordion .ui-accordion-content {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
 }
 
 @font-face {
