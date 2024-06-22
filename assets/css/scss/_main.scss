@@ -244,7 +244,7 @@
 	
 			position: relative;
     		top: 0px;
-    		margin: 18px 0 12px 0;
+    		margin: 0 0 12px 0;
 		}
 	}
 	a {
@@ -595,9 +595,9 @@
 
 
 .callout {
-	border: 1px solid rgba($black,.4);
+	//border: 1px solid rgba($black,.4);
 	background: rgba($black,.04);
-	padding: 0 2em 2.5em;
+	padding: 0;
 	//max-width: 240px;
 	margin: 4em 0 0 0;
 	border-radius: 4px;

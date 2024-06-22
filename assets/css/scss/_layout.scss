@@ -236,6 +236,9 @@ article {
 
 .grid {
 	margin-top: 72px;
+	@include tablet {
+		margin-top: 42px;
+	}
 	
 	h3 {
 		border-top: 2px solid rgba(216, 201, 184, .2);
