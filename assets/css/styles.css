@@ -2420,6 +2420,7 @@ p, li {
 #intro p:nth-child(2) {
   font-size: 24px;
   font-size: 2.4rem;
+  line-height: 1.5;
 }
 @media (max-width: 768px) {
   #intro p:nth-child(2) {
@@ -2591,7 +2592,7 @@ p, li {
 .getintouch h2 {
   font-size: 36px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: normal;
   line-height: 48px;
   /* 133.333% */
 }
@@ -2992,9 +2993,15 @@ footer article.thankyou {
 }
 @media (max-width: 1196px) {
   .getintouch {
+    padding: 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .getintouch {
     padding: 0 18px;
   }
 }
+
 .thankyou {
   background: #fdfdfd;
   width: 100%;
@@ -3434,6 +3441,18 @@ h3 img {
   width: 100%;
   min-width: 0;
   border-top: 3px solid #eaeaea;
+  /*
+  li:before {
+  	content: 'Case Study';
+  	font-family: $font-family--secondary; 
+  	display: block;
+  	font-size: 10px;
+  	font-style: normal;
+  	font-weight: 300;
+  	line-height: 24px; 
+  	opacity: .6;
+  }
+  */
 }
 @media (max-width: 480px) {
   .cases {
@@ -3467,22 +3486,27 @@ h3 img {
   will-change: transform;
 }
 .cases li a {
+  color: #fdfdfd;
+  display: block;
+  border: 1px solid #18191e;
+  background: #18191E;
+  background: radial-gradient(431.88% 99.77% at 35.14% 41.95%, rgba(178, 188, 255, 0.1) 0%, rgba(125, 132, 178, 0) 100%), #111113;
+  padding: 2em;
+  border-radius: 1px;
+}
+.cases li span {
+  display: block;
+  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+.cases li a:hover {
+  background: #fff;
   color: #18191E;
 }
 .cases li:hover {
   transition: transform 125ms;
   transform: translateX(8px);
-}
-.cases li:before {
-  content: "Case Study";
-  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
-  display: block;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 24px;
-  /* 200% */
-  opacity: 0.6;
 }
 .cases a:hover {
   text-decoration: underline;
@@ -3697,10 +3721,11 @@ footer a:hover:visited {
 }
 
 .callout {
-  border: 3px solid #18191E;
+  border: 1px solid rgba(24, 25, 30, 0.4);
+  background: rgba(24, 25, 30, 0.04);
   padding: 0 2em 1.5em;
   margin: 4em 0 0 0;
-  border-radius: 0;
+  border-radius: 4px;
 }
 .callout h4 {
   font-size: 32px;
@@ -3886,6 +3911,7 @@ p, li {
 #intro p:nth-child(2) {
   font-size: 24px;
   font-size: 2.4rem;
+  line-height: 1.5;
 }
 @media (max-width: 768px) {
   #intro p:nth-child(2) {
@@ -4057,7 +4083,7 @@ p, li {
 .getintouch h2 {
   font-size: 36px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: normal;
   line-height: 48px;
   /* 133.333% */
 }

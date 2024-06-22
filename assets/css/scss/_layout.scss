@@ -318,9 +318,12 @@ footer {
 	margin: 0 auto;
 	padding:0;
 	@include desktop {
-		padding:0 18px;
+		padding:0 0;
 	}
 	@include desktop_micro {}
+	@include tablet {
+		padding: 0 18px;
+	}
 }
 
 .thankyou {

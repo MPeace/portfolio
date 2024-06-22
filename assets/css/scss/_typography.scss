@@ -120,6 +120,7 @@
 		@include font-size(2.4);
 		@include tablet {@include font-size(1.8);}
 		@include mobile {@include font-size(1.6);}
+		line-height: 1.5;
 	}
 
 	/* the button */

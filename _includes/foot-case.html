@@ -3,7 +3,7 @@
 	<ul>
 		{% for item in site.data.menulist.docs %}
 		  <li class="{% if item.url == page.url %}active{% endif %} ">
-			  <a href="{{ item.url }}">{{ item.title }}</a>
+			  <a href="{{ item.url }}">{{ item.title }}<span>{{ item.summary }}</span></a>
 		  </li>
 	   {% endfor %}
 	</ul>

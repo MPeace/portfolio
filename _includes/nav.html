@@ -1,20 +1,21 @@
     <!-- MENU -->
-    <div id="nav-icon3">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+    <div id="">
+        <div class="nav-title">Menu</div>
+        <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
     <nav class="nav-primary" role="navigation" >
         <ul id="menu">
-           
-                {% for item in site.data.nav.docs %}
-                      <li class="{% if item.url == page.url %}active{% endif %} ">
-                          <a href="{{ item.url }}">{{ item.title }}</a>
-                      </li>
-                   {% endfor %}
+            {% for item in site.data.nav.docs %}
+                <li class="{% if item.url == page.url %}active{% endif %} ">
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+            {% endfor %}
         </ul>
-    
     </nav>
     <!-- MENU END -->
 
