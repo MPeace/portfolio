@@ -792,7 +792,7 @@ body.lb-disable-scrolling {
 }
 
 .ui-accordion .ui-accordion-content {
-  padding: 1em 2.2em;
+  padding: 2em 2.2em 3em;
   border-top: 0;
 }
 
@@ -1347,7 +1347,7 @@ body .ui-tooltip {
 }
 
 .ui-widget-content {
-  border: 1px solid #dddddd;
+  border: 3px solid rgba(216, 201, 184, 0.2);
   background: #ffffff;
   color: #333333;
 }
@@ -3728,7 +3728,6 @@ footer a:hover:visited {
 }
 
 .callout {
-  background: rgba(24, 25, 30, 0.04);
   padding: 0;
   margin: 4em 0 0 0;
   border-radius: 4px;
@@ -3763,6 +3762,14 @@ footer a:hover:visited {
   border-radius: 12px;
   font-size: 18px;
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+  background: #fdfdfd url("../images/arrow-down.svg") no-repeat;
+  background-position: 96% 20px;
+  transition: 0.5s;
+  border: 3px solid rgba(216, 201, 184, 0.2);
+}
+
+.ui-accordion .ui-accordion-header:hover {
+  border-color: #18191E;
 }
 
 .accordion span {
@@ -3780,6 +3787,19 @@ footer a:hover:visited {
 .ui-accordion .ui-accordion-content {
   box-sizing: content-box;
   -moz-box-sizing: content-box;
+}
+
+.ui-accordion .ui-accordion-header.ui-accordion-header-active {
+  border-radius: 12px 12px 0 0 !important;
+  background: #fdfdfd url("../images/arrow-up.svg") no-repeat;
+  background-position: 96% 20px;
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+.ui-accordion .ui-accordion-header.ui-accordion-header-active:hover {
+  background: #fdfdfd url("../images/arrow-up.svg") no-repeat;
+  background-position: 96% 20px;
 }
 
 @font-face {

@@ -40,10 +40,6 @@ selection: true
 	<h3>
 		<span>Additional Insight</span> 
 		Persona Research Process 
-		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-			<path d="M12 8V12M12 12V16M12 12H16M12 12H8" stroke="#121214" stroke-width="2" stroke-linecap="round"/>
-			<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#121214" stroke-width="2"/>
-		</svg>
 	</h3>
 	<div class="content">
 		<p>As the platform expanded, we encountered challenges defining our target audience. We created event attendee personas as a way to narrow and address these problems. The personas would allow us better communicate and to identify the product improvements across all the teams. Baseline research was provided from internal resources, allowing me to create eight generic profiles that we could validate in user interviews and additional stakeholder feedback.</p>
