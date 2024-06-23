@@ -3499,6 +3499,7 @@ h3 img {
   background: #fdfdfd;
   padding: 1.5em;
   border-radius: 12px;
+  font-weight: normal;
 }
 .cases li span {
   display: block;
@@ -3507,6 +3508,7 @@ h3 img {
   font-size: 1.2rem;
   opacity: 0.5;
   margin-top: 4px;
+  font-weight: normal;
 }
 .cases li a:hover {
   border-color: #18191E;

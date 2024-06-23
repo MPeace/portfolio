@@ -380,6 +380,7 @@
 			background: $white;
 			padding: 1.5em;
 			border-radius:12px;
+			font-weight: normal;
 		}
 		span {
 			display: block;
@@ -387,6 +388,7 @@
 			@include font-size(1.2);
 			opacity: .5;
 			margin-top: 4px;
+			font-weight: normal;
 		}
 		a:hover {
 			border-color:$black;
