@@ -792,7 +792,7 @@ body.lb-disable-scrolling {
 }
 
 .ui-accordion .ui-accordion-content {
-  padding: 2em 2.2em 3em;
+  padding: 1px 2.2em 3em;
   border-top: 0;
 }
 
@@ -3758,12 +3758,12 @@ footer a:hover:visited {
 }
 
 .ui-accordion .ui-accordion-header {
-  padding: 1em;
+  padding: 2em 3em;
   border-radius: 12px;
   font-size: 18px;
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
   background: #fdfdfd url("../images/arrow-down.svg") no-repeat;
-  background-position: 96% 20px;
+  background-position: 90% 36px;
   transition: 0.5s;
   border: 3px solid rgba(216, 201, 184, 0.2);
 }
@@ -3774,8 +3774,10 @@ footer a:hover:visited {
 
 .accordion span {
   display: block;
-  font-size: 12px;
+  font-size: 9px;
   font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .accordion svg {
@@ -3792,14 +3794,17 @@ footer a:hover:visited {
 .ui-accordion .ui-accordion-header.ui-accordion-header-active {
   border-radius: 12px 12px 0 0 !important;
   background: #fdfdfd url("../images/arrow-up.svg") no-repeat;
-  background-position: 96% 20px;
+  background-position: 90% 36px;
   border-bottom: 0;
   border-radius: 0;
 }
 
 .ui-accordion .ui-accordion-header.ui-accordion-header-active:hover {
   background: #fdfdfd url("../images/arrow-up.svg") no-repeat;
-  background-position: 96% 20px;
+  background-position: 90% 36px;
+  border: 3px solid rgba(216, 201, 184, 0.2);
+  border-bottom: 0;
+  color: #ff9900;
 }
 
 @font-face {

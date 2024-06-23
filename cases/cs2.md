@@ -42,14 +42,20 @@ selection: true
 		Persona Research Process 
 	</h3>
 	<div class="content">
-		<p>As the platform expanded, we encountered challenges defining our target audience. We created event attendee personas as a way to narrow and address these problems. The personas would allow us better communicate and to identify the product improvements across all the teams. Baseline research was provided from internal resources, allowing me to create eight generic profiles that we could validate in user interviews and additional stakeholder feedback.</p>
+		<p>As the platform expanded, we encountered challenges defining our target audience. We created event attendee personas as a way to narrow and address these problems.Creating personas enabled us to enhance communication and identify product improvements across all teams.</p>
+		<p>Baseline research was provided from internal resources, allowing me to create eight generic profiles that we could validate in user interviews and additional stakeholder feedback.</p>
 		<img src="../assets/images/cs02-23.png" />
+		<div class="imgcaption">Initial layout exploration used during interviews</div>		
 		<img src="../assets/images/cs02-20.png" />
+		<div class="imgcaption">Worksheet used in collaborative meeting discussions</div>
 		<p>I completed user interviews over multiple sessions, leveraging online collaborative whiteboards for direct stakeholder feedback and input.  The interview data was analyzed and summarized resulting in seven personas.</p>
 		<p>As part of the persona roll-out, I held multiple on-boarding and how-to sessions to help introduce the personas to the different teams.</p>	
 		<p>In one unexpected usefulness of the personas, the events team implemented the personas as part of their new hire on-boarding process, reviewing the markets and users they would be interacting with.</p>
-		<img src="../assets/images/cs02-22.png" />
+		<h5>Results</h5>
 		<p>Additionally, the personas were critical in the design and development of multi-step forms for event registration.</p>
+		<img src="../assets/images/cs02-22.png" />
+		
+		
 	</div>
 </div>
 

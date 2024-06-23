@@ -633,13 +633,13 @@
 
 
 .ui-accordion .ui-accordion-header {
-  padding: 1em;
+  padding: 2em 3em;
   border-radius: 12px ;
   font-size: 18px;
   font-family: $font-family--primary;
   
   background: $white url( '../images/arrow-down.svg' ) no-repeat;
-  background-position: 96% 20px;
+  background-position:90% 36px;
   	
   transition: .5s;
   border: 3px solid rgba(216, 201, 184, .2);
@@ -650,8 +650,11 @@
 
 .accordion span {
   display: block;
-  font-size: 12px;
+  font-size: 9px;
   font-family: $font-family--secondary;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  
 }
 
 .accordion svg {
@@ -668,14 +671,17 @@
 .ui-accordion .ui-accordion-header.ui-accordion-header-active  {
 	border-radius: 12px 12px 0 0!important;
 	background: $white url( '../images/arrow-up.svg' ) no-repeat;
-	background-position: 96% 20px;	
+	background-position:90% 36px;	
 	border-bottom: 0;
 	border-radius: 0;
 	
 }
 .ui-accordion .ui-accordion-header.ui-accordion-header-active:hover {
 	background: $white url( '../images/arrow-up.svg' ) no-repeat;
-	background-position: 96% 20px;
+	background-position:90% 36px;
+	border: 3px solid rgba(216, 201, 184, .2);
+	border-bottom: 0;
+	color: $blue;
 }
 .ui-accordion .ui-accordion-content.ui-accordion-content-active {
 	
