@@ -446,10 +446,17 @@ footer {
 			color: $white !important;
 		}
 		
-		.cases h4,
+		.cases h4 {color:$white !important;}
 		.cases li a {
 			color:$white !important;
 		}
 		.callout {border: 3px solid #4a4a4a !important;}
 		.callout h5 {color: $white !important;}
+		
+		.cases li a {
+			background: linear-gradient(135deg, #29292C -52.79%, #050506 268.26%), #000 !important;
+			border: 1px solid #373737 !important;
+			}
+		#intro a {color: $white;}
+		
 	}

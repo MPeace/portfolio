@@ -3122,8 +3122,11 @@ p, li, .portfoliocard h4,
     color: #fdfdfd !important;
   }
 
-  .cases h4,
-.cases li a {
+  .cases h4 {
+    color: #fdfdfd !important;
+  }
+
+  .cases li a {
     color: #fdfdfd !important;
   }
 
@@ -3133,6 +3136,15 @@ p, li, .portfoliocard h4,
 
   .callout h5 {
     color: #fdfdfd !important;
+  }
+
+  .cases li a {
+    background: linear-gradient(135deg, #29292C -52.79%, #050506 268.26%), #000 !important;
+    border: 1px solid #373737 !important;
+  }
+
+  #intro a {
+    color: #fdfdfd;
   }
 }
 /*------------
