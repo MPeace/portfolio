@@ -355,9 +355,10 @@
 		line-height: 18px; /* 100% */
 		opacity: .8;
 		margin-top: 0;	
+		padding: 1em 1em 0;
 	}
 	ul {
-		margin-top: 4px;
+		margin-top: 18px;
 	}
 	li {
 		font-family: $font-family--primary; 
@@ -368,7 +369,7 @@
 		transform: translateX(0);
 		animation-timing-function: ease-out;
 		animation-duration: 150ms;
-		
+		margin-top: 4px;
 	
 		transition: transform 550ms;
 		will-change: transform;

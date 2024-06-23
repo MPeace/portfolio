@@ -2930,7 +2930,7 @@ article .project {
   color: #9D9B9B;
   font-size: 20px;
   font-size: 2rem;
-  padding: 36px 0 18px 0;
+  padding: 36px 1em 18px;
   margin: 0;
 }
 
@@ -3474,9 +3474,10 @@ h3 img {
   /* 100% */
   opacity: 0.8;
   margin-top: 0;
+  padding: 1em 1em 0;
 }
 .cases ul {
-  margin-top: 4px;
+  margin-top: 18px;
 }
 .cases li {
   font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
@@ -3487,6 +3488,7 @@ h3 img {
   transform: translateX(0);
   animation-timing-function: ease-out;
   animation-duration: 150ms;
+  margin-top: 4px;
   transition: transform 550ms;
   will-change: transform;
 }
