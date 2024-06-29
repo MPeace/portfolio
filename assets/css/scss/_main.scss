@@ -209,7 +209,7 @@
 		@include font-size(2);
 		font-style: normal;
 		font-weight: normal;
-		line-height: 30px; /* 100% */
+		line-height: 1.125em; /* 100% */
 		letter-spacing: 0.4px;
 		color: $black;
 		@include tablet {
@@ -232,7 +232,7 @@
 		letter-spacing: 4.667px;
 		text-transform: uppercase;
 		position: relative;
-		top: -3px;
+		top: -5px;
 
 		@include tablet {
 			@include font-size(1.0);
@@ -307,7 +307,7 @@
 }
 .portfoliocard:hover {
 	background: #fff;
-	border: 1px solid rgba(0, 0, 0, 1);
+	border: 1px solid rgba(#7d84b2, 1);
 	box-shadow: 4px 4px 18px #e6e6e6;
 	transform: translateY(-4px);
 	animation-timing-function: ease-out;
@@ -511,7 +511,8 @@
 		gap: 36px;
 		align-self: stretch;
 		
-		border-radius: 2px;
+		border-radius: 12px;
+		border: 3px solid rgba(#7d84b2,.3);
 		background: #29292B;
 		background: linear-gradient(274deg, rgb(41, 43, 53) 8.55%, rgba(255, 244, 232, 0) 226.89%);
 		
@@ -551,7 +552,7 @@
 			//align-items: center;
 			gap: 18px;
 			
-			border-radius: 1px;
+			border-radius: 12px;
 			background: #292929;
 			
 			font-size: 16px;
@@ -572,6 +573,7 @@
 	
 	.bestlists {
 		border: 1px dashed #292929;
+		border-radius: 12px;
 		
 	}
 

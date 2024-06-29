@@ -46,6 +46,8 @@
 		opacity: .4;
 		position: relative;
 		top: -4px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
 		
 		@include mobile {
 			font-size: 10px;

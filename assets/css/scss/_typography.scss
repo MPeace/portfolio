@@ -103,7 +103,7 @@
 
 	/* the intro sentance */
 	#intro p {
-		@include font-size(4.8);
+		@include font-size(4);
 
 		line-height: 1.325em;
 		font-family: $font-family--body;

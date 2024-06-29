@@ -108,7 +108,7 @@ html, html a {
 
 .centered {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 600px;
 }
 
 /* Letter spacing is simpler.. stolen from somewhere */
@@ -2395,8 +2395,8 @@ p, li {
 
 /* the intro sentance */
 #intro p {
-  font-size: 48px;
-  font-size: 4.8rem;
+  font-size: 40px;
+  font-size: 4rem;
   line-height: 1.325em;
   font-family: "PPEiko-Regular", serif;
   font-weight: normal;
@@ -2769,14 +2769,14 @@ header {
 }
 
 #work {
-  max-width: 960px;
+  max-width: 600px;
   width: 100%;
   margin: 0 auto;
   padding: 0 0 0;
 }
 
 #intro {
-  max-width: 960px;
+  max-width: 600px;
   margin-bottom: 0;
   text-align: left;
   display: block;
@@ -2793,6 +2793,7 @@ header {
   height: 100%;
   display: grid;
   grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
+  grid-template-columns: 50% 50%;
   grid-row: auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -2991,7 +2992,7 @@ footer article.thankyou {
 }
 
 .getintouch {
-  max-width: 960px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0;
 }
@@ -3326,7 +3327,7 @@ h3 img {
   font-size: 2rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 30px;
+  line-height: 1.125em;
   /* 100% */
   letter-spacing: 0.4px;
   color: #18191E;
@@ -3356,7 +3357,7 @@ h3 img {
   letter-spacing: 4.667px;
   text-transform: uppercase;
   position: relative;
-  top: -3px;
+  top: -5px;
 }
 @media (max-width: 768px) {
   .portfoliocard h4:before {
@@ -3430,7 +3431,7 @@ h3 img {
 
 .portfoliocard:hover {
   background: #fff;
-  border: 1px solid black;
+  border: 1px solid #7d84b2;
   box-shadow: 4px 4px 18px #e6e6e6;
   transform: translateY(-4px);
   animation-timing-function: ease-out;
@@ -3664,7 +3665,8 @@ footer a:hover:visited {
   align-items: center;
   gap: 36px;
   align-self: stretch;
-  border-radius: 2px;
+  border-radius: 12px;
+  border: 3px solid rgba(125, 132, 178, 0.3);
   background: #29292B;
   background: linear-gradient(274deg, #292b35 8.55%, rgba(255, 244, 232, 0) 226.89%);
 }
@@ -3704,7 +3706,7 @@ footer a:hover:visited {
   padding: 18px 24px 15px 24px;
   justify-content: center;
   gap: 18px;
-  border-radius: 1px;
+  border-radius: 12px;
   background: #292929;
   font-size: 16px;
   font-style: normal;
@@ -3721,6 +3723,7 @@ footer a:hover:visited {
 }
 .bestlists {
   border: 1px dashed #292929;
+  border-radius: 12px;
 }
 
 #footer div {
@@ -3957,8 +3960,8 @@ p, li {
 
 /* the intro sentance */
 #intro p {
-  font-size: 48px;
-  font-size: 4.8rem;
+  font-size: 40px;
+  font-size: 4rem;
   line-height: 1.325em;
   font-family: "PPEiko-Regular", serif;
   font-weight: normal;
@@ -4306,6 +4309,8 @@ nav {
   opacity: 0.4;
   position: relative;
   top: -4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 @media (max-width: 480px) {
   #menu a:before {
