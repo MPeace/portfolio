@@ -108,7 +108,7 @@ html, html a {
 
 .centered {
   margin: 0 auto;
-  max-width: 720px;
+  max-width: 960px;
 }
 
 /* Letter spacing is simpler.. stolen from somewhere */
@@ -2769,14 +2769,14 @@ header {
 }
 
 #work {
-  max-width: 720px;
+  max-width: 960px;
   width: 100%;
   margin: 0 auto;
   padding: 0 0 0;
 }
 
 #intro {
-  max-width: 720px;
+  max-width: 960px;
   margin-bottom: 0;
   text-align: left;
   display: block;
@@ -2991,7 +2991,7 @@ footer article.thankyou {
 }
 
 .getintouch {
-  max-width: 720px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0;
 }
