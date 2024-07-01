@@ -45,7 +45,7 @@
 
 #nav-icon3:hover span {background: #7D84B2;}
 #nav-icon3.open span {background: $white;}
-#nav-icon3.open:hover span {background: $electricblue;}
+#nav-icon3.open:hover span {background: #7D84B2;}
 
 
 #nav-icon3 span {
@@ -70,7 +70,7 @@
 	@include mobile {height: 4px;}
 }
 
-#nav-icon3 span:hover {
+#nav-icon3:hover span {
 	background: #7D84B2;
 }
 

@@ -308,7 +308,7 @@
 .portfoliocard:hover {
 	background: #fff;
 	border: 1px solid rgba(#7d84b2, 1);
-	box-shadow: 4px 4px 18px #e6e6e6;
+	box-shadow: 4px 4px 18px #6468a6;
 	transform: translateY(-4px);
 	animation-timing-function: ease-out;
 	animation-duration: 150ms;
@@ -500,7 +500,8 @@
 		font-family: $font-family--secondary!important;
 	}
 	footer a:hover {
-		@include linkUnderlines(#100f1b, #ffffff);
+		@include linkUnderlines(#100f1b,#f90);
+		
 	}
 
 	.profile {

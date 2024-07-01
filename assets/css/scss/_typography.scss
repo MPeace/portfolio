@@ -43,6 +43,8 @@
 	
 	.casestudy h2 {
 		color: $black;
+		font-weight: 800;
+		@include font-size(5.6);
 	}
 	
 	h3 {}
@@ -89,7 +91,7 @@
 		text-decoration: none;
 	}
 	#menu a:hover {
-		color: $color-secondary;
+		color: #7D84B2;
 	}
 
 	/* the greeting */
