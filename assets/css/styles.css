@@ -2800,6 +2800,7 @@ header {
   height: 100%;
   display: grid;
   grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
+  grid-template-columns: 50% 50%;
   grid-row: auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
