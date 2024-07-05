@@ -48,6 +48,7 @@ header {//outline:1px solid red;
 }
 
 
+
 #wrapper_work {border: 0 solid red;
 	width: 100%;
 	background: none;
@@ -63,7 +64,7 @@ header {//outline:1px solid red;
 	}
 	#work {
 		//border-bottom: 3px solid #e0e0e0;
-		max-width: $main-width;
+		//max-width: $main-width;
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 0 0;
@@ -71,9 +72,14 @@ header {//outline:1px solid red;
 		//background: blue;
 	}
 
+#wrapper_header,
+	#wrapper_work {
+		max-width: 76em;
+		margin: 0 auto;
+	}
 
 #intro {
-	max-width: $main-width;
+	//max-width: $main-width;
 	//margin-top:36px;
 	margin-bottom: 0;
 
@@ -94,7 +100,7 @@ header {//outline:1px solid red;
 	//background-color:#fff;
 	display:grid;
 	grid-template-columns:24.25% 24.25% 24.25% 24.25%; 
-	grid-template-columns: 50% 50%; 
+	//grid-template-columns: 50% 50%; 
 	
 	grid-row: auto auto;
 	grid-column-gap: 10px;

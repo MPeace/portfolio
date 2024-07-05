@@ -2772,14 +2772,18 @@ header {
 }
 
 #work {
-  max-width: 600px;
   width: 100%;
   margin: 0 auto;
   padding: 0 0 0;
 }
 
+#wrapper_header,
+#wrapper_work {
+  max-width: 76em;
+  margin: 0 auto;
+}
+
 #intro {
-  max-width: 600px;
   margin-bottom: 0;
   text-align: left;
   display: block;
@@ -2796,7 +2800,6 @@ header {
   height: 100%;
   display: grid;
   grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
-  grid-template-columns: 50% 50%;
   grid-row: auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -3307,8 +3310,7 @@ h3 img {
 }
 
 .portfoliocard {
-  border: 1px solid rgba(216, 201, 184, 0.2);
-  border-width: 3px;
+  border: 3px solid rgba(216, 201, 184, 0.2);
   border-style: solid;
   background: #FFF;
   overflow: hidden;
@@ -3348,19 +3350,21 @@ h3 img {
   }
 }
 .portfoliocard h4:before {
+  /*
   display: block;
-  content: "Case Study";
-  opacity: 0.6;
-  font-family: "PPFormula-Light", "Helvetica Light", Helvetica, Arial, sans-serif;
+  content: 'Case Study';
+  opacity: .6;
+
+  font-family: $font-family--secondary;
   font-size: 6.222px;
   font-style: normal;
   font-weight: normal;
   line-height: 7.259px;
-  /* 116.667% */
   letter-spacing: 4.667px;
   text-transform: uppercase;
   position: relative;
   top: -5px;
+  */
 }
 @media (max-width: 768px) {
   .portfoliocard h4:before {
@@ -3404,7 +3408,7 @@ h3 img {
   background: rgba(255, 153, 0, 0.1);
   width: 100%;
   text-align: center;
-  border: 1px solid rgba(255, 153, 0, 0);
+  border: 2px solid rgba(255, 153, 0, 0);
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -3434,7 +3438,7 @@ h3 img {
 
 .portfoliocard:hover {
   background: #fff;
-  border: 1px solid #7d84b2;
+  border: 3px solid #7d84b2;
   box-shadow: 4px 4px 18px #6468a6;
   transform: translateY(-4px);
   animation-timing-function: ease-out;
@@ -3443,11 +3447,10 @@ h3 img {
   margin-bottom: 20px;
   transition: 0.5s;
   border-radius: 9px;
-  border-width: 3px;
 }
 .portfoliocard:hover a + a {
   background: rgba(255, 153, 0, 0.1);
-  border: 1px solid rgba(255, 153, 0, 0.1);
+  border: 2px solid rgba(255, 153, 0, 0.1);
 }
 .portfoliocard:hover a + a:hover {
   color: #f90 !important;

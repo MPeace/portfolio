@@ -174,9 +174,9 @@
 
 
 .portfoliocard {
-	border: 1px solid rgba(216, 201, 184, .2);
+	border: 3px solid rgba(216, 201, 184, .2);
 	
-	border-width: 3px;
+	
 	border-style: solid;
 	//border-image: linear-gradient(to right, darkgrey, grey) 1;
 	  
@@ -220,6 +220,7 @@
 		}
 	}
 	h4:before {
+		/*
 		display: block;
 		content: 'Case Study';
 		opacity: .6;
@@ -228,11 +229,12 @@
 		font-size: 6.222px;
 		font-style: normal;
 		font-weight: normal;
-		line-height: 7.259px; /* 116.667% */
+		line-height: 7.259px;
 		letter-spacing: 4.667px;
 		text-transform: uppercase;
 		position: relative;
 		top: -5px;
+		*/
 
 		@include tablet {
 			@include font-size(1.0);
@@ -274,10 +276,11 @@
 		background: rgba(#f90,.1);
 		width: 100%;
 		text-align: center;
-		border: 1px solid rgba(#f90,0);
+		border: 2px solid rgba(#f90,0);
 		
 		letter-spacing: 1px;
 		text-transform: uppercase;
+		
 		@include tablet {
 			letter-spacing: 2px;
 			margin: 36px 0 0 0;
@@ -290,6 +293,7 @@
 	a + a:hover {
 		background: rgba(#f90,.6);
 		color: rgba($black,1);
+		//font-size: 18px;
 	}
 	div {
     	padding: 0 24px 0;
@@ -307,7 +311,7 @@
 }
 .portfoliocard:hover {
 	background: #fff;
-	border: 1px solid rgba(#7d84b2, 1);
+	border: 3px solid rgba(#7d84b2, 1);
 	box-shadow: 4px 4px 18px #6468a6;
 	transform: translateY(-4px);
 	animation-timing-function: ease-out;
@@ -317,7 +321,6 @@
 	margin-bottom: 20px;
 	transition: .5s;
 	border-radius: 9px;
-	border-width: 3px;
 	
 //	border-width: 1px;
 //	border-style: solid;
@@ -325,7 +328,7 @@
 
 	a + a {
 		background: rgba(#f90,.1);
-		border: 1px solid rgba(#f90,.1);
+		border: 2px solid rgba(#f90,.1);
 	}
 	a + a:hover {
 		color: #f90!important;
