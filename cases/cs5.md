@@ -1,8 +1,8 @@
 ---
 layout: case
-title: Site Navigation Redesign
+title: FCW&#x3a; Leveraging user research to rethink and optimize lead generation user flows
 mockup: ../assets/images/bg-cs04.png
-permalink: /cases/site-navigation-redesign
+permalink: /cases/fcw-leveraging-user-research-to-rethink-and-optimize-lead-generation-user-flows
 order: 7
 selection: true
 ---

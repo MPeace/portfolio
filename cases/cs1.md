@@ -1,8 +1,8 @@
 ---
 layout: case
-title: SAAS App Redesign Process
+title: Forecast International&#x3a; Redesigning a legacy SAAS product
 mockup: ../assets/images/bg-cs01.png
-permalink: /cases/saas-app-redesign-process
+permalink: /cases/forecast-international-redesigning-a-legacy-saas-product
 order: 2
 selection: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: case
-title: Events & Media Site Designs
+title: Web designs and where it all began
 mockup: ../assets/images/bg-cs05.png
-permalink: /cases/event-media-site-designs
+permalink: /cases/web-designs-and-where-it-all-began
 order: 5
 selection: true
 ---

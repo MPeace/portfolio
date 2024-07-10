@@ -1,8 +1,8 @@
 ---
 layout: case
-title: Designing An Event Management Solution
+title: Virtuoso&#x3a; Designing and scaling an event management app
 mockup: ../assets/images/bg-cs02.png
-permalink: /cases/design-and-development-process
+permalink: /cases/virtuoso-designing-and-scaling-an-event-management-app
 order: 3
 selection: true
 ---
