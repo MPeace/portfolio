@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* @group Reset */
 /*  Reset This!
 
@@ -3081,7 +3082,11 @@ footer article.thankyou {
   }
 }
 
-/* Dark mode */
+/*———————————————————————————————————————————————————————————————— 
+
+	Dark mode 
+
+———————————————————————————————————————————————————————————————— */
 @media (prefers-color-scheme: dark) {
   html {
     height: 100%;
@@ -3152,6 +3157,14 @@ p, li, .portfoliocard h4,
 
   #intro a {
     color: #fdfdfd;
+  }
+
+  .casestudy h2 {
+    color: #FFC580 !important;
+    color: transparent !important;
+    background-image: linear-gradient(45deg, #FFC580, #AF847D) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
   }
 }
 /*------------
