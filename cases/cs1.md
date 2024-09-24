@@ -9,7 +9,7 @@ selection: true
 
 
 <div class="readingcontainer">
-<h3>Redesigning the platform software for a premier provider of market intelligence.</h3>
+<h3>Rethinking and redesigning the platform software for a premier provider of market intelligence.</h3>
 
 <ul class="projectdetails">
 	<li>Project Completed <span>2023</span></li>
@@ -24,8 +24,10 @@ selection: true
 <h4>Project Objectives</h4>
 <p>Analysis from the user surveys showed flat user growth and declining user engagement within the organization’s most used products. Our primary objective for this initiative was to investigate the cause of declining engagement and provide and implement solutions to address it.</p>
 
+<div class="slider">
 <img src="../assets/images/01test.png" />
 <img src="../assets/images/06test.png" />
+</div>
 <div class="imgcaption">Screenshots of the platform prior to redesign.</div>
 
 <p>Additionally, we set out to evolve and improve the design and brand experience to better meet user expectations.</p>
@@ -58,9 +60,11 @@ selection: true
 <p>The project was validated when the largest client granted access to the platform for their employee use.</p>
 <p>Limited resources and stakeholder priorities caused this project to stall at times. I kept weekly communication with the different stakeholders to maintain project momentum.</p>
 
+<div class="slider">
 <img src="../assets/images/07test.png" />
 <img src="../assets/images/09test.jpeg" />
 <img src="../assets/images/05test.jpeg" />
+</div>
 
 <div class="imgcaption">Final designs for the platform</div>
 
