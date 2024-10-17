@@ -2711,6 +2711,8 @@ html {
   background-repeat: no-repeat;
   background: #fdfdfd;
   background: linear-gradient(195deg, rgba(255, 195, 128, 0.05) 12.7%, rgba(89, 56, 19, 0.05) 57.49%), var(--White, #FFF);
+  background: white;
+  background: linear-gradient(150deg, white 0%, rgba(255, 195, 128, 0.05) 35%, rgba(28, 16, 3, 0.05) 100%);
   background-attachment: fixed;
 }
 
@@ -3328,7 +3330,7 @@ h3 img {
   border-style: solid;
   background: #FFF;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 0;
   position: relative;
   top: 0;
   animation-timing-function: ease-out;
@@ -3453,14 +3455,14 @@ h3 img {
 .portfoliocard:hover {
   background: #fff;
   border: 3px solid #7d84b2;
-  box-shadow: 4px 4px 18px #6468a6;
+  box-shadow: 1px 1px 8px #6468a6;
   transform: translateY(-4px);
   animation-timing-function: ease-out;
-  animation-duration: 150ms;
+  animation-duration: 50ms;
   margin-top: -20px;
   margin-bottom: 20px;
   transition: 0.5s;
-  border-radius: 9px;
+  border-radius: 0;
 }
 .portfoliocard:hover a + a {
   background: rgba(255, 153, 0, 0.1);
