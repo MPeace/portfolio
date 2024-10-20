@@ -244,7 +244,7 @@ animation:slideDOWN 1s;
 	*/
 }
 #intro h1 {
-	overflow: hidden;
+	//overflow: hidden;
 }
 #intro h1:after {
 	@extend .clearfix;
