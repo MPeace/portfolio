@@ -589,8 +589,6 @@
 	}
 	
 	.bestlists {
-		border: 1px dashed #292929;
-		border-radius: 12px;
 		
 	}
 
@@ -950,10 +948,17 @@
 		font-family: $font-family--primary;
 	}
 	.timeline .row {display: flex;align-items:flex-start;margin:24px 0 0 0}
-	.timeline .row h4 {flex: 5%;vertical-align: top;margin:10px 0 0 0;font-size:14px;opacity: .6;letter-spacing: -1px;color: $black;}
+	.timeline .row h4 {flex: 4%;vertical-align: top;margin:10px 0 0 0;font-size:14px;opacity: .6;letter-spacing: -1px;color: $blue;}
 	.timeline .row ul {flex: 90%;margin:0 0 0 0}
-	.timeline .row ul li {list-style: none;padding: 0 0 0 0;margin:6px 0 0 0px;font-size:18px;color: $blue;}
-	.timeline .row a {color: $blue;text-decoration: underline;}
+	.timeline .row ul li {list-style: "-";padding: 0 0 0 1px;margin:6px 0 0 0px;font-size:18px;color: $black;}
+	.timeline .row ul li span {
+		display: block;
+		font-size: 14px;
+		line-height: 1.25;
+		color: $lightblue;
+		opacity: 1;
+	}
+	.timeline .row a {color: $black;text-decoration: underline;}
 	.timeline .row a:hover {color: $lightblue;text-decoration:none;}
 	header {margin-top: 72px;}
 	header img {float:left;max-width: 90px}

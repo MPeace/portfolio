@@ -150,24 +150,18 @@ article {
 	height: auto;
 	max-width: 876px;
 	width: 100%;
-
-
 	}
 	article:after {
 		@extend .clearfix;
 	}
 
 	article header {border:0 solid yellow;
-
 		float: left;
 		max-width: 214px;
 		max-width: 24.43%;
 		padding: 0;
 		margin: 0;
-
-
-		@include desktop {
-		}
+		@include desktop {}
 		@include desktop_micro {
 			float: none;
 			width: 50%;
@@ -187,11 +181,10 @@ article {
 			max-width: 100%;
 			width: 100%;
 		}
+		@include tablet {
 
-			@include tablet {
-
-				width: 100%;
-			}
+			width: 100%;
+		}
 	}
 
 
@@ -213,15 +206,15 @@ article {
 
 	  	&:before,
 	  	&:after {
-	    		background: inherit;
-	    		content: '';
-	    		display: block;
-	    		height: 50%;
-	    		left: 0;
-	    		position: absolute;
-	    		right: 0;
-	    		z-index: -1;
-	    		-webkit-backface-visibility: hidden;
+	    	background: inherit;
+	    	content: '';
+	    	display: block;
+	    	height: 50%;
+	    	left: 0;
+	    	position: absolute;
+	    	right: 0;
+	    	z-index: -1;
+	    	-webkit-backface-visibility: hidden;
 	 	 }
 
 	  	&:before {
@@ -231,9 +224,9 @@ article {
 	 	 }
 
 	  	&:after {
-	    		bottom: 0;
-	    		transform: skewY(-1.5deg);
-	    		transform-origin: 0 100%;
+	    	bottom: 0;
+	    	transform: skewY(-1.5deg);
+	    	transform-origin: 0 100%;
 	  	}
 	}
 		#about article { border: 0 solid red;
@@ -264,7 +257,6 @@ article {
 		text-transform: uppercase;
 		margin: 42px 0 24px 0;
 		opacity: .8;
-		
 		padding: 36px 0 18px;
 		margin: 0;
 		font-family: $font-family--primary;
@@ -361,7 +353,7 @@ footer {
     //justify-content: space-between; 
 	text-align: left;
     max-width: 1140px;
-    margin: 54px auto 8px;
+    margin: 12px auto 8px;
 	padding: 1em 0 2em;
 	opacity: .6;
 	//color: $black;

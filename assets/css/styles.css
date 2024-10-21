@@ -2613,7 +2613,7 @@ p, li {
 }
 
 .bestlists {
-  margin-top: 24px;
+  margin-top: 72px;
 }
 
 .bestlists li.title {
@@ -3032,7 +3032,7 @@ footer article.thankyou {
 .legal {
   text-align: left;
   max-width: 1140px;
-  margin: 54px auto 8px;
+  margin: 12px auto 8px;
   padding: 1em 0 2em;
   opacity: 0.6;
 }
@@ -3748,11 +3748,6 @@ footer a:hover:visited {
 .contact a:hover {
   border: 1px solid #ff9900;
 }
-.bestlists {
-  border: 1px dashed #292929;
-  border-radius: 12px;
-}
-
 footer div {
   margin: 0 0 0 0;
 }
@@ -4085,13 +4080,13 @@ ul.bxslider {
 }
 
 .timeline .row h4 {
-  flex: 5%;
+  flex: 4%;
   vertical-align: top;
   margin: 10px 0 0 0;
   font-size: 14px;
   opacity: 0.6;
   letter-spacing: -1px;
-  color: #18191E;
+  color: #ff9900;
 }
 
 .timeline .row ul {
@@ -4100,15 +4095,23 @@ ul.bxslider {
 }
 
 .timeline .row ul li {
-  list-style: none;
-  padding: 0 0 0 0;
+  list-style: "-";
+  padding: 0 0 0 1px;
   margin: 6px 0 0 0px;
   font-size: 18px;
-  color: #ff9900;
+  color: #18191E;
+}
+
+.timeline .row ul li span {
+  display: block;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #7D84B2;
+  opacity: 1;
 }
 
 .timeline .row a {
-  color: #ff9900;
+  color: #18191E;
   text-decoration: underline;
 }
 
@@ -4505,7 +4508,7 @@ p, li {
 }
 
 .bestlists {
-  margin-top: 24px;
+  margin-top: 72px;
 }
 
 .bestlists li.title {
@@ -4602,6 +4605,8 @@ p, li {
 /*  ------------
 
 	NAV
+	This is for the small menu that is located in the top right corner of the browser window.
+	Also called a hamburger menu
 
 */
 nav {
