@@ -3170,6 +3170,10 @@ p, li, .portfoliocard h4,
     background-clip: text !important;
     -webkit-background-clip: text !important;
   }
+
+  .timeline .row a {
+    color: #fdfdfd !important;
+  }
 }
 /*------------
 
