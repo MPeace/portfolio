@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Chevron Down Arrow</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="18" height="18"></rect>
+    </defs>
+    <g id="martinpeace.com-·-site-03" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.99">
+        <g id="Extra-Large-Copy-2" transform="translate(-1615, -2779)">
+            <g id="Chevron-Down-Arrow" transform="translate(1624, 2788) rotate(-90) translate(-1624, -2788)translate(1615, 2779)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip" fill-rule="nonzero"></g>
+                <polyline id="Vector" stroke="#7D84B2" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" fill-rule="nonzero" mask="url(#mask-2)" points="2.99999952 5.99999905 8.99999857 11.9999981 14.9999976 5.99999905"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

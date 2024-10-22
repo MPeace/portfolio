@@ -144,7 +144,7 @@
 // Fancy Underline Links  - descenders dont collide with bottom border
 
 	// set this to whichever text selection color you use
-	$selectionColor: #fff;
+	$selectionColor: $lightblue;
 
 	// this mixin is used to add the outline to the text
 	@mixin textShadowToCropUnderline($color) {

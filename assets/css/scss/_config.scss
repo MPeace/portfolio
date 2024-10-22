@@ -13,12 +13,12 @@
 	}
 	
 	@font-face {
-		font-family: 'PPFormula-Light';
-		src: url('webfonts/PPFormula-Light.woff');
-		src: url('webfonts/PPFormula-Light.woff?#iefix') format('embedded-opentype'),
-		url('webfonts/PPFormula-Light.woff2') format('woff2'),
-		url('webfonts/PPFormula-Light.woff') format('woff'),
-		url('webfonts/PPFormula-Light.ttf') format('truetype');
+		font-family: 'PPFormula-Regular';
+		src: url('webfonts/PPFormula-Regular.woff');
+		src: url('webfonts/PPFormula-Regular.woff?#iefix') format('embedded-opentype'),
+		url('webfonts/PPFormula-Regular.woff2') format('woff2'),
+		url('webfonts/PPFormula-Regular.woff') format('woff'),
+		url('webfonts/PPFormula-Regular.ttf') format('truetype');
 	}
 	
 	@font-face {
@@ -30,17 +30,9 @@
 		url('webfonts/PPEiko-Regular.ttf') format('truetype');
 	}
 	
-	@font-face {
-		font-family: 'PPEiko-Light';
-		src: url('webfonts/PPEiko-Light.woff');
-		src: url('webfonts/PPEiko-Light.woff?#iefix') format('embedded-opentype'),
-		url('webfonts/PPEiko-Light.woff2') format('woff2'),
-		url('webfonts/PPEiko-Light.woff') format('woff'),
-		url('webfonts/PPEiko-Light.ttf') format('truetype');
-	}
 
 $font-family--primary: 'PPFormula-Extrabold', 'Helvetica', Helvetica, Arial , sans-serif;
-$font-family--secondary: 'PPFormula-Light', 'Helvetica Regular', Helvetica, Arial , sans-serif;
+$font-family--secondary: 'PPFormula-Regular', 'Helvetica Regular', Helvetica, Arial , sans-serif;
 $font-family--body: 'PPEiko-Regular', serif;
 $font-family--mono: mono, Menlo , Courier, sans-serif;
 
