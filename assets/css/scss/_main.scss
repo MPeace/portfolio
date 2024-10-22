@@ -36,7 +36,7 @@
 		border: 1px solid $lightblue;
 		border-radius: 4px;
 		@include mobile {
-			max-width: 120px;
+			//max-width: 120px;
 		}
 	}
 
@@ -50,7 +50,7 @@
 		margin-top: 18px;
 	}
 	#intro h1 {}
-	#work {}
+
 
 	#trade {
 		@include mobile {
@@ -209,7 +209,7 @@
 		font-style: normal;
 		font-weight: normal;
 		line-height: 1.5em; /* 100% */
-		letter-spacing: 0.4px;
+		letter-spacing: -0.4px;
 		color: $black;
 		@include tablet {
 			@include font-size(3);
@@ -1007,12 +1007,20 @@
 		line-break: 3;
 	}
 	header {margin-top: 72px;}
-	header img {float:left;max-width: 90px}
+	header img {
+		float:left;
+		max-width: 90px;
+		
+		@include mobile {
+			margin-right: 4px;
+			max-width: 70px;
+		}
+	}
 	header .title {
 		float:left;border: 0 solid red;
 		margin: 50px 0 0 20px;
 		
-		@include mobile {margin: 36px 0 0 16px;}
+		@include mobile {margin: 36px 0 0 0;}
 	}
 	header h1 {margin: 0;line-height: 1;}
 	.title h1 a:hover {text-decoration:none!important;}

@@ -3211,12 +3211,6 @@ p, li, .portfoliocard h4,
   border: 1px solid #7D84B2;
   border-radius: 4px;
 }
-@media (max-width: 480px) {
-  #intro img {
-    max-width: 120px;
-  }
-}
-
 #intro p {
   text-align: left;
   margin: 0;
@@ -3356,7 +3350,7 @@ h3 img {
   font-weight: normal;
   line-height: 1.5em;
   /* 100% */
-  letter-spacing: 0.4px;
+  letter-spacing: -0.4px;
   color: #18191E;
   font-family: "PPFormula-Regular", "Helvetica Regular", Helvetica, Arial, sans-serif;
 }
@@ -4169,6 +4163,12 @@ header img {
   float: left;
   max-width: 90px;
 }
+@media (max-width: 480px) {
+  header img {
+    margin-right: 4px;
+    max-width: 70px;
+  }
+}
 
 header .title {
   float: left;
@@ -4177,7 +4177,7 @@ header .title {
 }
 @media (max-width: 480px) {
   header .title {
-    margin: 36px 0 0 16px;
+    margin: 36px 0 0 0;
   }
 }
 
