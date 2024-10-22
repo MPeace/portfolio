@@ -1020,7 +1020,7 @@
 		float:left;border: 0 solid red;
 		margin: 50px 0 0 20px;
 		
-		@include mobile {margin: 36px 0 0 0;}
+		@include mobile {margin: 0 0 0 0;}
 	}
 	header h1 {margin: 0;line-height: 1;}
 	.title h1 a:hover {text-decoration:none!important;}

@@ -4177,7 +4177,7 @@ header .title {
 }
 @media (max-width: 480px) {
   header .title {
-    margin: 36px 0 0 0;
+    margin: 0 0 0 0;
   }
 }
 
