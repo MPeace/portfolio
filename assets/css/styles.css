@@ -3420,7 +3420,6 @@ h3 img {
   }
 }
 .portfoliocard a + a {
-  border: 1px solid red;
   font-size: 10px;
   line-height: 12px;
   margin: 12px 0 24px 0;
@@ -3481,7 +3480,6 @@ h3 img {
   color: #7d84b2 !important;
   border: 1px solid rgba(125, 132, 178, 0.4);
   background: rgba(125, 132, 178, 0.2);
-  padding-left: -20px;
 }
 
 .cases {
@@ -4109,7 +4107,7 @@ ul.bxslider {
 .timeline .row ul li span {
   display: block;
   font-size: 14px;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #7D84B2;
   opacity: 1;
 }
