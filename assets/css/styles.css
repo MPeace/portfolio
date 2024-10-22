@@ -3202,6 +3202,8 @@ p, li, .portfoliocard h4,
 #intro img {
   top: 0;
   position: relative;
+  border: 1px solid #7D84B2;
+  border-radius: 4px;
 }
 @media (max-width: 480px) {
   #intro img {
