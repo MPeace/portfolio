@@ -3019,6 +3019,9 @@ footer article.thankyou {
     padding: 0 18px;
   }
 }
+.getintouch figure {
+  border: 1px solid;
+}
 
 .thankyou {
   background: #fdfdfd;
@@ -3356,8 +3359,8 @@ h3 img {
 }
 @media (max-width: 768px) {
   .portfoliocard h4 {
-    font-size: 30px;
-    font-size: 3rem;
+    font-size: 20px;
+    font-size: 2rem;
   }
 }
 @media (max-width: 480px) {
@@ -4114,7 +4117,7 @@ ul.bxslider {
 }
 @media (max-width: 480px) {
   .timeline .row h4 {
-    flex: 10%;
+    flex: 15%;
   }
 }
 
@@ -4124,7 +4127,7 @@ ul.bxslider {
 }
 @media (max-width: 480px) {
   .timeline .row ul {
-    flex: 84%;
+    flex: 85%;
   }
 }
 

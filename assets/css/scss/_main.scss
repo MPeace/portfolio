@@ -212,7 +212,7 @@
 		letter-spacing: -0.4px;
 		color: $black;
 		@include tablet {
-			@include font-size(3);
+			@include font-size(2);
 		}
 		@include mobile {
 			@include font-size(2.4);
@@ -975,7 +975,7 @@
 		display:block;
 		
 		@include mobile {
-			flex: 10%;
+			flex: 15%;
 		}
 	}
 	.timeline .row ul {
@@ -983,7 +983,7 @@
 		margin:0 0 0 0;
 		
 		@include mobile {
-			flex: 84%;
+			flex: 85%;
 		}
 	}
 	.timeline .row ul li {list-style: "-";padding: 0 0 0 1px;margin:6px 0 0 0px;font-size:18px;color: #4E526C;}
