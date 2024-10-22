@@ -60,11 +60,11 @@ selection: true
 <p>The project was validated when the largest client granted access to the platform for their employee use.</p>
 <p>Limited resources and stakeholder priorities caused this project to stall at times. I kept weekly communication with the different stakeholders to maintain project momentum.</p>
 
-<div class="slider">
+
 <img src="../assets/images/07test.png" />
 <img src="../assets/images/09test.jpeg" />
 <img src="../assets/images/05test.jpeg" />
-</div>
+
 
 <div class="imgcaption">Final designs for the platform</div>
 

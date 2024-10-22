@@ -505,10 +505,10 @@
 
 
 	.fancyunderline {
-		color: #fff;
+		@include linkUnderlines(#fff, $lightblue);
 	}
 	.fancyunderline:hover {
-		 @include linkUnderlines(#100f1b, #ffffff);
+		 @include linkUnderlines(#fff, $lightblue);
 	}
 
 /*--------------
@@ -953,9 +953,10 @@
 		font-family: $font-family--primary;
 	}
 	.timeline .row {display: flex;align-items:flex-start;margin:24px 0 0 0}
-	.timeline .row h4 {flex: 4%;vertical-align: top;margin:10px 0 0 0;font-size:14px;opacity: .6;letter-spacing: -1px;color: $blue;}
+	.timeline .row h4 {
+		flex: 4%;vertical-align: top;margin:10px 0 0 0;font-size:14px;opacity: .6;letter-spacing: -1px;color: $blue;display:block;}
 	.timeline .row ul {flex: 90%;margin:0 0 0 0}
-	.timeline .row ul li {list-style: "-";padding: 0 0 0 1px;margin:6px 0 0 0px;font-size:18px;color: $black;}
+	.timeline .row ul li {list-style: "-";padding: 0 0 0 1px;margin:6px 0 0 0px;font-size:18px;color: #4E526C;}
 	.timeline li:hover {
 		
 	}
@@ -963,11 +964,18 @@
 		display: block;
 		font-size: 14px;
 		line-height: 1.5;
-		color: $lightblue;
+		color: #4E526C;
 		opacity: 1;
 	}
-	.timeline .row a {color: $black;text-decoration: underline;}
-	.timeline .row a:hover {color: $lightblue;text-decoration:none;}
+	.timeline .row a {
+		color: $black;
+		text-decoration: none;
+	}
+	.timeline .row a:hover {
+		color: $lightblue;
+		text-decoration:none;
+		line-break: 3;
+	}
 	header {margin-top: 72px;}
 	header img {float:left;max-width: 90px}
 	header .title {
@@ -975,8 +983,19 @@
 		margin: 50px 0 0 20px;
 	}
 	header h1 {margin: 0;line-height: 1;}
+	.title h1 a:hover {text-decoration:none!important;}
+	h1 .name {
+		font-size: 30px;
+		text-transform: 
+		capitalize;
+		color:$lightblue;
+		
+		background: -webkit-linear-gradient(color(display-p3 0.494 0.518 0.694),$lightblue);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		
+	}
 
-	h1 .name {font-size: 30px;text-transform: capitalize;color:$lightblue;}
 	.location {
 		font-size: 12px;
 		letter-spacing: 4px;
