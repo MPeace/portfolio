@@ -2795,6 +2795,7 @@ header {
 @media (max-width: 480px) {
   #intro {
     margin-bottom: 0;
+    margin-top: 54px;
   }
 }
 
@@ -2958,6 +2959,11 @@ footer {
   background: radial-gradient(431.88% 99.77% at 35.14% 41.95%, rgba(178, 188, 255, 0.1) 0%, rgba(125, 132, 178, 0) 100%), #111113;
   color: #fdfdfd;
   padding: 42px 0 0;
+}
+@media (max-width: 480px) {
+  footer {
+    padding: 0 1em;
+  }
 }
 footer article {
   max-width: 1140px;
@@ -3207,7 +3213,7 @@ p, li, .portfoliocard h4,
 }
 @media (max-width: 480px) {
   #intro img {
-    max-width: 200px;
+    max-width: 120px;
   }
 }
 
@@ -4077,6 +4083,7 @@ ul.bxslider {
   padding: 10px;
 }
 
+/* ----------- Timeline -------------------*/
 .timeline {
   margin: 72px 0 72px 0;
   font-family: "PPFormula-Regular", "Helvetica Regular", Helvetica, Arial, sans-serif;
@@ -4111,10 +4118,20 @@ ul.bxslider {
   color: #ff9900;
   display: block;
 }
+@media (max-width: 480px) {
+  .timeline .row h4 {
+    flex: 10%;
+  }
+}
 
 .timeline .row ul {
   flex: 90%;
   margin: 0 0 0 0;
+}
+@media (max-width: 480px) {
+  .timeline .row ul {
+    flex: 84%;
+  }
 }
 
 .timeline .row ul li {
@@ -4157,6 +4174,11 @@ header .title {
   float: left;
   border: 0 solid red;
   margin: 50px 0 0 20px;
+}
+@media (max-width: 480px) {
+  header .title {
+    margin: 36px 0 0 16px;
+  }
 }
 
 header h1 {

@@ -36,7 +36,7 @@
 		border: 1px solid $lightblue;
 		border-radius: 4px;
 		@include mobile {
-			max-width: 200px;
+			max-width: 120px;
 		}
 	}
 
@@ -940,6 +940,10 @@
 
 
 
+
+
+/* ----------- Timeline -------------------*/
+
 	.timeline {
 		margin: 72px 0 72px 0;
 		font-family: $font-family--secondary;
@@ -955,10 +959,33 @@
 		opacity: .8;
 		font-family: $font-family--primary;
 	}
-	.timeline .row {display: flex;align-items:flex-start;margin:24px 0 0 0}
+	.timeline .row {
+		display: flex;
+		align-items:flex-start;
+		margin:24px 0 0 0;
+	}
 	.timeline .row h4 {
-		flex: 4%;vertical-align: top;margin:10px 0 0 0;font-size:14px;opacity: .6;letter-spacing: -1px;color: $blue;display:block;}
-	.timeline .row ul {flex: 90%;margin:0 0 0 0}
+		flex: 4%;
+		vertical-align: top;
+		margin:10px 0 0 0;
+		font-size:14px;
+		opacity: .6;
+		letter-spacing: -1px;
+		color: $blue;
+		display:block;
+		
+		@include mobile {
+			flex: 10%;
+		}
+	}
+	.timeline .row ul {
+		flex: 90%;
+		margin:0 0 0 0;
+		
+		@include mobile {
+			flex: 84%;
+		}
+	}
 	.timeline .row ul li {list-style: "-";padding: 0 0 0 1px;margin:6px 0 0 0px;font-size:18px;color: #4E526C;}
 	.timeline li:hover {
 		
@@ -984,6 +1011,8 @@
 	header .title {
 		float:left;border: 0 solid red;
 		margin: 50px 0 0 20px;
+		
+		@include mobile {margin: 36px 0 0 16px;}
 	}
 	header h1 {margin: 0;line-height: 1;}
 	.title h1 a:hover {text-decoration:none!important;}
