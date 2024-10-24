@@ -136,7 +136,9 @@
 
 
 /* Reading Container for the Case Studies */
-
+	.readingcontainer {
+		@extend .clearfix;
+	}
 	.readingcontainer img {
 		margin-top: 18px;
 	}
@@ -269,7 +271,7 @@
 		}
 	}
 	a + a {
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 12px;
 		margin: 12px 0 24px 0;
 		display: inline-block;
@@ -279,8 +281,6 @@
 		text-align: center;
 		border: 1px solid rgba(#f90,0);		
 		letter-spacing: 1px;
-		text-transform: uppercase;
-	
 		
 		@include tablet {
 			letter-spacing: 2px;
@@ -347,16 +347,18 @@
 	}
 
 }
-
+.casestudy {
+	margin-top: 36px!important;
+}
 
 .cases {
 	max-width: 650px;
 	max-width: 65em;
-	margin: 24px 0 0 0;
+	margin: 36px 0 0 0;
 	padding: 18px 0 36px;
 	width: 100%;
 	min-width: 0;
-	border-top: 3px solid #eaeaea;
+	//border-top: 3px solid #eaeaea;
 	
 	@include tablet {}
 	@include mobile {
@@ -365,13 +367,19 @@
 	}
 	h4 {
 		font-family: $font-family--secondary; 
-		font-size: 18px;
+		font-size: 54px;
 		font-style: normal;
 		font-weight: 400;
-		line-height: 18px; /* 100% */
+		line-height: 1; /* 100% */
 		opacity: .8;
 		margin-top: 0;	
-		padding: 1em 1em 0;
+		padding: 1em 0 0;
+		
+		  max-width: 92%;
+		  
+		  @include mobile {
+			  font-size: 36px;
+		  }
 	}
 	ul {
 		margin-top: 18px;
@@ -382,13 +390,14 @@
 		font-style: normal;
 		font-weight: 800;
 		line-height: 16px;
+		
 		transform: translateX(0);
 		animation-timing-function: ease-out;
 		animation-duration: 150ms;
 		margin-top: 4px;
 		
-		border-radius:12px;
-		border: 3px solid rgba(216, 201, 184, 0.2);
+		border-radius:0;
+		border: 3px solid rgba(216, 201, 184, 0.1);
 		
 		transition: transform 550ms;
 		will-change: transform;
@@ -396,7 +405,7 @@
 			color: $black;
 			display: block;
 			
-			background: $white;
+			//background: $white;
 			padding: 1.5em;
 			border-radius:12px;
 			font-weight: normal;
@@ -423,6 +432,10 @@
 		border: 3px solid rgba(#7d84b2, 1);
 		box-shadow: 4px 4px 0px #6468a6;
 		transform: translateX(4px);
+		
+		background: #fff;
+		border: 3px solid rgba($lightblue, 1);
+		box-shadow: 1px 1px 8px #6468a6;
 	}
 	/*
 	li:before {
@@ -510,6 +523,7 @@
 	.fancyunderline {
 		@include linkUnderlines(#fff, $lightblue);
 	}
+	
 	.fancyunderline:hover {
 		 @include linkUnderlines(#fff, $lightblue);
 	}
@@ -947,6 +961,7 @@
 	.timeline {
 		margin: 72px 0 72px 0;
 		font-family: $font-family--secondary;
+		clear: both;
 	}
 	.timeline li {
 		font-family: $font-family--secondary;
@@ -1045,3 +1060,123 @@
 		font-family: $font-family--secondary; 
 		padding: 0 0 0 4px;
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.container.grid {
+		max-width: 76em;
+		margin:72px auto 00;
+		@extend .clearfix;
+		
+		@include mobile {
+			margin:0 auto 00;
+			padding: 1em;
+		}
+	}
+	.container.grid p {
+		font-family: $font-family--secondary; 
+	}
+	.grid-sizer,
+	.grid-item { 
+			float: left;
+		    width: 33%;
+			//max-height:600px;
+		    //height: 400px;
+		    animation-timing-function: ease-out;
+			animation-duration: 150ms;	
+			
+			img {
+				//border-radius: 5px;
+				border: 1px solid rgb(223, 223, 223);
+				animation-timing-function: ease-out;
+				animation-duration: 150ms;
+			}
+			img:hover {
+				//box-shadow:2px 2px 14px #000;
+				animation-timing-function: ease-out;
+				animation-duration: 150ms;
+			}
+		  
+	   }
+	  .grid-item:hover {
+		  position: relative;
+		 
+		  animation-timing-function: ease-out;
+		  animation-duration: 150ms;
+	  }
+	.grid-item--width2 {width: 65%; }
+	.grid-item--width3 {width: 100%; }
+	.grid-item--height2 { height: 400px; }
+
+
+.recentlycompleted {
+	@extend .clearfix;
+	
+	a {
+		line-height: 1;
+		display: block;
+	}
+	
+	img {
+		border: 3px solid rgba(216, 201, 184, .2);
+		
+		animation-timing-function: ease-out;
+		animation-duration: 150ms;
+		
+		margin-top: -20px;
+		margin-bottom: 20px;
+		transition: 1s;
+	}
+	img:hover {
+		background: #fff;
+		  border: 3px solid rgba($lightblue, 1);
+		  box-shadow: 1px 1px 8px #6468a6;
+		  transform: translateY(-4px);
+		  animation-timing-function: ease-out;
+		  animation-duration: 50ms;
+		  
+		  margin-top: -20px;
+		  margin-bottom: 20px;
+		  margin-left: 5px;
+		  margin-right: -5px;
+		  
+		  transition: .5s;
+		  border-radius: 0;
+	}
+	h3 {
+		padding: 36px 0 36px;
+	}
+	
+}
+.button {
+	  //background: rgba($blue,.1);
+	  color: $blue;
+	  padding: 1em 1.5em .8em;
+	  float: right;
+	  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+	  font-size: 12px;
+	  letter-spacing: 1px;
+	  margin-top:-12px;
+	  background: url('../assets/images/svg/Chevron Down Arrow.svg') no-repeat;
+  }
+  .button:hover {
+	  background: rgba($lightblue,.2);
+	  color: $lightblue;
+	  
+	 
+  }

@@ -86,17 +86,12 @@ html, html a {
   src: url("webfonts/PPFormula-Regular.woff");
   src: url("webfonts/PPFormula-Regular.woff?#iefix") format("embedded-opentype"), url("webfonts/PPFormula-Regular.woff2") format("woff2"), url("webfonts/PPFormula-Regular.woff") format("woff"), url("webfonts/PPFormula-Regular.ttf") format("truetype");
 }
-@font-face {
-  font-family: "PPEiko-Regular";
-  src: url("webfonts/PPEiko-Regular.woff");
-  src: url("webfonts/PPEiko-Regular.woff?#iefix") format("embedded-opentype"), url("webfonts/PPEiko-Regular.woff2") format("woff2"), url("webfonts/PPEiko-Regular.woff") format("woff"), url("webfonts/PPEiko-Regular.ttf") format("truetype");
-}
-.clearfix:after, #intro h1:after, #wrapper_about:after, article:after, header:after, hr:after {
+.clearfix:after, #intro h1:after, .recentlycompleted:after, .container.grid:after, .readingcontainer:after, #wrapper_about:after, main:after, article:after, header:after, hr:after {
   content: "";
   display: table;
   clear: both;
 }
-.clearfix:before, #wrapper_about:before, header:before, hr:before {
+.clearfix:before, .recentlycompleted:before, .container.grid:before, .readingcontainer:before, #wrapper_about:before, main:before, header:before, hr:before {
   content: "";
   display: table;
   clear: both;
@@ -2329,16 +2324,23 @@ h2 {
   font-size: 56px;
   font-size: 5.6rem;
 }
+@media (max-width: 768px) {
+  .casestudy h2 {
+    font-size: 36px;
+    font-size: 3.6rem;
+  }
+}
 
 p, li {
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.5;
+  letter-spacing: -0.3;
 }
 @media (max-width: 768px) {
   p, li {
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 480px) {
@@ -2498,6 +2500,11 @@ h4 {
   letter-spacing: 2.4px;
   margin-top: 36px;
 }
+@media (max-width: 480px) {
+  h4 {
+    margin-top: 0;
+  }
+}
 
 h5 {
   font-family: "PPFormula-Regular", "Helvetica Regular", Helvetica, Arial, sans-serif;
@@ -2521,7 +2528,7 @@ a {
 }
 
 p, li {
-  font-family: "PPEiko-Regular", serif;
+  font-family: "PPFormula-Regular", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -2694,7 +2701,7 @@ p, li {
 }
 
 .imgcaption {
-  font-family: "PPEiko-Regular", serif;
+  font-family: "PPFormula-Regular", serif;
   font-weight: normal;
   font-size: 10px;
   font-size: 1rem;
@@ -2724,7 +2731,7 @@ html {
 
 @media (max-width: 1196px) {
   #wrapper_header {
-    padding: 0 18px 0;
+    padding: 0 0 0;
   }
 }
 @media (max-width: 768px) {
@@ -2959,6 +2966,7 @@ footer {
   background: radial-gradient(431.88% 99.77% at 35.14% 41.95%, rgba(178, 188, 255, 0.1) 0%, rgba(125, 132, 178, 0) 100%), #111113;
   color: #fdfdfd;
   padding: 42px 0 0;
+  margin-top: 54px;
 }
 @media (max-width: 480px) {
   footer {
@@ -3177,6 +3185,60 @@ p, li, .portfoliocard h4,
 
   .timeline .row a {
     color: #fdfdfd !important;
+  }
+
+  .fancyunderline {
+    color: #7D84B2 !important;
+    text-decoration: none;
+    text-shadow: 0.03em 0 black, -0.03em 0 black, 0 0.03em black, 0 -0.03em black, 0.06em 0 black, -0.06em 0 black, 0.09em 0 black, -0.09em 0 black, 0.12em 0 black, -0.12em 0 black, 0.15em 0 black, -0.15em 0 black;
+    background-image: linear-gradient(black, black), linear-gradient(black, black), linear-gradient(#7D84B2 !important, #7D84B2 !important);
+    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: 0% 90%, 100% 90%, 0% 90%;
+  }
+  .fancyunderline::selection {
+    text-shadow: 0.03em 0 #f90, -0.03em 0 #f90, 0 0.03em #f90, 0 -0.03em #f90, 0.06em 0 #f90, -0.06em 0 #f90, 0.09em 0 #f90, -0.09em 0 #f90, 0.12em 0 #f90, -0.12em 0 #f90, 0.15em 0 #f90, -0.15em 0 #f90;
+    background-color: #f90;
+  }
+  .fancyunderline::-moz-selection {
+    text-shadow: 0.03em 0 #f90, -0.03em 0 #f90, 0 0.03em #f90, 0 -0.03em #f90, 0.06em 0 #f90, -0.06em 0 #f90, 0.09em 0 #f90, -0.09em 0 #f90, 0.12em 0 #f90, -0.12em 0 #f90, 0.15em 0 #f90, -0.15em 0 #f90;
+    background-color: #f90;
+  }
+  .fancyunderline:before, .fancyunderline:after,
+.fancyunderline *,
+.fancyunderline *:before,
+.fancyunderline *:after {
+    text-shadow: none;
+  }
+  .fancyunderline:visited {
+    color: #7D84B2 !important;
+  }
+
+  .fancyunderline:hover {
+    color: #7D84B2 !important;
+    text-decoration: none;
+    text-shadow: 0.03em 0 #18191E, -0.03em 0 #18191E, 0 0.03em #18191E, 0 -0.03em #18191E, 0.06em 0 #18191E, -0.06em 0 #18191E, 0.09em 0 #18191E, -0.09em 0 #18191E, 0.12em 0 #18191E, -0.12em 0 #18191E, 0.15em 0 #18191E, -0.15em 0 #18191E;
+    background-image: linear-gradient(#18191E, #18191E), linear-gradient(#18191E, #18191E), linear-gradient(#7D84B2 !important, #7D84B2 !important);
+    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: 0% 90%, 100% 90%, 0% 90%;
+  }
+  .fancyunderline:hover::selection {
+    text-shadow: 0.03em 0 #f90, -0.03em 0 #f90, 0 0.03em #f90, 0 -0.03em #f90, 0.06em 0 #f90, -0.06em 0 #f90, 0.09em 0 #f90, -0.09em 0 #f90, 0.12em 0 #f90, -0.12em 0 #f90, 0.15em 0 #f90, -0.15em 0 #f90;
+    background-color: #f90;
+  }
+  .fancyunderline:hover::-moz-selection {
+    text-shadow: 0.03em 0 #f90, -0.03em 0 #f90, 0 0.03em #f90, 0 -0.03em #f90, 0.06em 0 #f90, -0.06em 0 #f90, 0.09em 0 #f90, -0.09em 0 #f90, 0.12em 0 #f90, -0.12em 0 #f90, 0.15em 0 #f90, -0.15em 0 #f90;
+    background-color: #f90;
+  }
+  .fancyunderline:hover:before, .fancyunderline:hover:after,
+.fancyunderline:hover *,
+.fancyunderline:hover *:before,
+.fancyunderline:hover *:after {
+    text-shadow: none;
+  }
+  .fancyunderline:hover:visited {
+    color: #7D84B2 !important;
   }
 }
 /*------------
@@ -3420,7 +3482,7 @@ h3 img {
   }
 }
 .portfoliocard a + a {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 12px;
   margin: 12px 0 24px 0;
   display: inline-block;
@@ -3430,7 +3492,6 @@ h3 img {
   text-align: center;
   border: 1px solid rgba(255, 153, 0, 0);
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   .portfoliocard a + a {
@@ -3482,14 +3543,17 @@ h3 img {
   background: rgba(125, 132, 178, 0.2);
 }
 
+.casestudy {
+  margin-top: 36px !important;
+}
+
 .cases {
   max-width: 650px;
   max-width: 65em;
-  margin: 24px 0 0 0;
+  margin: 36px 0 0 0;
   padding: 18px 0 36px;
   width: 100%;
   min-width: 0;
-  border-top: 3px solid #eaeaea;
   /*
   li:before {
   	content: 'Case Study';
@@ -3511,14 +3575,20 @@ h3 img {
 }
 .cases h4 {
   font-family: "PPFormula-Regular", "Helvetica Regular", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 54px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1;
   /* 100% */
   opacity: 0.8;
   margin-top: 0;
-  padding: 1em 1em 0;
+  padding: 1em 0 0;
+  max-width: 92%;
+}
+@media (max-width: 480px) {
+  .cases h4 {
+    font-size: 36px;
+  }
 }
 .cases ul {
   margin-top: 18px;
@@ -3533,15 +3603,14 @@ h3 img {
   animation-timing-function: ease-out;
   animation-duration: 150ms;
   margin-top: 4px;
-  border-radius: 12px;
-  border: 3px solid rgba(216, 201, 184, 0.2);
+  border-radius: 0;
+  border: 3px solid rgba(216, 201, 184, 0.1);
   transition: transform 550ms;
   will-change: transform;
 }
 .cases li a {
   color: #18191E;
   display: block;
-  background: #fdfdfd;
   padding: 1.5em;
   border-radius: 12px;
   font-weight: normal;
@@ -3566,6 +3635,9 @@ h3 img {
   border: 3px solid #7d84b2;
   box-shadow: 4px 4px 0px #6468a6;
   transform: translateX(4px);
+  background: #fff;
+  border: 3px solid #7d84b2;
+  box-shadow: 1px 1px 8px #6468a6;
 }
 .cases a:hover {
   text-decoration: underline;
@@ -4084,6 +4156,7 @@ ul.bxslider {
 .timeline {
   margin: 72px 0 72px 0;
   font-family: "PPFormula-Regular", "Helvetica Regular", Helvetica, Arial, sans-serif;
+  clear: both;
 }
 
 .timeline li {
@@ -4212,6 +4285,104 @@ h1 .name {
   padding: 0 0 0 4px;
 }
 
+.container.grid {
+  max-width: 76em;
+  margin: 72px auto 0;
+}
+@media (max-width: 480px) {
+  .container.grid {
+    margin: 0 auto 0;
+    padding: 1em;
+  }
+}
+
+.container.grid p {
+  font-family: "PPFormula-Regular", "Helvetica Regular", Helvetica, Arial, sans-serif;
+}
+
+.grid-sizer,
+.grid-item {
+  float: left;
+  width: 33%;
+  animation-timing-function: ease-out;
+  animation-duration: 150ms;
+}
+.grid-sizer img,
+.grid-item img {
+  border: 1px solid #dfdfdf;
+  animation-timing-function: ease-out;
+  animation-duration: 150ms;
+}
+.grid-sizer img:hover,
+.grid-item img:hover {
+  animation-timing-function: ease-out;
+  animation-duration: 150ms;
+}
+
+.grid-item:hover {
+  position: relative;
+  animation-timing-function: ease-out;
+  animation-duration: 150ms;
+}
+
+.grid-item--width2 {
+  width: 65%;
+}
+
+.grid-item--width3 {
+  width: 100%;
+}
+
+.grid-item--height2 {
+  height: 400px;
+}
+
+.recentlycompleted a {
+  line-height: 1;
+  display: block;
+}
+.recentlycompleted img {
+  border: 3px solid rgba(216, 201, 184, 0.2);
+  animation-timing-function: ease-out;
+  animation-duration: 150ms;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+.recentlycompleted img:hover {
+  background: #fff;
+  border: 3px solid #7d84b2;
+  box-shadow: 1px 1px 8px #6468a6;
+  transform: translateY(-4px);
+  animation-timing-function: ease-out;
+  animation-duration: 50ms;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: -5px;
+  transition: 0.5s;
+  border-radius: 0;
+}
+.recentlycompleted h3 {
+  padding: 36px 0 36px;
+}
+
+.button {
+  color: #ff9900;
+  padding: 1em 1.5em 0.8em;
+  float: right;
+  font-family: "PPFormula-Extrabold", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-top: -12px;
+  background: url("../assets/images/svg/Chevron Down Arrow.svg") no-repeat;
+}
+
+.button:hover {
+  background: rgba(125, 132, 178, 0.2);
+  color: #7D84B2;
+}
+
 @font-face {
   font-family: "PPFormula-Extrabold";
   src: url("webfonts/PPFormula-Extrabold.woff");
@@ -4221,11 +4392,6 @@ h1 .name {
   font-family: "PPFormula-Regular";
   src: url("webfonts/PPFormula-Regular.woff");
   src: url("webfonts/PPFormula-Regular.woff?#iefix") format("embedded-opentype"), url("webfonts/PPFormula-Regular.woff2") format("woff2"), url("webfonts/PPFormula-Regular.woff") format("woff"), url("webfonts/PPFormula-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "PPEiko-Regular";
-  src: url("webfonts/PPEiko-Regular.woff");
-  src: url("webfonts/PPEiko-Regular.woff?#iefix") format("embedded-opentype"), url("webfonts/PPEiko-Regular.woff2") format("woff2"), url("webfonts/PPEiko-Regular.woff") format("woff"), url("webfonts/PPEiko-Regular.ttf") format("truetype");
 }
 /*
 
@@ -4280,16 +4446,23 @@ h2 {
   font-size: 56px;
   font-size: 5.6rem;
 }
+@media (max-width: 768px) {
+  .casestudy h2 {
+    font-size: 36px;
+    font-size: 3.6rem;
+  }
+}
 
 p, li {
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.5;
+  letter-spacing: -0.3;
 }
 @media (max-width: 768px) {
   p, li {
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 480px) {
@@ -4449,6 +4622,11 @@ h4 {
   letter-spacing: 2.4px;
   margin-top: 36px;
 }
+@media (max-width: 480px) {
+  h4 {
+    margin-top: 0;
+  }
+}
 
 h5 {
   font-family: "PPFormula-Regular", "Helvetica Regular", Helvetica, Arial, sans-serif;
@@ -4472,7 +4650,7 @@ a {
 }
 
 p, li {
-  font-family: "PPEiko-Regular", serif;
+  font-family: "PPFormula-Regular", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -4645,7 +4823,7 @@ p, li {
 }
 
 .imgcaption {
-  font-family: "PPEiko-Regular", serif;
+  font-family: "PPFormula-Regular", serif;
   font-weight: normal;
   font-size: 10px;
   font-size: 1rem;
@@ -4700,22 +4878,22 @@ nav {
   }
 }
 
+/*
 #menu a:before {
-  content: "Case Study";
-  display: block;
-  font-size: 12px;
-  opacity: 0.4;
-  position: relative;
-  top: -4px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-@media (max-width: 480px) {
-  #menu a:before {
-    font-size: 10px;
-  }
-}
+	content: 'Case Study';
+	display: block;
+	font-size: 12px;
+	opacity: .4;
+	position: relative;
+	top: -4px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 
+	@include mobile {
+		font-size: 10px;
+	}
+}
+*/
 .open {
   transition: all 500ms ease-in;
 }

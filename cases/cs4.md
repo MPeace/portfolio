@@ -6,7 +6,20 @@ permalink: /cases/web-designs-and-where-it-all-began
 order: 5
 selection: true
 ---
-
+<script src="assets/js/vendor/imagesloaded.pkgd.min.js" ></script>
+<script src="assets/js/vendor/masonry.pkgd.min.js" ></script>
+<script>
+	var $grid = $().masonry({
+		itemSelector: '.grid-item',
+		percentPosition: true,
+		columnWidth: '.grid-sizer'
+	});
+	
+	$grid.imagesLoaded().progress( function() {
+	  $grid.masonry('layout');
+	});
+	
+</script>
 
 <div class="readingcontainer">
 <h3>A summary of the many designs and redesigns I have completed.</h3>
@@ -46,50 +59,65 @@ selection: true
 <p>Communication was critical to managing stakeholder availability and setting clear goals early in the process helped alleviate most late project requests.</p>
 <p>When unexpected requests or problems occurred, I found that taking a systems approach and leveraging accessibility were the most reliable tools to address the problems.</p>
 
+<div class="grid container">
 <h5>Space One</h5>
-<img src="../assets/images/cs03-01-so.jpeg" />
-<img src="../assets/images/cs03-02-so.jpeg" />
-<img src="../assets/images/cs03-03-so.png" />
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs03-01-so.jpeg" /></div>
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs03-03-so.png" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-02-so.jpeg" /></div>
+</div>
 
 
+<div class="grid container">
 <h5>Route Fifty</h5>
-<img src="../assets/images/cs03-04-r50.jpeg" />
-<img src="../assets/images/cs03-05-r50.jpeg" />
-<img src="../assets/images/cs03-06-r50.jpeg" />
-<img src="../assets/images/cs03-08-r50.jpeg" />
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs03-04-r50.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-05-r50.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-06-r50.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-08-r50.jpeg" /></div>
+</div>
 
-
+<div class="grid container">
 <h5>Nextgov/FCW</h5>
-<img src="../assets/images/cs03-12-ng.jpeg" />
-<img src="../assets/images/cs03-09-ng.jpeg" />
-<img src="../assets/images/cs03-10-ng.jpeg" />
-<img src="../assets/images/cs03-11-ng.jpeg" />
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs03-12-ng.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-09-ng.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-10-ng.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-11-ng.jpeg" /></div>
+</div>
 
-
+<div class="grid container">
 <h5>Fed 100</h5>
-<img src="../assets/images/cs03-13.jpeg" />
-<img src="../assets/images/cs03-16.jpeg" />
-<img src="../assets/images/cs03-14.jpeg" />
-<img src="../assets/images/cs03-15.jpeg" />
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs03-13.jpeg" /></div>
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs03-16.jpeg" /></div>
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs03-14.jpeg" /></div>
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs03-15.jpeg" /></div>
+</div>
 
+<div class="grid container">
 <h5>Defense Systems</h5>
-<img src="../assets/images/cs03-17.jpeg" />
-<img src="../assets/images/cs03-18.png" />
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs03-17.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-18.png" /></div>
+</div>
 
+<div class="grid container">
 <h5>Public Sector 360</h5>
-<img src="../assets/images/cs03-23.jpeg" />
-<img src="../assets/images/cs03-24.jpeg" />
-<img src="../assets/images/cs03-19.jpg" />
-<img src="../assets/images/cs03-26.jpeg" />
-<img src="../assets/images/cs03-20.jpg" />
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs03-23.jpeg" /></div>
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs03-19.jpg" /></div>
 
+<div class="grid-item "><img src="../assets/images/cs03-24.jpeg" /></div>
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs03-20.jpg" /></div>
+
+<div class="grid-item "><img src="../assets/images/cs03-26.jpeg" /></div>
+</div>
+
+<div class="grid container">
 <h5>Events</h5>
-<img src="../assets/images/cs03-21.jpeg" />
-<img src="../assets/images/cs03-22.jpeg" />
-<img src="../assets/images/cs03-29.jpeg" />
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs03-21.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-22.jpeg" /></div>
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs03-29.jpeg" /></div>
+</div>
 
-<img src="../assets/images/cs03-27.jpg" />
-<img src="../assets/images/cs03-28.jpg" />
-
+<div class="grid container">
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs03-27.jpg" /></div>
+<div class="grid-item "><img src="../assets/images/cs03-28.jpg" /></div>
+</div>
 
 </div>

@@ -1,7 +1,4 @@
 $(document).ready(function(){
-
-
-
   $(function() {
     var $accordions = $(".accordion").accordion({
         active: false,
@@ -15,16 +12,6 @@ $(document).ready(function(){
     })
   });
 
-
-  //main logo
-	$("h1 span").lettering('');
-
-
-  //fix the orphans
-  $('#intro p:nth-child(3), #work h3.ui-state-default').widowFix();
-
-
-
   //hamburger menu
   $('#nav-icon3').click(function(){
     $(this).toggleClass('open');
@@ -32,17 +19,13 @@ $(document).ready(function(){
   });
 
 
-
   //bxSlider
-	//$('#slider1,#slider2,#slider3,#slider4,#slider5,#slider6,#slider7,#slider8,#slider9,#slider10,#slider11').bxSlider({
-	//	mode: 'horizontal',
-  //	auto: false,
-  //	autoControls: false,
-  //	pause: 2000,
-  //  preloadImages: 'all',
-	//});
+  $('.slider').bxSlider({
+	mode: 'horizontal',
+    speed: 250,
+    });
 
-  //lightb
+  //lightbox
   lightbox.option({
    'resizeDuration': 200,
    'wrapAround': true

@@ -6,6 +6,21 @@ permalink: /cases/virtuoso-designing-and-scaling-an-event-management-app
 order: 3
 selection: true
 ---
+<script src="assets/js/vendor/imagesloaded.pkgd.min.js" ></script>
+<script src="assets/js/vendor/masonry.pkgd.min.js" ></script>
+<script>
+	var $grid = $().masonry({
+		itemSelector: '.grid-item',
+		percentPosition: true,
+		columnWidth: '.grid-sizer'
+	});
+	
+	$grid.imagesLoaded().progress( function() {
+	  $grid.masonry('layout');
+	});
+	
+</script>
+
 
 <div class="readingcontainer">
 <h3>A summary of designing and scaling an event management app for a growing media business</h3>
@@ -51,6 +66,7 @@ selection: true
 		<p>I completed user interviews over multiple sessions, leveraging online collaborative whiteboards for direct stakeholder feedback and input.  The interview data was analyzed and summarized resulting in seven personas.</p>
 		<p>As part of the persona roll-out, I held multiple on-boarding and how-to sessions to help introduce the personas to the different teams.</p>	
 		<p>In one unexpected usefulness of the personas, the events team implemented the personas as part of their new hire on-boarding process, reviewing the markets and users they would be interacting with.</p>
+		
 		<h5>Results</h5>
 		<p>Additionally, the personas were critical in the design and development of multi-step forms for event registration.</p>
 		<img src="../assets/images/cs02-22.png" />
@@ -62,12 +78,11 @@ selection: true
 <h4>Execution</h4>
 <p>Through an iterative stakeholder focused design process, I designed roughly 20 components that are now deployed and usable within the product. Both front and back end interfaces are accounted for in this project. Additional time was used working with the software engineers to make sure designs matched and accounted for the different individual brand requirements.</p>
 
-<img src="../assets/images/cs02-04.png" />
-
-<img src="../assets/images/cs02-18.jpeg" />
-<img src="../assets/images/cs02-19.png" />
-<div class="imgcaption">Skeletons where utilized to confirm large design changes.</div>
-
+<div class="grid container">
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs02-04.png" /></div>
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs02-18.jpeg" /></div>
+<div class="grid-item"><img src="../assets/images/cs02-19.png" /></div>
+</div>
 
 <img src="../assets/images/cs02-03.jpeg" />
 
@@ -104,10 +119,12 @@ selection: true
 
 <p>Below are screenshots of the event product.</p>
 
-<img src="../assets/images/cs02-07.jpeg" />
-<img src="../assets/images/cs02-17.jpeg" />
-<img src="../assets/images/cs02-15.png" />
-<img src="../assets/images/cs02-16.jpeg" />
-<div class="imgcaption">A completed event using the event platform.</div>
+<div class="grid container">
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs02-07.jpeg" /></div>
+<div class="grid-item grid-item--width2"><img src="../assets/images/cs02-17.jpeg" /></div>
+<div class="grid-item "><img src="../assets/images/cs02-15.png" /></div>
+<div class="grid-item grid-item--width3"><img src="../assets/images/cs02-16.jpeg" /></div>
+</div>
+
 </div>
 

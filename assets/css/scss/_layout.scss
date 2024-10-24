@@ -28,7 +28,7 @@ html,body {
 	//background:  url('../img/bg_header.jpg') no-repeat;
 	//background-size: cover;
 	
-	@include desktop {padding: 0 18px 0;}
+	@include desktop {padding: 0 0 0;}
 	@include tablet {padding: 0 18px 0;}
 	@include mobile {padding: 0 18px 0;}
 	}
@@ -190,6 +190,9 @@ article {
 	}
 
 
+main {
+	@extend .clearfix;
+}
 
 
 #wrapper_about {border:0 solid red;
@@ -272,6 +275,7 @@ footer {
 	background: radial-gradient(431.88% 99.77% at 35.14% 41.95%, rgba(178, 188, 255, 0.10) 0%, rgba(125, 132, 178, 0.00) 100%), #111113;
     color: $white;
     padding: 42px 0 0;
+	margin-top: 54px;
 	
 	@include mobile {
 		padding: 0 1em;
@@ -491,5 +495,13 @@ footer {
 			-webkit-background-clip: text!important;
 		}
 		.timeline .row a {color: $white!important;}
+		
+		.fancyunderline {
+			@include linkUnderlinesDark(black, $lightblue !important);
+		}
+		
+		.fancyunderline:hover {
+			 @include linkUnderlinesDark($black, $lightblue !important);
+		}
 		
 	}

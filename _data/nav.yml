@@ -3,6 +3,9 @@ docs:
   
 - title: Home
   url: /
+  
+- title: Work Examples
+  url: /gallery
 
 - title: Forecast International&#x3a; Redesigning a legacy SAAS product
   url: /cases/forecast-international-redesigning-a-legacy-saas-product
