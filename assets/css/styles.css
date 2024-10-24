@@ -259,8 +259,8 @@ table td {
   position: absolute;
   height: 8px;
   width: 100%;
-  background: #7D84B2;
-  border-radius: 12px;
+  background: #f4bc7f;
+  border-radius: 2px;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
